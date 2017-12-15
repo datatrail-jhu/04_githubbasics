@@ -37,3 +37,11 @@ This step is optional, but you can let Github know how experienced you are with 
 Once you've finished registering, go to the email account you submitted in step 3.  Click the button in the confirmation email to activate your account.
 
 Congratulations! Now you've signed up for Github and can access everything it can offer.  
+
+{exercise, id: exercise1}
+## Exercise
+? Have you successfully created a Github account?
+
+A) Yes
+b) No
+{/exercise}
