@@ -1,4 +1,4 @@
-# Introduction to repositories
+# Creating a repository
 
 ## What is a repository?
 
