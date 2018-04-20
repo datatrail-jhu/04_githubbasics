@@ -44,7 +44,7 @@ When you are finished editing your README, scroll to the bottom of the page to c
 
 ![Committing changes](images/02_creating_repos/02_githubbasics_creating_repos-6.png)
 
-Click the "Commit new file button" to add this README to your repository. You will be taken to the homepage for your repository, as picture below.
+Click the "Commit new file button" to add this README to your repository. You will be taken to the homepage for your repository, as pictured below.
 
 ![Repository homepage](images/02_creating_repos/02_githubbasics_creating_repos-7.png)
 
