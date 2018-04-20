@@ -2,11 +2,11 @@
 
 Now that you have learned about version control and the GitHub website, you will learn how to create new repositories.
 
-## What is a repository?
+### What is a repository?
 
 A repository houses the entirety of a project. Imagine a filing cabinet. A repository for this project would be the filing cabinet itself. Inside the cabinet are various folders and files that make up the project. As you begin working on various projects, each one will likely have its own repository, and any work that you do will be housed in that repository. In this lesson, we will discuss how to create a repository using the GitHub website.
 
-## How do I create a Github repository?
+### How do I create a Github repository?
 
 #### Step 1
 
@@ -32,7 +32,7 @@ And you're done! You will be taken to a page that looks as below. This page cont
 
 ![Landing page](images/02_creating_repos/02_githubbasics_creating_repos-3.png)
 
-## Adding a README
+### Adding a README
 
 If you click on the link labeled README indicated in the picture below, you can add a README file to your currently empty repository. The README file is the first thing someone sees when they navigate to the page for your repository. It is useful for providing an overview for what is contained within it.
 
