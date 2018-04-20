@@ -1,5 +1,7 @@
 # Creating a repository
 
+Now that you have learned about version control and the GitHub website, you will learn how to create new repositories.
+
 ## What is a repository?
 
 A repository houses the entirety of a project. Imagine a filing cabinet. A repository for this project would be the filing cabinet itself. Inside the cabinet are various folders and files that make up the project. As you begin working on various projects, each one will likely have its own repository, and any work that you do will be housed in that repository. In this lesson, we will discuss how to create a repository using the GitHub website.
