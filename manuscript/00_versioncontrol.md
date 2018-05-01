@@ -1,3 +1,11 @@
+{
+course-completeness: 90
+course-attempts: 2
+default-quiz-attempts: 2
+authors: Jeffrey Leek
+contributors: Sarah McClymont, Leslie Myint, and Sarah Wang
+}
+
 # Version Control
 
 In this lesson, we'll give you a basic understanding of version control. We'll look at what version control is, some of its benefits, and give an introduction to Git and GitHub, the main way you will interface with version control systems in these courses.  
