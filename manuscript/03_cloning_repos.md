@@ -53,10 +53,18 @@ Congratulations! You have cloned your first repository!
 
 # Cloning repositories quiz
 
-? Some question
+? What is *cloning* in Github terminology?
 
-a) Answer 1
-b) Answer 2
+a) Sending committed changed to a repository
+B) Creating a local copy of a repository on your computer
+c) Taking the changes in one branch and applying to another
+d) Getting the latest changes from an online repository
+
+? How do you use the `clone` command in terminal in order to clone a repository?
+a) `clone repository_url`
+b) `git repository_url`
+c) `clone git repository_url`
+D) `git clone repository_url`
 
 {/quiz}
 
