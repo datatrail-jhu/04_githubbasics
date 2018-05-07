@@ -58,8 +58,11 @@ When we run the `git pull` command, the changes present in the remote repository
 
 ### Slides and Video
 
+![Pushing and Pulling Chnages]()
+
 * [Slides](https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/edit?usp=sharing)
 
+### Pushing and Pulling Changes Quiz
 
 {quiz, id: quiz04_push_pull}
 

@@ -72,12 +72,14 @@ The Account tab lets you change your username or password. The Emails tab lets y
 
 ### Slides and Video
 
+![Creating A Repository]()
+
 * [Slides](https://docs.google.com/presentation/d/1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU/edit?usp=sharing)
 
 
 {quiz, id: quiz02_creating_repos}
 
-# Creating repositories quiz
+# Creating Repositories quiz
 
 ? In which of the following instances would you create a private repository?
 

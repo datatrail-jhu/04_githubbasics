@@ -30,9 +30,9 @@ Additionally, since version control systems keep a record of all changes made to
 
 ### Summarizing the benefits of version control systems
 
-1. It gives you an easy way of saving a backup of your work as you go, making sure you don't lose anything you have created  
-2. It allows you to go back to an earlier version of your work if something gets broken due to the changes you have made  
-3. It allows multiple people to edit code at the same time, without worrying that what they’re doing might be messing someone else’s code up  
+1. It gives you an easy way of saving a backup of your work as you go, making sure you don't lose anything you have created.
+2. It allows you to go back to an earlier version of your work if something gets broken due to the changes you have made.
+3. It allows multiple people to edit code at the same time, without worrying that what they’re doing might be messing someone else’s code up.
 
 ### What is Git? Why should you use it?
 
@@ -98,12 +98,13 @@ Now that we've covered what version control is and some of the benefits, you sho
 
 ### Slides and video
 
-This lesson's slides can be found [here](https://docs.google.com/presentation/d/1nBgMcaXeF-hz5hX6712d_LC9Zm04s2mSCjuGECuht0M/edit?usp=sharing)  
-This lesson's video can be found [here]()
+![Version Control]()
 
-### Quiz
+* [Slides](https://docs.google.com/presentation/d/1nBgMcaXeF-hz5hX6712d_LC9Zm04s2mSCjuGECuht0M/edit?usp=sharing)  
 
-{quiz, id: quiz00_versioncontrol}
+### Version Control Quiz
+
+{quiz, id: quiz_00_versioncontrol}
 
 ? What is one way we can think of a GitHub repository?
 
@@ -125,11 +126,11 @@ a) Commit, merge, push, repository
 B) Stage, commit, push, repository
 c) Pull, push, commit, branch 
 
-? What is a good example of a message to accompany a commit ?  
+? What is a good example of a message to accompany a commit?  
 
 A) Modified linear model of height to include new covariate, genotype   
 b) Fixed problem with linear model  
-C) Added genotype  
+c) Added genotype  
 d) Fixed.
 
 {/quiz}

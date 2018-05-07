@@ -1,14 +1,12 @@
-# Version Control
+# GitHub
 
 Now that we have a handle on what version control is and how we can interface with it, we'll take some time to look at GitHub and get familiar with their website. 
-
-### What is GitHub?
 
 As we previously learned, [GitHub](https://github.com/) is a cloud-based management system for your version controlled files. Like DropBox, your files are both locally on your computer *and* hosted online and easily accessible. Its interface allows you to manage version control and provides users with a web-based interface for creating projects, sharing them, updating code, etc. 
 
 ### Logging in to GitHub
 
-To log on to GitHub, go to [https://github.com/](https://github.com/), where you will be presented with the homepage. If you aren't already logged in, click on the "Sign in" link at the top. 
+In the introductory course, you learned how to create a Github account. Use your account username and password to log in to Github. To log in, go to [https://github.com/](https://github.com/), where you will be presented with the homepage. If you aren't already logged in, click on the "Sign in" link at the top. 
 
 ![GitHub's homepage at https://github.com/](images/01_github/01_githubbasics_github-2.png)
 
@@ -100,12 +98,13 @@ In this lesson we looked at GitHub and its interface. We took a tour of the webs
 
 ### Slides and video
 
-This lesson's slides can be found [here](https://docs.google.com/presentation/d/1cvz17dNvOlb5bwPCd2WGFl96zCU9oUWpZMTqcSJyuCo/edit?usp=sharing)  
-This lesson's video can be found [here]()
+![Github]()
 
-### Quiz
+* [Slides](https://docs.google.com/presentation/d/1cvz17dNvOlb5bwPCd2WGFl96zCU9oUWpZMTqcSJyuCo/edit?usp=sharing)  
 
-{quiz, id: quiz01_github}
+### Github Quiz
+
+{quiz, id: quiz_01_github}
 
 ? What is one way we can think of a GitHub repository?
 
