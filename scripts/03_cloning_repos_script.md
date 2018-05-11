@@ -1,4 +1,4 @@
-Now that you have learned how to create a GitHub repository, you will learn how to obtain a copy of that repository in a location that you use for writing code. That is, we will cover how to clone an existing repository in R Studio Cloud.
+Now that you have learned how to create a GitHub repository, you will learn how to obtain a copy of that repository in a location that you use for writing code such as RStudio Cloud.
 
 Within a project in R Studio Cloud, navigate to the Terminal tab, indicated in the picture here. This is where you can type Git commands to work with repositories. The text that you see at the beginning of the line in the Terminal is called the prompt. When you see the prompt at the beginning of a line, this indicates that the Terminal is ready to accept your commands.
 
