@@ -14,7 +14,7 @@ Let's start by creating a file within the project. Below we've created a text fi
 
 #### Adding and committing
 
-Now that we have added a file to this repository, let's put it under version control and publish these changes. First we need to move to the Terminal pane. Recall that the text at the beginning of the line is called the **prompt**. The Terminal prompt shows the current working directory within the Terminal. Initially, the working directory is the `/cloud/project` folder. We can see the same information by entering the `pwd` command. We can use the `ls` command to list the files and folders that are in the current working directory. We see that the `first_project` folder is the only thing present. Before working with the Git commands that will track and publish our changes, we need to change the working directory in the Terminal to be the `first_project` folder. We can do this with the `cd` command. Using the command `cd PATH` changes the working directory to the folder specified by `PATH`. For example, if the `first_project` folder contained a folder called `analysis`, we could set our Terminal working directory to this folder with `cd first_project/analysis`. 
+Now that we have added a file to this repository, let's put it under version control and publish these changes. First we need to move to the Terminal pane. Recall that the text at the beginning of the line is called the **prompt**. The Terminal prompt shows the current working directory within the Terminal. Initially, the working directory is the `/cloud/project` folder. We can see the same information by entering the `pwd` command. We can use the `ls` command to list the files and folders that are in the current working directory. We see that the `first_project` folder is the only thing present. Before working with the Git commands that will track and publish our changes, we need to change the working directory in the Terminal to be the `first_project` folder. We can do this with the `cd` command. Using the command `cd PATH` changes the working directory to the folder specified by `PATH`. For example, if the `first_project` folder contained a folder called `analysis`, we could set our Terminal working directory to this folder with `cd first_project/analysis`. To continue change the working directory by typing the command `cd first_project` in the prompt.
 
 ![Changing the working directory in the Terminal](images/04_push_pull/04_githubbasics_push_pull-3.png)
 
@@ -30,7 +30,7 @@ Any number of files and/or folders can be specified in this way. To add the `tas
 git add tasks.txt
 ```
 
-Now that we have let Git know that this file should be tracked for version control, we will actually record those changes with `git commit`. The `commit` command takes the files that we added with `add` and updates the Git version history record with these changes. When we use the `commit` command we also supply a descriptive message about the changes that were made by specifying the `-m` option followed by the message in quotes.
+Now that we have let Git know that this file should be tracked for version control, we will actually record those changes with `git commit`. The `commit` command takes the files that we added with `add` and updates the Git version history record with these changes. When we use the `commit` command we also supply a descriptive message about the changes that were made by specifying the `-m` option followed by the message in quotes. You can write anything as the message, however, since you may go back to your previous commits some day, it's considered good practice to write a descriptive message that has some information about the nature of the changed you made.
 
 ```text
 git commit -m "Add task list"
@@ -68,15 +68,14 @@ When we run the `git pull` command, the changes present in the remote repository
 
 # Pushing and pulling quiz
 
-? What git commands are involved in making local changes available in a remote repository?
+? What git commands is NOT used in making local changes available in a remote repository?
 
-a) clone
-B) add
-C) commit
-D) push
-e) pull
+a) add
+b) commit
+c) push
+D) pull
 
-? What git commands are involved in creating a local copy of a remote repository for the first time?
+? What git commands are used in creating a local copy of a remote repository for the first time?
 
 A) clone
 b) add
@@ -89,7 +88,7 @@ e) pull
 a) git commit codebook.md tidy.csv
 b) git commit codebook.md; git commit tidy.csv
 C) git add codebook.md tidy.csv
-D) git add codebook.md; git add tidy.csv
+d) git push codebook.md git add tidy.csv
 
 {/quiz}
 
