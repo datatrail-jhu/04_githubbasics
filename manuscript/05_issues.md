@@ -30,7 +30,7 @@ Over the course of the project, you can come back to the Issues tab on your repo
 
 ### Slides and Video
 
-![Issues on Github]()
+![Issues on Github](https://www.youtube.com/watch?v=Qrc9FkozsFU)
 
 * [Slides](https://docs.google.com/presentation/d/1G8ftZ6_UzNyYfcDoLKHhp2GpDtd20cln0vnJpHiUpFE/edit?usp=sharing)
 

@@ -1,4 +1,4 @@
-{
+l{
 course-completeness: 90
 course-attempts: 2
 default-quiz-attempts: 2
@@ -99,9 +99,9 @@ Now that we've covered what version control is and some of the benefits, you sho
 
 ### Slides and video
 
-![Version Control]()
+![Version Control](https://www.youtube.com/watch?v=7H-MiSUeQGk)
 
-* [Slides](https://docs.google.com/presentation/d/1nBgMcaXeF-hz5hX6712d_LC9Zm04s2mSCjuGECuht0M/edit?usp=sharing)  
+* [Slides](https://docs.google.com/presentation/d/1nBgMcaXeF-hz5hX6712d_LC9Zm04s2mSCjuGECuht0M/edit?usp=sharing)
 
 
 {quiz, id: quiz_00_versioncontrol}

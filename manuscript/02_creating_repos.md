@@ -60,7 +60,7 @@ GitHub also recognizes that this can be an overwhelming process for new users, a
 
 ### Slides and Video
 
-![Creating A Repository]()
+![Creating A Repository](https://www.youtube.com/watch?v=tUnp7nZSS5E)
 
 * [Slides](https://docs.google.com/presentation/d/1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU/edit?usp=sharing)
 
