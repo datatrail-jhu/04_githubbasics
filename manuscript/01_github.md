@@ -42,6 +42,8 @@ This is where you control your account from and can view your contribution histo
 
 Since you are just starting out, you aren't going to have any repositories or contributions yet - but hopefully we'll change that soon enough! What we can do right now is edit your profile. 
 
+To orient you a bit, the Overview tab provides a summary of your work on GitHub. You can showcase up to 6 of your repositories by clicking the link labeled "Customize your pinned repositories." When you are logged into GitHub, the Repositories tab lists all public and private repositories you have. If your are not logged in, it will only show your public repositories. The Stars tab shows repositories you have starred, similar to bookmarking a web page in your browser. If you find the contents of a repository interesting, you can go to the main repository page and click the Star button near the top right. The Followers and Following tabs shows users that you follow and who follow you for activity updates. Following others is is a nice way to explore other people's work.
+
 Go to "Edit profile" along the lefthand edge of the page. Here, take some time and fill out your name and a little description of yourself in the "Bio" box, and if you like, upload a picture of yourself! When you are done, click "Update profile"
 
 ![Your profile page](images/01_github/01_githubbasics_github-8.png)
@@ -52,13 +54,13 @@ Along the lefthand side of this page, there are many options for you to explore.
 
 Here, you can edit your password or if you are unhappy with your username, change it. Be careful though, there can be [unintended consequences](https://help.github.com/articles/what-happens-when-i-change-my-username/) when you change your username - if you are just starting out and don't have any content yet, you'll probably be safe though. 
 
-Continue looking through the personal setting options on your own. When you are done, go back to your profile. 
+The Account tab lets you change your username or password. The Emails tab lets you modify what e-mail address(es) to use for notifications and has some privacy settings relating to where your e-mail addresses can appear publicly. The Notifications tab allows you to fine tune what GitHub updates send notifications and where they are sent.
+
+Continue looking through the rest of the personal setting options on your own. When you are done, go back to your profile. 
 
 Once you've had a bit more experience with GitHub, you'll eventually end up with some repositories to your name. To find those, click on the "Repositories" link on your profile. For now, it will probably look like this: 
 
 ![Your repositories page](images/01_github/01_githubbasics_github-11.png)
-
-By the end of the lecture though, check back to this page to find your newly created repository!
 
 ### Notifications  
 
@@ -73,26 +75,6 @@ Once you become more active on GitHub and are collaborating with others, here is
 Along the bottom of *every. single. page.* there is the ["Help" button](https://help.github.com/). GitHub has a great help system in place - if you ever have a question about GitHub, this should be your first point to search! Take some time now and look through the various help files, and see if any catch your eye.
 
 ![GitHub's help files](images/01_github/01_githubbasics_github-14.png)
-
-### The GitHub guide 
-
-GitHub recognizes that this can be an overwhelming process for new users, and as such have developed a mini tutorial to get you started with GitHub. Go through [this guide](https://guides.github.com/activities/hello-world/) now and create your first repository! When you are done, you should have a repository that looks something like this: 
-
-![Your first repository](images/01_github/01_githubbasics_github-17.png)
-
-Take some time to explore around the repository - Check out your commit history so far. Here you can find all of the changes that have been made to the repository, and you can see **who** made the change, **when** they made the change, and provided you wrote an appropriate commit message, you can see **why** they made the change! It should look like similar to this: 
-
-![Your first repository's commit history](images/01_github/01_githubbasics_github-18.png)
-
-Once you've explored all of the options in the repository, go back to your user profile. It should look a little different from before: 
-
-![Your profile now shows your first repository](images/01_github/01_githubbasics_github-19.png)
-
-Now when you are on your profile you can see your latest repository created and for a complete listing of your repositories, click on the "Repositories" tab. Here you can see all of your repositories, a brief description, the time of the last edit, and along the right hand side, there is an activity graph, showing when and how many edits have been made on the repository. 
-
-![Your shiny new repository page!](images/01_github/01_githubbasics_github-20.png)
-
-In the future we will be using GitHub within RStudio. However, it's important to know how to navigate the GitHub website, that repositories can be created directly on GitHub, and exactly how to do that. 
 
 ### Summary
 
@@ -124,11 +106,5 @@ o) settings, notifications, watch
 o) settings, notifications, star
 o) settings, notifications, fork 
 
-
-? To make a new repository, which can you **not** do? 
-
-A) Profile > New repository  
-b) Plus sign > New repository  
-c) Profile > Repositories > New  
 
 {/quiz}

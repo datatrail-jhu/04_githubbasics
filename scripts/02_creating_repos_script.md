@@ -10,20 +10,8 @@ And you're done! You will be taken to a page that looks like this. This page con
 
 If you click on the link labeled read me indicated here, you can add a read me file to your currently empty repository. The read me file is the first thing someone sees when they navigate to the page for your repository. It is useful for providing an overview for what is contained within it.
 
-When you click on that link, you will be taken to a page where you can edit the text of this file and preview what it will look like on the Git Hub website. It has been automatically filled in with the title of our repository and the optional description we entered previously. Feel free to add additional description. The README file is a markdown document so you will have to use markdown syntax for editing this document.
+When you click on that link, you will be taken to a page where you can edit the text of this file and preview what it will look like on the Git Hub website. It has been automatically filled in with the title of our repository and the optional description we entered previously. Feel free to add additional description. The README file is a markdown document so you will have to use the markdown syntax you learned in the last course to edit this document.
 
-When you are finished editing your read me, scroll to the bottom of the page to commit your changes. As shown here, add a short description to the first box to describe what you've done. Usually this alone will suffice so that you don't need to add additional description in the box beneath.
+When you are finished editing your read me, scroll to the bottom of the page to commit your changes. Here, GitHub will have automatically suggested that "Create README" is your commit messages. As this is informative of what you have done, you do not need to add additional text; however, you're welcome to make this commit message even more informative if you'd like.
 
-Click the "Commit new file button" to add this read me to your repository. You will be taken to the homepage for your repository, as shown here. Congratulations! You have created and set up your first repository!
-
-Now that you have some public GitHub activity, let's take a brief detour to optimize your GitHub experience in terms of interacting with other users and customizing your workflow.
-
-You can navigate to your public profile from anywhere on the GitHub website by clicking the drop down menu in the top right hand corner and clicking "Your profile."
-
-You will be taken to your public profile. The Overview tab provides a summary of your work on GitHub. You can showcase up to 6 of your repositories by clicking the link labeled "Customize your pinned repositories." When you are logged into GitHub, the Repositories tab lists all public and private repositories you have. If your are not logged in, it will only show your public repositories. The Stars tab shows repositories you have starred, similar to boomarking a web page in your browser. If you find the contents of a repository interesting, you can go to the main repository page and click the Star button near the top right. The Followers and Following tabs shows users that you follow and who follow you for activity updates. Following others is is a nice way to explore other people's work.
-
-If you would like to change any of your profile information, click on the drop down menu in the top right hand corner and click on "Settings."
-
-The panel on the left let's you customize your work experience and notifications in a variety of ways. You will by default be taken to a tab where you can edit what appears on your public profile.
-
-The Account tab lets you change your username or password. The Emails tab lets you modify what e-mail address(es) to use for notifications and has some privacy settings relating to where your e-mail addresses can appear publicly. The Notifications tab allows you to fine tune what GitHub updates send notifications and where they are sent.
+Click the "Commit new file button" to add this read me to your repository. You will be taken to the homepage for your repository, as shown here. Congratulations! You have created and set up your first repository!s

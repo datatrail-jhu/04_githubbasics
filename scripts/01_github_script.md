@@ -16,11 +16,13 @@ This is where you control your account from and can view your contribution histo
 
 Here, take some time and fill out your name and a little description of yourself in the "Bio" box, and if you like, upload a picture of yourself! When you are done, click "Update profile" Along the lefthand side of this page, there are many options for you to explore. Click through each of these menus to get familiar with the options available to you. To get you started, go to the account page. 
 
-Here, you can edit your password or if you are unhappy with your username, change it. Be careful though, there can be unintended consequences when you change your username - if you are just starting out and don't have any content yet, you'll probably be safe though. Continue looking through the personal setting options on your own. When you are done, go back to your profile. 
+Here, you can edit your password or if you are unhappy with your username, change it. Be careful though, there can be unintended consequences when you change your username - if you are just starting out and don't have any content yet, you'll probably be safe though. 
+
+The Account tab lets you change your username or password. The Emails tab lets you modify what e-mail address(es) to use for notifications and has some privacy settings relating to where your e-mail addresses can appear publicly. The Notifications tab allows you to fine tune what GitHub updates send notifications and where they are sent. Continue looking through the personal setting options on your own. When you are done, go back to your profile. 
 
 Once you've had a bit more experience with Git Hub, you'll eventually end up with some repositories to your name. To find those, click on the "Repositories" link on your profile. 
 
-For now, it will probably look empty like this. By the end of the lecture though, check back to this page to find your newly created repository!
+For now, it will probably look empty like this.
 
 Next, we'll check out the notifications menu. Along the menu bar across the top of your window, there is a bell icon, representing your notifications. Click on the bell. 
 
@@ -29,13 +31,3 @@ Once you become more active on Git Hub and are collaborating with others, here i
 Along the bottom of every single page there is the "Help" button. Git Hub has a great help system in place - if you ever have a question about Git Hub, this should be your first point to search! 
 
 Take some time now and look through the various help files, and see if any catch your eye.
-
-Git Hub recognizes that this can be an overwhelming process for new users, and as such have developed a mini tutorial to get you started with Git Hub. Go through this guide now and create your first repository! 
-
-When you are done, you should have a repository that looks something like this. 
-
-Take some time to explore around the repository - Check out your commit history so far. Here you can find all of the changes that have been made to the repository, and you can see who made the change, when they made the change, and provided you wrote an appropriate commit message, you can see why they made the change! It should look like similar to this.
-
-Once you've explored all of the options in the repository, go back to your user profile. It should look a little different from before. Now when you are on your profile you can see your latest repository created. For a complete listing of your repositories, click on the "Repositories" tab. 
-
-Here you can see all of your repositories, a brief description, the time of the last edit, and along the right hand side, there is an activity graph, showing when and how many edits have been made on the repository. In the future we will be using GitHub within RStudio. However, it's important to know how to navigate the GitHub website, that repositories can be created directly on GitHub, and exactly how to do that. In conclusion, in this lesson we looked at Git Hub and its interface. We took a tour of the website and its interface. We customized your profile to give people some more information on who you are. We made our very first repository by following the Git Hub guide and explored the various options Git Hub provides for exploring repositories.  

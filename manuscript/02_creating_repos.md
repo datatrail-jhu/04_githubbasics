@@ -1,4 +1,4 @@
-# Creating a repository and setting up your GitHub profile
+# Creating a Repository
 
 Now that you have learned about version control and the GitHub website, we will do some actual work with the GitHub website to create a new repository and set up your user profile.
 
@@ -38,11 +38,11 @@ If you click on the link labeled README indicated in the picture below, you can 
 
 ![Creating a README](images/02_creating_repos/02_githubbasics_creating_repos-5.png)
 
-When you click on that link, you will be taken to a page pictured below where you can edit the text of this file and preview what it will look like on the GitHub website. It has been automatically filled in with the title of our repository and the optional description we entered previously. Feel free to add additional description. The README file is a markdown document so you will have to use markdown syntax for editing this document.
+When you click on that link, you will be taken to a page pictured below where you can edit the text of this file and preview what it will look like on the GitHub website. It has been automatically filled in with the title of our repository and the optional description we entered previously. Feel free to add additional description. The README file is a markdown document so you will have to use the markdown syntax you learned in the last course to edit this document.
 
 ![Editing a README](images/02_creating_repos/02_githubbasics_creating_repos-6.png)
 
-When you are finished editing your README file, scroll to the bottom of the page to commit your changes. As in the picture below, add a short description to the first box to describe what you've done. Usually this alone will suffice so that you don't need to add additional description in the box beneath.
+When you are finished editing your README file, scroll to the bottom of the page to commit your changes. Here, GitHub automatically suggests that "Create README" is your commit messages. As this is informative of what you have done, you do not need to add additional text; however, you're welcome to make this commit message even more informative if you'd like.
 
 ![Committing changes](images/02_creating_repos/02_githubbasics_creating_repos-7.png)
 
@@ -52,31 +52,10 @@ Click the "Commit new file button" to add this README to your repository. You wi
 
 Congratulations! You have created and set up your first repository!
 
+### The GitHub guide 
 
-### Setting up your GitHub user profile
+GitHub also recognizes that this can be an overwhelming process for new users, and as such have developed a mini tutorial to get you started with GitHub. You can go through [this guide](https://guides.github.com/activities/hello-world/) to get further process setting up repositories on GitHub!
 
-Now that you have some public GitHub activity, let's take a brief detour to optimize your GitHub experience in terms of interacting with other users and customizing your workflow.
-
-You can navigate to your public profile from anywhere on the GitHub website by clicking the drop down menu in the top right hand corner and clicking "Your profile."
-
-![Navigating to your public GitHub profile](images/02_creating_repos/02_githubbasics_creating_repos-10.png)
-
-You will be taken to your public profile. The Overview tab provides a summary of your work on GitHub. You can showcase up to 6 of your repositories by clicking the link labeled "Customize your pinned repositories." When you are logged into GitHub, the Repositories tab lists all public and private repositories you have. If your are not logged in, it will only show your public repositories. The Stars tab shows repositories you have starred, similar to bookmarking a web page in your browser. If you find the contents of a repository interesting, you can go to the main repository page and click the Star button near the top right. The Followers and Following tabs shows users that you follow and who follow you for activity updates. Following others is is a nice way to explore other people's work.
-
-![Your profile page on Github](images/02_creating_repos/02_githubbasics_creating_repos-11.png)
-
-
-If you would like to change any of your profile information, click on the drop down menu in the top right hand corner and click on "Settings."
-
-![Navigating to your profile settings](images/02_creating_repos/02_githubbasics_creating_repos-12.png)
-
-
-The panel on the left let's you customize your work experience and notifications in a variety of ways. You will by default be taken to a tab where you can edit what appears on your public profile.
-
-![Profile settings on Github](images/02_creating_repos/02_githubbasics_creating_repos-13.png)
-
-
-The Account tab lets you change your username or password. The Emails tab lets you modify what e-mail address(es) to use for notifications and has some privacy settings relating to where your e-mail addresses can appear publicly. The Notifications tab allows you to fine tune what GitHub updates send notifications and where they are sent.
 
 
 ### Slides and Video
@@ -86,16 +65,35 @@ The Account tab lets you change your username or password. The Emails tab lets y
 * [Slides](https://docs.google.com/presentation/d/1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU/edit?usp=sharing)
 
 
-{quiz, id: quiz02_creating_repos}
+{quiz, id: quiz_02_creating_repos}
 
 # Creating Repositories quiz
 
+{choose-answers: 4}
 ? In which of the following instances would you create a public repository?
 
-A) To share your work with others
-b) To comply with employer specifications about project security
-c) To use version control on the analysis of sensitive data
+C) To share your work with others
+o) To comply with employer specifications about project security
+o) To use version control on the analysis of sensitive data
+o) To use version control on the analysis of private data
+o) To use Git but ensure that you are the only person with access to the code.
 
+{choose-answers: 4}
+? Fill in the blank: I will have a GitHub repository for each ________.
+
+C) project
+o) part of my project
+o) script
+o) different directory
+o) GitHub
+o) version control
+
+{points: 2}
+? To make a new repository, which can you **not** do? (Note: To figure out the answer to this question, you may have to play around on GitHub a bit.)
+
+A) Profile > New repository  
+b) Plus sign > New repository  
+c) Profile > Repositories > New  
 
 {/quiz}
 
