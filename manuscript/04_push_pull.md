@@ -1,4 +1,4 @@
-# Pushing and pulling changes
+# Pushing and pulling Changes
 
 Now that you have learned how to create a repository and clone it, it's time to start using repositories to manage projects and work with collaborators. In this lesson you will learn about new git commands for publishing changes so that others can see them. You will also learn a git command for incorporating changes made by others in your local copy of a repository.
 
@@ -58,15 +58,14 @@ When we run the `git pull` command, the changes present in the remote repository
 
 ### Slides and Video
 
-![Pushing and Pulling Chnages]()
+![Pushing and Pulling Changes]()
 
 * [Slides](https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/edit?usp=sharing)
 
+
+{quiz, id: quiz_04_push_pull}
+
 ### Pushing and Pulling Changes Quiz
-
-{quiz, id: quiz04_push_pull}
-
-# Pushing and pulling quiz
 
 ? What git commands is NOT used in making local changes available in a remote repository?
 

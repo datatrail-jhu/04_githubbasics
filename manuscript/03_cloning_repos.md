@@ -52,9 +52,9 @@ Congratulations! You have cloned your first repository!
 
 ### Cloning a Repository quiz
 
-{quiz, id: quiz03_cloning_repos}
+{quiz, id: quiz_03_cloning_repos}
 
-# Cloning repositories quiz
+# Cloning Repositories quiz
 
 ? What is *cloning* in Github terminology?
 

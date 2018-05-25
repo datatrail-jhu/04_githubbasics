@@ -1,4 +1,4 @@
-# Setting up A Project on Github
+# Setting Up A Project on Github
 
 Now that we've learned the basics of organizing data science projects and Github, in this lesson we'll walk through setting up an example project and pushing the content to Github.
 
@@ -23,7 +23,7 @@ The next step is to clone this repository into RStudio Cloud but as you may reme
 
 ### Creating a new project from a Github repository
 
-Ok, now that we have everything set up on the Github end, Go to [RStudio Cloud](https://rstudio.cloud/) and login with your account. When you're redirected to yoru Projects page, Next to the New Project button, click on the drop down button and then click on New Project from Git Repo. 
+Ok, now that we have everything set up on the Github end, Go to [RStudio Cloud](https://rstudio.cloud/) and login with your account. When you're redirected to your Projects page, Next to the New Project button, click on the drop down button and then click on New Project from Git Repo. 
 
 ![Create new project from Git repo on RStudio Cloud](images/06_git_projects/06_githubbasics_git_projects-05.png)
 
@@ -103,11 +103,11 @@ Now go ahead and further create the folder structure that we learned. An importa
 
 * [Slides](https://docs.google.com/presentation/d/1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA/edit?usp=sharing)
 
-### Issues on Github Quiz
 
-{quiz, id: quiz06_git_projects}
+{quiz, id: quiz_06_git_projects}
 
-# Setting up a project on Github quiz
+# Setting Up A Project on Github quiz
+
 
 ? 
 

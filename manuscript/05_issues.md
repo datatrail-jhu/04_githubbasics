@@ -34,11 +34,10 @@ Over the course of the project, you can come back to the Issues tab on your repo
 
 * [Slides](https://docs.google.com/presentation/d/1G8ftZ6_UzNyYfcDoLKHhp2GpDtd20cln0vnJpHiUpFE/edit?usp=sharing)
 
-### Issues on Github Quiz
 
 {quiz, id: quiz05_issues}
 
-# GitHub issues quiz
+### Organization with Issues on GitHub quiz
 
 ? Which of the following can NOT be done with Github Issues?
 A) Auto-resolving issues in your code

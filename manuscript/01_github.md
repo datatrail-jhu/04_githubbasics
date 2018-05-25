@@ -86,9 +86,10 @@ In this lesson we looked at GitHub and its interface. We took a tour of the webs
 
 * [Slides](https://docs.google.com/presentation/d/1cvz17dNvOlb5bwPCd2WGFl96zCU9oUWpZMTqcSJyuCo/edit?usp=sharing)  
 
-### Github Quiz
 
 {quiz, id: quiz_01_github}
+
+### Github quiz
 
 ? What is one way we can think of a GitHub repository?
 

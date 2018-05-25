@@ -103,9 +103,10 @@ Now that we've covered what version control is and some of the benefits, you sho
 
 * [Slides](https://docs.google.com/presentation/d/1nBgMcaXeF-hz5hX6712d_LC9Zm04s2mSCjuGECuht0M/edit?usp=sharing)  
 
-### Version Control Quiz
 
 {quiz, id: quiz_00_versioncontrol}
+
+### Version Control quiz
 
 ? What is one way we can think of a GitHub repository?
 
