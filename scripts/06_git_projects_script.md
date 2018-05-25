@@ -1,14 +1,14 @@
 Now that we've learned the basics of organizing data science projects and Github, in this lesson we'll walk through setting up an example project and pushing the content to Github.
 
-First things first, we need to create a repository. Go to gith hub dot come, login to your account, and create a repository just like we learned before.
+First things first, we need to create a repository. We'll do this as discussed in the "Creating A Repository Lesson," by going to www.github.com, logging in to your account, and creating a new repository
 
 You can also create a new repository by clicking on the plus sign in the top right corner of Github homepage and clicking on New repository.
 
-On the page that follows, type the repository name. Choose the name my first project, add a description if you wish (always recommended), make it public, and choose to initialize with a README file. At the end click on the buttion Create repository.
+On the page that follows, type the repository name. Choose the name my first project, add a description if you wish (always recommended), make it public, and choose to initialize with a README file. At the end click on the button Create repository.
 
-The next step is to clone this repository into RStudio Cloud but as you may remember, we first need the url to this repository we just created. On the repository page, click on Clone or download and copy the link address. Make sure the address starts with https rather than git. If it starts with git, click on Use HTTPS on the corner of the small window to have the link starting with https. 
+The next step is to clone this repository into RStudio Cloud but as you may remember, we first need the url to this repository we just created. On the repository page, click on Clone or download and copy the link address. Make sure the address starts with https rather than git. If it starts with git, click on Use H T T P S on the corner of the small window to have the link starting with https. 
 
-Ok, now that we have everything set up on the Github end, Go to R Studio dot Cloud and login with your account. When you're redirected to yoru Projects page, Next to the New Project button, click on the drop down button and then click on New Project from Git Repo. 
+Ok, now that we have everything set up on the Github end, Go to R Studio dot Cloud and login with your account. When you're redirected to your Projects page, Next to the New Project button, click on the drop down button and then click on New Project from Git Repo. 
 
 On the popup window, paste the repository url that you just copied and click Ok. 
 
