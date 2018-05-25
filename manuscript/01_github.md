@@ -92,6 +92,8 @@ Now when you are on your profile you can see your latest repository created and 
 
 ![Your shiny new repository page!](images/01_github/01_githubbasics_github-20.png)
 
+In the future we will be using GitHub within RStudio. However, it's important to know how to navigate the GitHub website, that repositories can be created directly on GitHub, and exactly how to do that. 
+
 ### Summary
 
 In this lesson we looked at GitHub and its interface. We took a tour of the website and its interface. We customized your profile to give people some more information on who you are. We made our very first repository by following the GitHub guide and explored the various options GitHub provides for exploring repositories.  
@@ -111,12 +113,17 @@ In this lesson we looked at GitHub and its interface. We took a tour of the webs
 a) A file cabinet that only you have access to  
 B) A file cabinet that you and other people may have access to  
 
+{choose-answers: 4}
 ? On each repository page, in the top right hand corner there are three options. They are: 
 
-a) Pull, clone, fork  
-b) Commit, contributors, issues  
-c) Repository, profile, contributions  
-D) Watch, star, fork  
+C) Watch, star, fork  
+o) Pull, clone, fork  
+o) Commit, contributors, issues  
+o) Repository, profile, contributions  
+o) settings, notifications, watch  
+o) settings, notifications, star
+o) settings, notifications, fork 
+
 
 ? To make a new repository, which can you **not** do? 
 

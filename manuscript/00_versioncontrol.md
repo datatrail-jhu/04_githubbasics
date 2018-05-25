@@ -2,8 +2,7 @@
 course-completeness: 90
 course-attempts: 2
 default-quiz-attempts: 2
-authors: Jeffrey Leek
-contributors: Sarah McClymont, Leslie Myint, and Sarah Wang
+default-random-choice-order: true
 }
 
 # Version Control
@@ -12,9 +11,9 @@ In this lesson, we'll give you a basic understanding of version control. We'll l
 
 ### What is version control?
 
-One common mantra from data analysis and writing code is "save early, save often". What is meant by this is that you do not want to create content without saving it frequently. This way, if you lose your internet connection, or your computer crashes, you will not lose the hard work you have put in. On the other hand, sometimes we create some content, only to realize that it is not what we want, and we want to undo the changes we have just made. Version control allows us to save frequently, while also taking snapshots of our work at any point in time, allowing us to go back to a previous version if necessary. A good version control system will do this without you having to save multiple copies of your work (myFile_version1, myFile_version2, etc.) or keep track of what the latest version of the file is.
+One common mantra from data analysis and writing code is "save early, save often". What is meant by this is that you do not want to create content without saving it frequently. This way, if you lose your internet connection, or your computer crashes, you will not lose the hard work you have put in. On the other hand, sometimes we create some content, only to realize that it is not what we want, and we want to undo the changes we have just made. Version control allows us to save frequently, while also taking snapshots of our work at any point in time, allowing us to go back to a previous version if necessary. A good version control system will do this without you having to save multiple copies of your work (avoiding having "myFile_version1", "myFile_version2", etc. saved to your computer) or having to keep track of what the latest version of the file is.
 
-If you've ever used the "Track changes" feature in Microsoft Word, you have seen a rudimentary type of version control, in which the changes to a file are tracked, and you can either chose to keep those edits or revert to the original format. Version control systems, like [Git](https://git-scm.com/), are like a more sophisticated "Track changes" - in that they are far more powerful and are capable of meticulously tracking successive changes on many files, with potentially many people working simultaneously on the same groups of files. 
+If you've ever used the "Track changes" feature in Microsoft Word, you have seen a rudimentary type of version control, in which the changes to a file are tracked, and you can either chose to keep those edits or revert to the original format. Version control systems, like [Git](https://git-scm.com/), can be thought of as a more sophisticated "Track changes" - in that they are far more powerful and are capable of meticulously tracking successive changes on many files, with potentially many people working on the same groups of files at the same time. 
 
 If you've ever worked collaboratively on a document before, [this comic](http://phdcomics.com/comics/archive.php?comicid=1531) from PHD Comics might resonate with you. Hopefully, once you've mastered version control software, Paper_Final_FINAL2_actually_FINAL.docx will be a thing of the past for you! 
 
@@ -32,7 +31,7 @@ Additionally, since version control systems keep a record of all changes made to
 
 1. It gives you an easy way of saving a backup of your work as you go, making sure you don't lose anything you have created.
 2. It allows you to go back to an earlier version of your work if something gets broken due to the changes you have made.
-3. It allows multiple people to edit code at the same time, without worrying that what they’re doing might be messing someone else’s code up.
+3. It allows multiple people to edit code at the same time, without worrying that what they're doing might be messing someone else'��s code up.
 
 ### What is Git? Why should you use it?
 
@@ -40,17 +39,17 @@ In this course, we will introduce version control software called Git. Git is a 
 
 ![Git is far and away the most commonly used version control system according to StackOverflow](images/00_version_control/00_githubbasics_version_control-5.png)
 
-As you become more familiar with Git and how it works and interfaces with your projects, you’ll begin to see why it has risen to the height of popularity. One of the main benefits of Git is that it keeps a local copy of your work and revisions, which you can then edit offline, and then once you return to internet service, you can sync your copy of the work, with all of your new edits and tracked changes to the main repository online. And since Git is automatically taking these snapshots, there is  no need for you to save your own copy with different versions or different dates. Additionally, since all collaborators on a project have their own local copy of the code, everybody can simultaneously work on their own parts of the code, without disturbing that common repository. 
+As you become more familiar with Git and how it works and interfaces with your projects, you'll begin to see why it has risen to the height of popularity. One of the main benefits of Git is that it keeps a local copy of your work and revisions, which you can then edit offline, and then once you return to internet service, you can sync your copy of the work, with all of your new edits and tracked changes to the main repository online. And since Git is automatically taking these snapshots, there is  no need for you to save your own copy with different versions or different dates. Additionally, since all collaborators on a project have their own local copy of the code, everybody can simultaneously work on their own parts of the code, without disturbing that common repository. 
 
-Another big benefit that we’ll definitely be taking advantage of is the ease with which RStudio and Git interface with each other. 
+Another big benefit that we'll definitely be taking advantage of is the ease with which RStudio and Git interface with each other. 
 
 ### What is GitHub?
 
-GitHub is a website that provides an interface to a cloud-based repository management system. GitHub is an online interface for Git. Git is software used locally on your computer to record changes. GitHub is a host for your files and the records of the changes made. You can sort of think of it as being similar to DropBox - the files are on your computer, but they are also hosted online and are accessible from any computer. GitHub has the added benefit of interfacing with Git to keep track of all of your file versions and changes. 
+GitHub is a website that provides an interface to a cloud-based repository management system. In other words, GitHub is an online interface for Git. Git is software used locally on your computer to record changes. GitHub is a host for your files and the records of the changes made. You can sort of think of it as being similar to DropBox - the files are on your computer, but they are also hosted online and are accessible from any computer. GitHub has the added benefit of interfacing with Git to keep track of all of your file versions and changes. 
 
 Another way of thinking of it is as a big room with lots of large filing cabinets. Each filing cabinet contains the files associated with a particular project. These files have been created and are being edited by one or more people who have access to that particular filing cabinet or repository. GitHub allows you to control who can see and access your files.
 
-GitHub uses the version control system Git, described above, to manage version control, and provides users with a web-based interface for creating projects, sharing them, updating code, etc. In this course, we will be teaching you how to do version control using GitHub. We will introduce you to the basics of working with GitHub, both through your browser and through RStudio. For our purposes, you will not need to think about Git itself, just use GitHub.
+GitHub uses the version control system Git, described above, to manage version control, and provides users with a web-based interface for creating projects, sharing them, updating code, etc. In this course, we will be teaching you how to do version control using GitHub. We will introduce you to the basics of working with GitHub, both through your browser and through RStudio. For our purposes, you will not need to think about Git itself, and will instead just use GitHub.
 
 ### Version control vocabulary
 
@@ -58,27 +57,29 @@ There is a lot of vocabulary involved in working with Git, and often the underst
 
 **Repository:** Equivalent to the project's folder/directory - all of your version controlled files (and the recorded changes) are located in a repository. This is often shortened to **repo**. Repositories are what are hosted on GitHub and through this interface you can either keep your repositories private and share them with select collaborators, or you can make them public - anybody can see your files and their history. 
 
-**Commit:** To commit is to save your edits and the changes made. A commit is like a snapshot of your files – Git compares the previous version of all of your files in the repo to the current version and identifies those that have changed since then. Those that have not changed, it maintains that previously stored file, untouched. Those that have changed, it compares the files, logs the changes and uploads the new version of your file. We’ll touch on this in the next section, but when you commit a file, typically you accompany that file change with a little note about what you changed and why. 
+**Commit:** To commit is to save your edits and the changes made. A commit is like a snapshot of your files. Git compares the previous version of all of your files in the repo to the current version and identifies those that have changed since then. For those that have not changed, Git maintains that previously stored file, leaving it untouched. For those that have changed, Git compares the files, logs the changes and uploads the new version of your file to GitHub. We'll touch on this in the next section, but when you commit a file, typically you accompany that file change with a little note about what you changed and why. 
 
-When we talk about version control systems, commits are at the heart of them. If you find a mistake, you revert your files to a previous *commit.* If you want to see what has changed in a file over, you compare the *commits* and look at the messages to see why and who. 
+When we talk about version control systems, commits are at the heart of them. If you find a mistake, you revert your files to a previous *commit.* If you want to see what has changed in a file over, you compare the *commits* and look at the messages to see why the changes were made and who made them. 
 
 **Push:** Updating the repository with your edits. Since Git involves making changes locally, you need to be able to share your changes with the common, online, repository. Pushing is sending those committed changes to that repository, so now everybody has access to your edits.
 
 **Pull:** Updating your local version of the repository to the current version, since others may have edited in the meanwhile. Because the shared repository is hosted online and any of your collaborators (or even yourself on a different computer!) could have made changes to the files and then pushed them to the shared repository, you are behind the times! The files you have locally on *your* computer may be outdated, so you pull to check if you are up to date with the main repository. 
 
-**Staging:** The act of preparing a file for a commit. For example, if since your last commit you have edited three files for completely different reasons, you don’t want to commit all of the changes in one go – your message on why you are making the commit and what has changed will be complicated since three files have been changed for different reasons. So instead, you can stage just one of the files and prepare it for committing. Once you’ve committed that file, you can stage the second file and commit it. And so on. Staging allows you to separate out file changes into separate commits. Very helpful! 
+**Staging:** The act of preparing a file for a commit. For example, if since your last commit you have edited three files for completely different reasons, you don't want to commit all of the changes in one go, or�� your message on why you are making the commit and what has changed will be complicated, since three files have been changed for different reasons. So instead, you can stage just one of the files and prepare it for committing. Once you've committed that file, you can stage the second file and commit it. And so on. Staging allows you to separate out file changes into separate commits. Very helpful! 
 
-To summarize these commonly used terms so far and to test whether you’ve got the hang of this, files are hosted in a **repository** that is shared online with collaborators. You **pull** the repository’s contents so that you have a local copy of the files that you can edit. Once you are happy with your changes to a file, you **stage** the file and then **commit** it. You **push** this commit to the shared repository. This uploads your new file and all of the changes and is accompanied by a message explaining what changed, why and by whom. 
+To summarize these commonly used terms so far and to test whether you've got the hang of this, files are hosted in a **repository** that is shared online with collaborators. You **pull** the repository's contents so that you have a local copy of the files that you can edit. Once you are happy with your changes to a file, you **stage** the file and then **commit** it. You **push** this commit to the shared repository. This uploads your new file and all of the changes and is accompanied by a message explaining what changed, why and by whom. 
 
-**Branch:** When the same file has two simultaneous copies. When you are working locally and editing a file, you have created a branch where your edits are not shared with the main repository (yet) - so there are two versions of the file: the version that everybody has access to on the repository and your local edited version of the file. Until you push your changes and merge them back into the main repository, you are working on a branch. Following a branch point, the version history splits into two and tracks the independent changes made to both the original file in the repository that others may be editing, and tracking your changes on your branch, and then merges the files together. 
+![Visual representation summarizing repository, commit, push, and pull](images/00_version_control/00_githubbasics_version_control-10.png)
 
-**Merge:** Independent edits of the same file are incorporated into a single, unified file. Independent edits are identified by Git and are brought together into a single file, with both sets of edits incorporated. But, you can see a potential problem here – if both people made an edit to the same sentence that precludes one of the edits from being possible, we have a problem! Git recognizes this disparity (**conflict**) and asks for user assistance in picking which edit to keep. 
+**Branch:** When the same file has two simultaneous copies. When you are working locally and editing a file, you have created a branch where your edits are not shared with the main repository (*yet*) - so there are two versions of the file: the version that everybody has access to on the repository and your local edited version of the file. Until you push your changes and merge them back into the main repository, you are working on a branch. Following a branch point, the version history splits into two and tracks the independent changes made to both the original file in the repository that others may be editing, and tracking your changes on your branch, and then merges the files together. 
+
+**Merge:** Independent edits of the same file are incorporated into a single, unified file. Independent edits are identified by Git and are brought together into a single file, with both sets of edits incorporated. But, you can see a potential problem here! If both people made an edit to the same sentence that precludes one of the edits from being possible, we have a problem! Git recognizes this disparity (**conflict**) and asks for user assistance in picking which edit to keep. 
 
 **Conflict:** When multiple people make changes to the same file and Git is unable to merge the edits. You are presented with the option to manually try and merge the edits or to keep one edit over the other. 
 
 ![A visual representation of these concepts, from https://www.atlassian.com/git/tutorials/using-branches/git-merge](images/00_version_control/00_githubbasics_version_control-14.png)
 
-**Clone:** Making a copy of an existing Git repository. If you have just been brought on to a project that has been tracked with version control, you would clone the repository to get access to and create a local version of all of the repository’s files *and all of the tracked changes.*
+**Clone:** Making a copy of an existing Git repository. If you have just been brought on to a project that has been tracked with version control, you would clone the repository to get access to and create a local version of all of the repository's files *and all of the tracked changes.*
 
 **Fork:** A personal copy of a repository that you have taken from another person. If somebody is working on a cool project and you want to play around with it, you can fork their repository and then when you make changes, the edits are logged on *your* repository, not theirs. 
 
@@ -88,9 +89,9 @@ It can take some time to get used to working with version control software like 
 
 One of those things is to make purposeful commits. Each commit should only address a single issue. This way if you need to identify when you changed a certain line of code, there is only one place to look to identify the change and you can easily see how to revert the code. 
 
-Similarly, making sure you write informative messages on each commit is a helpful habit to get into. If each message is precise in what was being changed, anybody can examine the committed file and identify the purpose for your change. Additionally, if you are looking for a specific edit you made in the past, you can easily scan through all of your commits to identify those changes related to the desired edit. You don't want to get in the same habit that [xkcd](https://xkcd.com/1296/) has!
+Similarly, making sure you write informative messages on each commit is a helpful habit to get into. If each message is precise in what was being changed, anybody can examine the committed file and identify the purpose for your change. For example, if you edited your code to use a new dataset, an informative commit message may be "updated file to use dataset from www.wheredatacamefrom.com." On the other hand, an unhelpful commit messaged would be "data" or "update." These types of commit messages are to be avoided. Further, by using helpful commit messages, if you are looking for a specific edit you made in the past, you can easily scan through all of your commits to identify those changes related to the desired edit. You don't want to get in the same habit that [xkcd](https://xkcd.com/1296/) has!
 
-Finally, be cognizant of the version of files you are working on. Frequently check that you are up to date with the current repo by frequently pulling. Additionally, don't hoard your edited files - once you have committed your files (and written that helpful message!), you should push those changes to the common repository. If you are done editing a section of code and are planning on moving on to an unrelated problem, you need to share that edit with your collaborators! 
+Finally, be cognizant of the version of files you are working on. Check that you are up to date with the current repo by frequently pulling. Additionally, don't hoard your edited files - once you have committed your files (and written that helpful message!), you should push those changes to the common repository. If you are done editing a section of code and are planning on moving on to an unrelated problem, you need to share that edit with your collaborators! 
 
 ### Summary
 
@@ -118,19 +119,30 @@ b) Version control is a way to allow multiple people to work together on a set o
 C) Version control is time-consuming and difficult to use.
 d) Version control helps make sure that you do not lose work that you have done.
 
+{choose-answers: 4, points: 4}
 ? Fill in the blanks. 
 
 I'm done editing a file, I need to ______ those changes then _______ them, and ______ it to the ________?  
 
-a) Commit, merge, push, repository
-B) Stage, commit, push, repository
-c) Pull, push, commit, branch 
+C) stage, commit, push, repository
+o) commit, merge, push, repository
+o) branch, pull, push, commit 
+o) merge, commit, repository, pull 
+o) pull, push, commit, branch 
+o) pull, push, pull, branch 
+o) stage, commit, reposit, commit 
 
+{choose-answers: 4}
 ? What is a good example of a message to accompany a commit?  
 
-A) Modified linear model of height to include new covariate, genotype   
-b) Fixed problem with linear model  
-c) Added genotype  
-d) Fixed.
+C) Modified linear model of height to include new covariate, genotype   
+o) Fixed problem with linear model  
+o) Added genotype  
+o) Fixed.
+o) Updated thing.
+o) Update.
+o) Problem fixed.
+o) All better now.
+o) Changes made.
 
 {/quiz}
