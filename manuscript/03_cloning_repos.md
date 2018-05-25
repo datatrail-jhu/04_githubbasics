@@ -1,6 +1,6 @@
 # Cloning A Repository
 
-Now that you have learned how to create a GitHub repository, you will learn how to obtain a copy of that repository in a location that you use for writing code such as RStudio Cloud.
+Now that you have learned how to create a GitHub repository, you will learn how to obtain a copy of that repository in a location that you use for writing code such as RStudio Cloud. This process is called "cloning" a repository from GitHub.
 
 ### Step 1: Navigate to the Terminal in RStudio
 
@@ -37,7 +37,7 @@ Also note that in the bottom right hand corner of RStudio, in the Files pane, yo
 
 ### Directory/folder organization
 
-A big part of staying organized with your files is understanding how folders in your project are organized. Also important is the concept of a **working directory**. Whenever you are working in R or the Terminal, you are housed in some folder. This folder is called the working directory. Knowing this is important so that you know how to specify paths to other important folders in your project. We can see what the current working directory is in a number of ways. In the image below, we can see from the Terminal prompt that the working directory is `/cloud/project`. We can also see this in the Files pane. We see that the first level folder is `cloud` and that the second level folder is `project`.
+A big part of staying organized with your files is understanding how folders in your project are organized. Also important is the concept of a **working directory**. Whenever you are working in R or the Terminal, files are housed in some folder. This folder is called the working directory. Knowing this is important so that you know how to specify paths to other important folders in your project. We can see what the current working directory is in a number of ways. In the image below, we can see from the Terminal prompt that the working directory is `/cloud/project`. We can also see this in the Files pane. We see that the first level folder is `cloud` and that the second level folder is `project`.
 
 ![Working directories](images/03_cloning_repos/03_githubbasics_cloning_repos-4.png)
 
@@ -50,24 +50,32 @@ Congratulations! You have cloned your first repository!
 
 * [Slides](https://docs.google.com/presentation/d/1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8/edit?usp=sharing)
 
-### Cloning a Repository quiz
+### Cloning A Repository quiz
 
 {quiz, id: quiz_03_cloning_repos}
 
 # Cloning Repositories quiz
 
+{choose-answers: 4}
 ? What is *cloning* in Github terminology?
 
-a) Sending committed changed to a repository
-B) Creating a local copy of a repository on your computer
-c) Taking the changes in one branch and applying to another
-d) Getting the latest changes from an online repository
+C) Creating a local copy of a repository on your computer
+o) Taking the changes in one branch and applying to another
+o) Getting the latest changes from an online repository
+o) Sending committed changed to a repository
+o) Adding a message to briefly explain what changes have been made
+o) Figuring out what disagreements exist between two files
 
+{choose-answers: 4}
 ? How do you use the `clone` command in terminal in order to clone a repository?
-a) `clone repository_url`
-b) `git repository_url`
-c) `clone git repository_url`
-D) `git clone repository_url`
+
+C) `git clone repository_url`
+o) `clone repository_url`
+o) `git repository_url`
+o) `clone git repository_url`
+o) `git commit repository_url`
+o) `commit git repository_url`
+o) `git merge repository_url`
 
 {/quiz}
 
