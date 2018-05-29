@@ -46,7 +46,7 @@ Congratulations! You have cloned your first repository!
 
 ### Slides and Video
 
-![Cloning A Repository](https://www.youtube.com/watch?v=aT3SdsznMxs)
+![Cloning A Repository](https://www.youtube.com/watch?v=ORVsAdF94Pc)
 
 * [Slides](https://docs.google.com/presentation/d/1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8/edit?usp=sharing)
 

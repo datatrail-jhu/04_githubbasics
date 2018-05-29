@@ -98,7 +98,7 @@ Now go ahead and further create the folder structure that we learned. An importa
 
 ### Slides and Video
 
-![Setting up projects on Github](https://www.youtube.com/watch?v=vouyKecSPt0)
+![Setting up projects on Github](https://www.youtube.com/watch?v=stMn8ntt6XQ)
 
 * [Slides](https://docs.google.com/presentation/d/1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA/edit?usp=sharing)
 

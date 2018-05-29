@@ -97,7 +97,7 @@ When we run the `git pull` command, the changes present in the remote repository
 
 ### Slides and Video
 
-![Pushing and Pulling Changes](https://www.youtube.com/watch?v=A1EiAJfdqB0)
+![Pushing and Pulling Changes](https://www.youtube.com/watch?v=33GVL2CfLv8)
 
 * [Slides](https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/edit?usp=sharing)
 
