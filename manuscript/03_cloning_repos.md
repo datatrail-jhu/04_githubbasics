@@ -50,11 +50,10 @@ Congratulations! You have cloned your first repository!
 
 * [Slides](https://docs.google.com/presentation/d/1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8/edit?usp=sharing)
 
-### Cloning A Repository quiz
 
 {quiz, id: quiz_03_cloning_repos}
 
-# Cloning Repositories quiz
+### Cloning A Repository quiz
 
 {choose-answers: 4}
 ? What is *cloning* in Github terminology?

@@ -89,7 +89,7 @@ In this lesson we looked at GitHub and its interface. We took a tour of the webs
 
 {quiz, id: quiz_01_github}
 
-### Github quiz
+### GitHub quiz
 
 ? What is one way we can think of a GitHub repository?
 

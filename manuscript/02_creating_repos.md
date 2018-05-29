@@ -1,4 +1,4 @@
-# Creating a Repository
+# Creating A Repository
 
 Now that you have learned about version control and the GitHub website, we will do some actual work with the GitHub website to create a new repository and set up your user profile.
 
@@ -67,7 +67,7 @@ GitHub also recognizes that this can be an overwhelming process for new users, a
 
 {quiz, id: quiz_02_creating_repos}
 
-# Creating Repositories quiz
+# Creating A Repository quiz
 
 {choose-answers: 4}
 ? In which of the following instances would you create a public repository?
