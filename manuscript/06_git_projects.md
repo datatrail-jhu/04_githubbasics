@@ -107,7 +107,7 @@ Now go ahead and further create the folder structure that we learned. An importa
 
 ### Setting Up A Project on GitHub quiz
 
-{choose-answers: 4)
+{choose-answers: 4}
 ? What best explains what we accomplished in this lesson?
 
 C) Created a new repository with the correct structure for a data science project
