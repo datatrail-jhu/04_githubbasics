@@ -40,12 +40,14 @@ Over the course of the project, you can come back to the Issues tab on your repo
 ### Organization with Issues on GitHub quiz
 
 ? Which of the following can NOT be done with Github Issues?
+
 A) Auto-resolving issues in your code
 b) Communicating with others about your project
 c) Assigning a taks to a person in a project
 d) Having labels for each task
 
 ? Search the web and assess whether the following statement is true or false: Any user regardless of whether they are contributors to a public repository or not can create an issue for the repository.
+
 A) True
 b) False
 
