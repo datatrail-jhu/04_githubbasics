@@ -120,7 +120,7 @@ b) Version control is a way to allow multiple people to work together on a set o
 C) Version control is time-consuming and difficult to use.
 d) Version control helps make sure that you do not lose work that you have done.
 
-{choose-answers: 4, points: 4}
+{choose-answers: 4, points: 2}
 ? Fill in the blanks: I'm done editing a file, I need to ______ those changes then _______ them, and ______ it to the ________?  
 
 C) stage, commit, push, repository
@@ -137,11 +137,11 @@ o) stage, commit, reposit, commit
 C) Modified linear model of height to include new covariate, genotype   
 o) Fixed problem with linear model  
 o) Added genotype  
-o) Fixed.
-o) Updated thing.
-o) Update.
-o) Problem fixed.
-o) All better now.
-o) Changes made.
+o) Fixed
+o) Updated thing
+o) Update
+o) Problem fixed
+o) All better now
+o) Changes made
 
 {/quiz}

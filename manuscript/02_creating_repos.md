@@ -67,7 +67,7 @@ GitHub also recognizes that this can be an overwhelming process for new users, a
 
 {quiz, id: quiz_02_creating_repos}
 
-# Creating A Repository quiz
+### Creating A Repository quiz
 
 {choose-answers: 4}
 ? In which of the following instances would you create a public repository?

@@ -105,7 +105,7 @@ Now go ahead and further create the folder structure that we learned. An importa
 
 {quiz, id: quiz_06_git_projects}
 
-# Setting Up A Project on GitHub quiz
+### Setting Up A Project on GitHub quiz
 
 {choose-answers: 4)
 ? What best explains what we accomplished in this lesson?
