@@ -1,7 +1,1 @@
 00_versioncontrol.md
-01_github.md
-02_creating_repos.md
-03_cloning_repos.md
-04_push_pull.md
-05_issues.md
-06_git_projects.md
