@@ -77,7 +77,7 @@ You should be able to see your changes on the repository on Github.com.
 
 We have learned about the importance of organization and folder structure in data science projects. Let's practice creating the main folders required in a data science project. As you may remember, these folders represent the four parts of any data science project: data, figures, code, and products. Let's create them on RStudio Cloud.
 
-![Data science project folders](images/06_git_projects/06_githubbasics_git_projects-21.png)
+![Data science project folders](images/06_git_projects/06_githubbasics_git_projects-12.png)
 
 Now go ahead and further create the folder structure that we learned. An important note is that if you push the changed you created in the project to Github, you won't see the folder structure that you created. Unfortunately, a folder structure won't be pushed to GitHub unless the folders contain at least a file. So don't worry. Once you populate this project with your data, code, figures, and writings and push them to GitHub you will see the folders your just created.
 
