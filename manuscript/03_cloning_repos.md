@@ -56,7 +56,7 @@ Congratulations! You have cloned your first repository!
 ### Cloning A Repository quiz
 
 {choose-answers: 4}
-? What is *cloning* in Github terminology?
+? What is *cloning* in GitHub terminology?
 
 C) Creating a local copy of a repository on your computer
 o) Taking the changes in one branch and applying to another
