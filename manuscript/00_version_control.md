@@ -31,7 +31,7 @@ Additionally, since version control systems keep a record of all changes made to
 
 1. It gives you an easy way of saving a backup of your work as you go, making sure you don't lose anything you have created.
 2. It allows you to go back to an earlier version of your work if something gets broken due to the changes you have made.
-3. It allows multiple people to edit code at the same time, without worrying that what they're doing might be messing someone else'€™s code up.
+3. It allows multiple people to edit code at the same time, without worrying that what they're doing might be messing someone else's code up.
 
 ### What is Git? Why should you use it?
 
@@ -65,7 +65,7 @@ When we talk about version control systems, commits are at the heart of them. If
 
 **Pull:** Updating your local version of the repository to the current version, since others may have edited in the meanwhile. Because the shared repository is hosted online and any of your collaborators (or even yourself on a different computer!) could have made changes to the files and then pushed them to the shared repository, you are behind the times! The files you have locally on *your* computer may be outdated, so you pull to check if you are up to date with the main repository. 
 
-**Staging:** The act of preparing a file for a commit. For example, if since your last commit you have edited three files for completely different reasons, you don't want to commit all of the changes in one go, or€“ your message on why you are making the commit and what has changed will be complicated, since three files have been changed for different reasons. So instead, you can stage just one of the files and prepare it for committing. Once you've committed that file, you can stage the second file and commit it. And so on. Staging allows you to separate out file changes into separate commits. Very helpful! 
+**Staging:** The act of preparing a file for a commit. For example, if since your last commit you have edited three files for completely different reasons, you don't want to commit all of the changes in one go, or your message on why you are making the commit and what has changed will be complicated, since three files have been changed for different reasons. So instead, you can stage just one of the files and prepare it for committing. Once you've committed that file, you can stage the second file and commit it. And so on. Staging allows you to separate out file changes into separate commits. Very helpful! 
 
 To summarize these commonly used terms so far and to test whether you've got the hang of this, files are hosted in a **repository** that is shared online with collaborators. You **pull** the repository's contents so that you have a local copy of the files that you can edit. Once you are happy with your changes to a file, you **stage** the file and then **commit** it. You **push** this commit to the shared repository. This uploads your new file and all of the changes and is accompanied by a message explaining what changed, why and by whom. 
 
