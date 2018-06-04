@@ -1,6 +1,6 @@
 There are two parts to the Git and Github system. 
 
-Git is focused on version control - basically keeping track of the different versions of all the files you are working on. You can track a git repo on rstudio.cloud just for yourself to make sure you always have your file history available to you.
+Git is focused on version control - basically keeping track of the different versions of all the files you are working on. You can track a git repo on r studio cloud just for yourself to make sure you always have your file history available to you.
 
 Github is two things, first it is a way to back up and store all of your projects on the internet.
 
@@ -13,9 +13,9 @@ Then you can send the owner of the repo a "request" to "pull" your change into t
 Pull requests are a great way to contribute to projects that are being worked on by more than one person. This may be because you are working directly with a team and you all need to edit a document. Or it may be because you see someone else's project and want to make a suggestion. This is in fact one of the best ways to start to introduce yourself to the R community on Github. Find a project or a repo where you see something small you can help with - even if it is just fixing a typo or adding a comments - and send them a pull request. 
 
 
-Now let's talk about how to make a pull request. The first thing that you will need to do is to create a "fork" of the repository you want to edit. This is a little different than "cloning" which you learned about in an earlier lesson. When you clone a repository you are just getting a copy of the project on rstudio.cloud. You are not creating a new version that you can work on. 
+Now let's talk about how to make a pull request. The first thing that you will need to do is to create a "fork" of the repository you want to edit. This is a little different than "cloning" which you learned about in an earlier lesson. When you clone a repository you are just getting a copy of the project on r studio cloud. You are not creating a new version that you can work on. 
 
-When you fork a repo, then something different happens. First a new repo is created under your account on Github. You can then clone that copy to your computer. Now when you make edits to the files on rstudio.cloud and push them, they will be pushed to your fork. 
+When you fork a repo, then something different happens. First a new repo is created under your account on Github. You can then clone that copy to your computer. Now when you make edits to the files on r studio cloud and push them, they will be pushed to your fork. 
 
 
 Let's try this out. We are going to make some changes to a repo and send a pull request. We will use https://github.com/jtleek/newproject as an example project to send a pull request to. The first step is to create a fork of this repository. To do this, go to the project webpage and click on Fork in the top right hand corner of the screen. 
@@ -26,15 +26,15 @@ This may ask you where to fork the repository if you are on multiple teams. Sele
 You will see now that you have your own version of the newproject repository on your Github profile and you will be able to see where the repository was forked from right under the repository name on the upper left. 
 
 
-Now that you have a copy of this repository on your Github account, you can clone it to rstudio.cloud as we learned about in a previous lesson. You can clone it by navigtating to the terminal in your rustudio dot cloud acocunt and typing the command git clone https://github.com/your_username/newproject.git. 
+Now that you have a copy of this repository on your Github account, you can clone it to r studio cloud as we learned about in a previous lesson. You can clone it by navigating to the terminal in your r studio dot cloud account and typing the command git clone https://github.com/your_username/newproject.git. 
 
 
-where you replace your under score username with your Github username. This should create a folder on your rstudio dot cloud account called newproject. You may have to enter your username and password. 
+where you replace your under score username with your Github username. This should create a folder on your r studio dot cloud account called newproject. You may have to enter your username and password. 
 
 Now you have successfully "forked" and "cloned" the newproject repository.
 
 
-The next step is to make some edits to one or more of the files. This could be as simple as fixing a typo or as complicated as adding a whole new function. For now, let's open up the file `myfile.Rmd` and make an edit. For example, we could change the line of code that reads summary cars to a line that loads the d plier package and uses the glimpse function to look at the data set. After making this edit you can save the file. Now we are ready to start the process of sending a pull request. 
+The next step is to make some edits to one or more of the files. This could be as simple as fixing a typo or as complicated as adding a whole new function. For now, let's open up the file  myfile dot Rmd and make an edit. For example, we could change the line of code that reads summary cars to a line that loads the d plier package and uses the glimpse function to look at the data set. After making this edit you can save the file. Now we are ready to start the process of sending a pull request. 
 
 
 Remember that when we forked the repo from j t leek's Github account, we got a new repo under your account. The first step in sending a pull request is to commit and push the edits to your fork, or copy, of the repo. To do this, navigate to the terminal and make sure that you are in the right folder. To do this you can use the Unix commands p w d and c d to make sure you are in the right place. When you type the command. You should hopefully see that you are in the folder for newproject. If you are not, then you will need to use the c d command to make sure you are in that folder. 
@@ -45,11 +45,11 @@ To start a pull request, you need to make sure you use git add to add any new fi
 
 Next you can commit your changes with a message describing what you did. Since we are going to be sending a pull request to someone else, it is a good idea to have a very clear commit message. So for example we could use the git commit command like this. git commit dash m "I edited myfile dot R m d to use glimpse to summarize the cars data". 
 
-Now you will have saved the file on rstudio dot cloud, but you still need to make the change to your fork of the repo. To do this we need to use the git push command. 
+Now you will have saved the file on r studio dot cloud, but you still need to make the change to your fork of the repo. To do this we need to use the git push command. 
 
 You might be asked to input your username and password for Github to make this push. But once it has happened you should be able to got to your forked version of the repository at https://github.com/your_username/newproject/ and see the changes in the file myfile dot R m d on the Github website. 
 
-Now you have successfully forked j t leek's newproject repo, cloned it to rstudio dot cloud and made some edits. You have added, committed, and pushed those changes to your own fork. The next step is to send a pull request to the user who created the original repo. To do this you should go to the website with your fork. Now you can click on the "Pull requests" tab for your repo. Then click on "New Pull Request". 
+Now you have successfully forked j t leek's newproject repo, cloned it to r studio dot cloud and made some edits. You have added, committed, and pushed those changes to your own fork. The next step is to send a pull request to the user who created the original repo. To do this you should go to the website with your fork. Now you can click on the "Pull requests" tab for your repo. Then click on "New Pull Request". 
 
 
 If there have been no changes made to the original repo from j t leek other than yours you should see that your pull request is "able to be merged" in green. You will also see a "diff" which is all of the files and changes to those files that you have made. You can then click on "Create Pull Request" to send the change to j t leek for him to review. 

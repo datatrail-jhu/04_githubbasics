@@ -46,7 +46,7 @@ This lesson is intentionally short. There are lots of ways that git and GitHub w
 
 ### Slides and Video
 
-![Version Control Help](UPDATE VIDEO)
+![Version Control Help](https://www.youtube.com/watch?v=l2K3zWYEJBE)
 
 * [Slides](https://docs.google.com/presentation/d/1Aj1Y0lIYdKftZVzAjWCWkOd8c0-IxnxtPbBmIUOdYC4/edit?usp=sharing)
 
