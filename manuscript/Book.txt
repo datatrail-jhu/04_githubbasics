@@ -4,4 +4,6 @@
 03_cloning_repos.md
 04_push_pull.md
 05_issues.md
+07_pull_requests.md
+08_git_help.md
 06_git_projects.md
