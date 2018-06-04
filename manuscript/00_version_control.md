@@ -121,7 +121,7 @@ C) Version control is time-consuming and difficult to use.
 d) Version control helps make sure that you do not lose work that you have done.
 
 {choose-answers: 4, points: 2}
-? Fill in the blanks: I'm done editing a file, I need to ______ those changes then _______ them, and ______ it to the ________?  
+? Fill in the blanks: I'm done editing a file, I need to \_\_\_\_ those changes then  \_\_\_\_ them, and  \_\_\_\_ it to the  \_\_\_\_?  
 
 C) stage, commit, push, repository
 o) commit, merge, push, repository
