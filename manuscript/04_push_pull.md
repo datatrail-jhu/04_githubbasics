@@ -110,7 +110,7 @@ To get more practice with these concepts, as we know they are not the easiest, w
 
 ### Pushing and Pulling Changes quiz
 
-{choose-answer:4}
+{choose-answers:4}
 ?1 What git commands is NOT used in making local changes available in a remote repository?
 
 C) pull
