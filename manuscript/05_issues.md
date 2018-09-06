@@ -2,11 +2,11 @@
 
 We've covered the basics of how to set up a repository for a project and synchronize changes between local and remote versions of the repository. In this lesson, we will introduce a tool called Issues on GitHub that is useful for organization and communication within a project.
 
-### What are issues?
+### What are Issues?
 
 Issues are essentially a task system that come with GitHub repositories. They allow specification of a certain task or item to complete and have discussion threads, assigned workers, and labels. They are a convenient way to stay organized and communicate with others involved in or interested in your project.
 
-### Creating an issue
+### Creating an Issue
 
 First navigate to the Issues tab on the main repository webpage.
 
@@ -30,7 +30,7 @@ Over the course of the project, you can come back to the Issues tab on your repo
 
 ### Slides and Video
 
-![Issues on Github](https://www.youtube.com/watch?v=wCzVCzscJqA)
+![Issues on GitHub](https://www.youtube.com/watch?v=wCzVCzscJqA)
 
 * [Slides](https://docs.google.com/presentation/d/1G8ftZ6_UzNyYfcDoLKHhp2GpDtd20cln0vnJpHiUpFE/edit?usp=sharing)
 
@@ -39,17 +39,30 @@ Over the course of the project, you can come back to the Issues tab on your repo
 
 ### Organization with Issues on GitHub quiz
 
-? Which of the following can NOT be done with Github Issues?
+{choose-answers:4}
+?1 Which of the following can NOT be done with GitHub Issues?
 
-A) Auto-resolving issues in your code
-b) Communicating with others about your project
-c) Assigning a taks to a person in a project
-d) Having labels for each task
+C) Auto-resolving issues in your code
+C) Detecting parts of code that will cause issues when it's executed
+o) Communicating with others about your project
+o) Assigning a taks to a person in a project
+o) Having labels for each task
+o) Suggesting improvements to code for the future
 
-? Search the web and assess whether the following statement is true or false: Any user regardless of whether they are contributors to a public repository or not can create an issue for the repository.
+?2 Search the web and assess whether the following statement is TRUE or FALSE: Any user regardless of whether they are contributors to a *public* repository or not can create an issue for the repository.
 
-A) True
-b) False
+A) TRUE
+b) FALSE
+
+?2 Search the web and assess whether the following statement is TRUE or FALSE: Any user regardless of whether they are contributors to a *private* repository or not can create an issue for the repository.
+
+a) TRUE
+B) FALSE
+
+?2 Search the web and assess whether the following statement is TRUE or FALSE: Any GitHub user can submit an issue to a *public* repository.
+
+A) TRUE
+b) FALSE
 
 {/quiz}
 

@@ -6,7 +6,7 @@ As we previously learned, [GitHub](https://github.com/) is a cloud-based managem
 
 ### Logging in to GitHub
 
-In the introductory course, you learned how to create a Github account. Use your account username and password to log in to Github. To log in, go to [https://github.com/](https://github.com/), where you will be presented with the homepage. If you aren't already logged in, click on the "Sign in" link at the top. 
+In the introductory course, you learned how to create a GitHub account. Use your account username and password to log in to GitHub. To log in, go to [https://github.com/](https://github.com/), where you will be presented with the homepage. If you aren't already logged in, click on the "Sign in" link at the top. 
 
 ![GitHub's homepage at https://github.com/](images/01_github/01_githubbasics_github-2.png)
 
@@ -18,7 +18,7 @@ Once logged in, you will be back at [https://github.com/](https://github.com/), 
 
 ![If you are logged in, GitHub should look like this](images/01_github/01_githubbasics_github-4.png)
 
-### The homepage
+### The Homepage
 
 We're going to take a quick tour of the GitHub website, and we'll particularly focus on these sections of the interface: 
 
@@ -31,7 +31,7 @@ Following this tour, we'll make your very first repository using the GitHub guid
 
 ![Some major features of GitHub](images/01_github/01_githubbasics_github-5.png)
 
-### User settings
+### User Settings
 
 Now that you've logged on to GitHub, we should fill out some of your profile information and get acquainted with the account settings. In the upper right corner, there is a an icon with an arrow beside it, click this and go to "Your profile"
 
@@ -70,7 +70,7 @@ Next, we'll check out the [notifications menu](https://github.com/notifications)
 
 Once you become more active on GitHub and are collaborating with others, here is where you can find messages and notifications for all the repositories, teams, and conversations you are a part of. 
 
-### Help files 
+### Help Files 
 
 Along the bottom of *every. single. page.* there is the ["Help" button](https://help.github.com/). GitHub has a great help system in place - if you ever have a question about GitHub, this should be your first point to search! Take some time now and look through the various help files, and see if any catch your eye.
 
@@ -82,7 +82,7 @@ In this lesson we looked at GitHub and its interface. We took a tour of the webs
 
 ### Slides and video
 
-![Github](https://www.youtube.com/watch?v=6uIjaSVtzsE)
+![GitHub](https://www.youtube.com/watch?v=6uIjaSVtzsE)
 
 * [Slides](https://docs.google.com/presentation/d/1cvz17dNvOlb5bwPCd2WGFl96zCU9oUWpZMTqcSJyuCo/edit?usp=sharing)  
 
@@ -91,10 +91,17 @@ In this lesson we looked at GitHub and its interface. We took a tour of the webs
 
 ### GitHub quiz
 
-? What is one way we can think of a GitHub repository?
+{choose-answers:4} 
+? Which of the following best explains the relationship between `git` and GitHub?
 
-a) A file cabinet that only you have access to  
-B) A file cabinet that you and other people may have access to  
+C) `git` allows you to version control your files locally; GitHub gives you a place to store those files and changes on the Internet
+C) `git` allows you to track changes to your files locally; GitHub hosts those files on the Internet
+o) GitHub allows you to version control your files locally; `git` gives you a place to store those files and changes on the Internet
+o) GitHub allows you to track changes to your files locally; `git` hosts those files on the Internet
+o) `git` and GitHub are synonyms and both refer to version control systems on your computer
+o) `git` and GitHub are synonyms and both refer to version control systems on the Internet
+io)
+o) `git` and GitHub are not related to one another; they just have similar names.
 
 {choose-answers: 4}
 ? On each repository page, in the top right hand corner there are three options. They are: 
@@ -107,5 +114,18 @@ o) settings, notifications, watch
 o) settings, notifications, star
 o) settings, notifications, fork 
 
+
+{choose-answers: 4}
+? Why use GitHub?
+
+C) Provides others access to your code
+C) Tracks changes on your projects over time
+C) Makes collaborating with others easier 
+o) Allows you to version control files on your computer
+o) Increases security on your files
+o) Makes it harder for others to see what you're doing
+o) Because it costs money, only a few people have access
+o) Improves security for your bank account
+o) It automatically links to your Gmail account
 
 {/quiz}

@@ -2,17 +2,17 @@
 
 ### What is a pull request 
 
-As a reminder, there are two parts to the git and Github system. Git is focused on version control - basically keeping track of the different versions of all the files you are working on. You can track a git repo on rstudio.cloud just for yourself to make sure you always have your file history available to you.
+As a reminder, there are two parts to the git and GitHub system. Git is focused on version control - basically keeping track of the different versions of all the files you are working on. You can track a git repo on rstudio.cloud just for yourself to make sure you always have your file history available to you.
 
 ![Git keeps track of your files](images/07_pull_requests/07_githubbasics_pull_requests-1.png)
 
-[Github](https://github.com/) is two things, first it is a way to back up and store all of your projects on the Internet.
+[GitHub](https://github.com/) is two things, first it is a way to back up and store all of your projects on the Internet.
 
-![Github stores and backs up your files online](images/07_pull_requests/07_githubbasics_pull_requests-2.png)
+![GitHub stores and backs up your files online](images/07_pull_requests/07_githubbasics_pull_requests-2.png)
 
-But, it is also a social network for coders. You can use Github to contribute to other people's projects and get feedback on your projects as well.
+But, it is also a social network for coders. You can use GitHub to contribute to other people's projects and get feedback on your projects as well.
 
-![Github also lets you work with others](images/07_pull_requests/07_githubbasics_pull_requests-3.png)
+![GitHub also lets you work with others](images/07_pull_requests/07_githubbasics_pull_requests-3.png)
 
 In an an earlier lesson we learned about issues. Issues are comments that you can make on either one of your own repos or on someone else's repos. Pull requests are a different kind of interaction that involve making a change directly to someone's code. First you would fork the repo to make your own copy. 
 
@@ -22,7 +22,7 @@ Then you can send the owner of the repo a "request" to "pull" your change into t
 
 ![You can send a request to have your code change pulled into theirs](images/07_pull_requests/07_githubbasics_pull_requests-5.png)
 
-Pull requests are a great way to contribute to projects that are being worked on by more than one person. This may be because you are working directly with a team and you all need to edit a document. Or it may be because you see someone else's project and want to make a suggestion. This is in fact one of the best ways to start to introduce yourself to the R community on Github. Find a project or a repo where you see something small you can help with - even if it is just fixing a typo or adding a comments - and send them a pull request. 
+Pull requests are a great way to contribute to projects that are being worked on by more than one person. This may be because you are working directly with a team and you all need to edit a document. Or it may be because you see someone else's project and want to make a suggestion. This is in fact one of the best ways to start to introduce yourself to the R community on GitHub. Find a project or a repo where you see something small you can help with - even if it is just fixing a typo or adding a comments - and send them a pull request. 
 
 
 ![Pull requests are a great way to start contributing to the coding community online](images/07_pull_requests/07_githubbasics_pull_requests-6.png)
@@ -38,7 +38,7 @@ Now let's talk about how to make a pull request. The first thing that you will n
 
 When you fork a repo, something different happens. First a new repo is created under your account on GitHub. You can then clone that copy to your computer. Now when you make edits to the files on rstudio.cloud and push them, they will be pushed to your fork. 
 
-![Forking a repo makes a copy on Github that you can push and pull from](images/07_pull_requests/07_githubbasics_pull_requests-8.png)
+![Forking a repo makes a copy on GitHub that you can push and pull from](images/07_pull_requests/07_githubbasics_pull_requests-8.png)
 
 
 Let's try this out. We are going to make some changes to a repo and send a pull request. We will use https://github.com/jtleek/newproject as an example project to send a pull request to. The first step is to create a fork of this repository. To do this, go to the project webpage and click on Fork in the top right hand corner of the screen. 
@@ -66,7 +66,7 @@ git clone https://github.com/your_username/newproject.git
 ![Go to rstudio.cloud and find the terminal in your project, and use the git clone command to get your fork](images/07_pull_requests/07_githubbasics_pull_requests-12.png)
 
 
-where you replace `your_username` with your Github username. This should create a folder on your rstudio.cloud account called `newproject`. You may have to enter your username and password. 
+where you replace `your_username` with your GitHub username. This should create a folder on your rstudio.cloud account called `newproject`. You may have to enter your username and password. 
 
 ![You may have to use your username and password to clone](images/07_pull_requests/07_githubbasics_pull_requests-13.png)
 
@@ -102,7 +102,7 @@ After making this edit you can save the file. Now we are ready to start the proc
 ### Pushing your changes to your fork
 
 
-Remember that when we forked the repo from jtleek's Github account, we got a new repo under your account. The first step in sending a pull request is to commit and push the edits to your fork (or copy) of the repo. To do this, navigate to the terminal and make sure that you are in the right folder. To do this you can use the Unix commands `pwd` and `cd` to make sure you are in the right place. When you type the command:
+Remember that when we forked the repo from jtleek's GitHub account, we got a new repo under your account. The first step in sending a pull request is to commit and push the edits to your fork (or copy) of the repo. To do this, navigate to the terminal and make sure that you are in the right folder. To do this you can use the Unix commands `pwd` and `cd` to make sure you are in the right place. When you type the command:
 
 ```text
 pwd
@@ -148,7 +148,7 @@ git push
 
 You might be asked to input your username and password for GitHub to make this push. But, once it has happened you should be able to go to your forked version of the repository at https://github.com/your_username/newproject/ and see the changes in the file `myfile.Rmd` on the GitHub website. 
 
-![When you have successfully pushed the files appear on your forked repo on Github](images/07_pull_requests/07_githubbasics_pull_requests-20.png)
+![When you have successfully pushed the files appear on your forked repo on GitHub](images/07_pull_requests/07_githubbasics_pull_requests-20.png)
 
 
 
@@ -200,9 +200,9 @@ This is the easiest case of a pull request. The author of the original repo hasn
 
 Sometimes it is more difficult than that since you may be editing a repo that is in active development or is being edited by multiple people. In this case, you will need to keep your forked version of the repo up to date with the original version. 
 
-GitHub has instructions for keeping your fork [up to date](https://help.github.com/articles/syncing-a-fork/) and Jenny Bryan's book [Happy Git and Github for the useR](http://happygitwithr.com/fork.html) also has a section on forking that may be useful when encountering these more complicated scenarios. 
+GitHub has instructions for keeping your fork [up to date](https://help.github.com/articles/syncing-a-fork/) and Jenny Bryan's book [Happy Git and GitHub for the useR](http://happygitwithr.com/fork.html) also has a section on forking that may be useful when encountering these more complicated scenarios. 
 
-![Github has instructions for synching a fork.](images/07_pull_requests/07_githubbasics_pull_requests-28.png)
+![GitHub has instructions for synching a fork.](images/07_pull_requests/07_githubbasics_pull_requests-28.png)
 
 
 ### Summary
@@ -222,39 +222,42 @@ This lesson covered how to collaborate on someone else's code. In the process of
 ### Pull Requests quiz
 
 {choose-answers: 4}
-? When you fork a repository what happens ? 
+? When you fork a repository, what happens? 
 
-C) You make a copy of the repository on your Github account
+C) You make a copy of the repository on your GitHub account
+C) You make a copy of someone else's repository on your GitHub account
 o) You make a copy of the repository on rstudio.cloud
-o) You make a copy of the repository on the other user's Github account
-o) You push your changes to the other user's Github account
-o) You send a request for a change to the other user's Github account
-o) You commit your changes to the other user's Github account
+o) You make a copy of the repository on the other user's GitHub account
+o) You push your changes to the other user's GitHub account
+o) You send a request for a change to the other user's GitHub account
+o) You commit your changes to the other user's GitHub account
 
 {choose-answers: 4}
 ? Why is it called a "pull request"?
 
 C) You are asking the other user to "pull" your changes into their code
+C) You are requesting that someone else pull the changes you've make into their code
 o) You are pulling changes from the other user into your code
 o) You are pushing changes from the other user into your code
-o) You are pulling their code off of Github
-o) You are asking the other user to push their code to your Github account
+o) You are pulling their code off of GitHub
+o) You are asking the other user to push their code to your GitHub account
 o) You are asking the other user to pull your account into theirs
 
 {choose-answers: 4}
 ? What is the difference between forking and cloning a repo ?
 
 C) Forking the repo makes a new copy of the repo under your account, cloning makes a copy that points to the original repo
-o) Cloning the repo makes a new copy of the repo under your account, forking makes a copy that points to the original repo
+m) Cloning the repo makes a new copy of the repo under your account, forking makes a copy that points to the original repo
 o) Cloning a repo requires you to change the code, but forking does not. 
 o) Forking a repo requires you to change the code, but cloning does not. 
-o) Cloning the repo is what you do when working offline, forking is what you do when you are online. 
+o) Cloning the repo is what you do when working offline, forking is what you do when you are online.
 o) Forking the repo lets you see all the changes the other user made, cloning doesn't. 
 
 {choose-answers: 4}
 ? When is your change incorporated into the other person's code?
 
 C) When they merge the pull request
+C) After a pull request is merged
 o) When you fork the repo
 o) When you push your changes to your fork
 o) When you send your pull request

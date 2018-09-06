@@ -12,7 +12,7 @@ A helpful git command is `git status`. If you type this in the terminal and pres
 
 Over the course of working on a project, you will be creating a number of files containing code, results, documentation, or other information. How do you add these files to the Git version control system and make this information available to the public? In the first part of this lesson, you will learn about three git commands that allow you to do this: add, commit, and push.
 
-#### Create a file
+#### Create a File
 
 Let's start by creating a file within the project. Below we've created a text file containing a list of tasks. This is saved as tasks.txt within the `first_project` folder. This is the repository that we cloned in the previous lesson.
 
@@ -110,15 +110,18 @@ To get more practice with these concepts, as we know they are not the easiest, w
 
 ### Pushing and Pulling Changes quiz
 
-? What git commands is NOT used in making local changes available in a remote repository?
+{choose-answer:4}
+?1 What git commands is NOT used in making local changes available in a remote repository?
 
-a) add
-b) commit
-c) push
-D) pull
+C) pull
+C) clone
+C) diff
+o) add
+o) commit
+o) push
 
 {choose-answers: 4}
-? What git command is used in creating a local copy of a remote repository for the first time?
+?2 What git command is used to make a local copy of a remote repository for the first time?
 
 C) clone
 o) add
@@ -129,15 +132,34 @@ o) status
 o) merge
 
 {choose-answers: 4, points: 2}
-? What git commands would be used to mark that updates to the files `codebook.md` AND `tidy.csv` should be tracked? (Multiple separate commands are separated by semicolons.)
+?3 What git commands would be used to mark that updates to the files `codebook.md` AND `tidy.csv` should be tracked? (Multiple separate commands are separated by semicolons.)
 
 C) git add codebook.md tidy.csv
+C) git add -A
+C) git add .
 o) git commit codebook.md tidy.csv
 o) git commit codebook.md; git commit tidy.csv
 o) git push codebook.md git add tidy.csv
 o) git add *.csv
 o) git add *.md
 
+{choose-answers: 4}
+?4 What does the `-u` in `git add -u` specify?
+
+C) stage modified and deleted files but not new files
+m) stage new and modified files but not deleted files
+o) stage files that have the file extension .u
+o) stage files that have the file extension .A
+o) stage any file name tasks.txt    
+
+{choose-answers: 4}
+?4 What does the `-u` in `git add -A` specify?
+
+m) stage modified and deleted files but not new files
+C) stage new and modified files but not deleted files
+o) stage files that have the file extension .u
+o) stage files that have the file extension .A
+o) stage any file name tasks.txt    
 
 {/quiz}
 

@@ -35,7 +35,7 @@ Also note that in the bottom right hand corner of RStudio, in the Files pane, yo
 
 ![Using the git clone command](images/03_cloning_repos/03_githubbasics_cloning_repos-3.png)
 
-### Directory/folder organization
+### Directory/Folder Organization
 
 A big part of staying organized with your files is understanding how folders in your project are organized. Also important is the concept of a **working directory**. Whenever you are working in R or the Terminal, files are housed in some folder. This folder is called the working directory. Knowing this is important so that you know how to specify paths to other important folders in your project. We can see what the current working directory is in a number of ways. In the image below, we can see from the Terminal prompt that the working directory is `/cloud/project`. We can also see this in the Files pane. We see that the first level folder is `cloud` and that the second level folder is `project`.
 
@@ -59,6 +59,7 @@ Congratulations! You have cloned your first repository!
 ? What is *cloning* in GitHub terminology?
 
 C) Creating a local copy of a repository on your computer
+C) Creating a copy of a repository from GitHub locally on your computer
 o) Taking the changes in one branch and applying to another
 o) Getting the latest changes from an online repository
 o) Sending committed changed to a repository

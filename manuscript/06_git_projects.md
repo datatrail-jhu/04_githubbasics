@@ -1,10 +1,10 @@
-# Setting Up A Project on Github
+# Setting Up A Project on GitHub
 
-Having learned how to organize a data science projects in the last course and how now learned to navigate GitHub and git commands in this course, in this lesson, we'll put all of this together and walk through setting up an example project and pushing the content to Github.
+Having learned how to organize a data science projects in the last course and how now learned to navigate GitHub and git commands in this course, in this lesson, we'll put all of this together and walk through setting up an example project and pushing the content to GitHub.
 
-### Setting up a GitHub repository
+### Setting up a GitHub Repository
 
-First things first, we need to create a new repository. We'll do this as discussed in the "Creating A Repository Lesson," by going to [Github](www.github.com), logging in to your account, and creating a new repository.
+First things first, we need to create a new repository. We'll do this as discussed in the "Creating A Repository Lesson," by going to [GitHub](www.github.com), logging in to your account, and creating a new repository.
 
 ![Create a new repository](images/06_git_projects/06_githubbasics_git_projects-1.png)
 
@@ -21,7 +21,7 @@ The next step is to clone this repository into RStudio Cloud but as you may reme
 
 ![Repository link](images/06_git_projects/06_githubbasics_git_projects-4.png)
 
-### Creating a new project from a GitHub repository
+### Creating a New Project from a GitHub Repository
 
 Ok, now that we have everything set up on the GitHub end, Go to [RStudio Cloud](https://rstudio.cloud/) and login with your account. When you're redirected to your Projects page, Next to the New Project button, click on the drop down button and then click on New Project from Git Repo. 
 
@@ -48,7 +48,7 @@ The folders in this project are:
 * _products_ - this is the place where you will place any reports, presentations, or products you create for sharing with other people.
 ```
 
-### Pushing local changes to the remote repository in RStudio Cloud
+### Pushing Local Changes to the Remote Repository in RStudio Cloud
 
 Now, it's time to stage, commit, and push the changes we made to the remote repository. As we've seen we should follow the steps here. Type the following commands in the terminal one by one. Note that here we're using `git add .` which means we are tracking changes in all new and modified files and folders in the project.
 
@@ -71,7 +71,7 @@ To https://github.com/JaneEverydayDoe/my_first_project.git
    e80844c..24fec16  master -> master
 ```
 
-You should be able to see your changes on the repository on Github.com. 
+You should be able to see your changes on the repository on GitHub.com. 
 
 ![Changes can be seen on the remote repository](images/06_git_projects/06_githubbasics_git_projects-11.png)
 
@@ -79,7 +79,7 @@ We have learned about the importance of organization and folder structure in dat
 
 ![Data science project folders](images/06_git_projects/06_githubbasics_git_projects-12.png)
 
-Now go ahead and further create the folder structure that we learned. An important note is that if you push the changed you created in the project to Github, you won't see the folder structure that you created. Unfortunately, a folder structure won't be pushed to GitHub unless the folders contain at least a file. So don't worry. Once you populate this project with your data, code, figures, and writings and push them to GitHub you will see the folders your just created.
+Now go ahead and further create the folder structure that we learned. An important note is that if you push the changed you created in the project to GitHub, you won't see the folder structure that you created. Unfortunately, a folder structure won't be pushed to GitHub unless the folders contain at least a file. So don't worry. Once you populate this project with your data, code, figures, and writings and push them to GitHub you will see the folders your just created.
 
 * data/
   * raw_data/
@@ -93,12 +93,10 @@ Now go ahead and further create the folder structure that we learned. An importa
 * products/
   * writing/
   
-  
-
 
 ### Slides and Video
 
-![Setting up projects on Github](https://www.youtube.com/watch?v=stMn8ntt6XQ)
+![Setting up projects on GitHub](https://www.youtube.com/watch?v=stMn8ntt6XQ)
 
 * [Slides](https://docs.google.com/presentation/d/1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA/edit?usp=sharing)
 
@@ -108,13 +106,25 @@ Now go ahead and further create the folder structure that we learned. An importa
 ### Setting Up A Project on GitHub quiz
 
 {choose-answers: 4}
-? Which of the following can NOT be done with Github Issues?
+? Which of the following can NOT be done on GitHub (You may have to Google!)?
 
-C) Created a new repository with the correct structure for a data science project
-o) Created a new empty repository
-o) Created a data science repository
-o) Completed a data science project
-o) Learned how to push code to GitHub
-o) Created a new website with the correct structure for a data science project
+C) Create a new repository with the correct structure for a data science project set up automatically
+o) Create a brand new repository where you can set up the correct data science file structure
+o) Create a new empty repository
+o) Create a data science repository
+o) Store and track all the files as you complete a data science project
+o) Allow code to be pushed on GitHub
+o) Host a personal website
+
+{choose-answers: 4}
+? When should you set up your data science file structure on GitHub?
+
+C) After you create the repository but before you start working on the project
+C) Once you have the repo but before you start the project
+C) At the start of the project
+o) After you have the repo and have started the analysis
+o) After you have the repo and have finished the analysis
+o) After you've shared the project with collaborators
+o) After you've finalized everything for your data science project
 
 {/quiz}

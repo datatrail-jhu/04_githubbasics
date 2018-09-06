@@ -108,20 +108,29 @@ Now that we've covered what version control is and some of the benefits, you sho
 
 ### Version Control quiz
 
-? What is one way we can think of a GitHub repository?
+?1 What is one way we can think of a GitHub repository?
 
-a) A file cabinet that only you have access to.
-B) A file cabinet that you and other people may have access to.
+A) A filing system that you and others can access.
+b) A locked file cabinet where only you have the key.
 
-? Which of these is not true about using a version control system?
+?1 What is one way we can think of a GitHub repository?
 
-a) Version control allows you to go back if you make mistakes.
-b) Version control is a way to allow multiple people to work together on a set of files for a project.
+A) A file cabinet that you and other people may have access to.
+b) A file cabinet that only you have access to.
+
+{choose-answers: 4}
+?2 Which of these is *not* true about using a version control system?
+
 C) Version control is time-consuming and difficult to use.
-d) Version control helps make sure that you do not lose work that you have done.
+C) Version control should only be used by experts.
+C) Version control can only be used for files already on the Internet.
+o) Version control allows you to go back if you make mistakes.
+o) Version control is a way to allow multiple people to work together on a set of files for a project.
+o) Version control helps make sure that you do not lose work that you have done.
+o) Version control minimizes the need to save different versions of the same file on your computer.
 
 {choose-answers: 4, points: 2}
-? Fill in the blanks: I'm done editing a file, I need to \_\_\_\_ those changes then  \_\_\_\_ them, and  \_\_\_\_ it to the  \_\_\_\_?  
+?3 Fill in the blanks: I'm done editing a file, I need to \_\_\_\_ those changes then  \_\_\_\_ them, and  \_\_\_\_ it to the  \_\_\_\_?  
 
 C) stage, commit, push, repository
 o) commit, merge, push, repository
@@ -132,9 +141,12 @@ o) pull, push, pull, branch
 o) stage, commit, reposit, commit 
 
 {choose-answers: 4}
-? What is a good example of a message to accompany a commit?  
+?4 What is a good example of a message to accompany a commit?  
 
 C) Modified linear model of height to include new covariate, genotype   
+C) Improved linear model for height; added genotype covariate
+C) Adjustments to linear height model; now includes genotype covariate
+C) Edits to height model; now includes covariates
 o) Fixed problem with linear model  
 o) Added genotype  
 o) Fixed

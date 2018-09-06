@@ -59,6 +59,7 @@ This lesson is intentionally short. There are lots of ways that git and GitHub w
 ? What does it mean when we say "burn it all down" with regards to a GitHub repository?
 
 C) Move files to a new directory locally and re-clone the repo before moving files back and pushing to GitHub.
+C) Move files to a new directory locally, re-clone the repo, then move files back into version control repo before pushing to GitHub.
 o) Delete your GitHub account and all repositories to start completely over.
 o) Delete the GitHub repository and push local changes.
 o) Make a duplicate repository on GitHub and just start working there.
@@ -69,6 +70,7 @@ o) Google how to solve your issue and read through solutions from others.
 ? When you run into a problem using git and GitHub, what's the first thing you should do?
 
 C) Google how to solve your issue and read through solutions from others.
+C) Use the Internet to see if anyone else has had a similar issue and solved it.
 o) Move files to a new directory locally and re-clone the repo before moving files back and pushing to GitHub.
 o) Delete your GitHub account and all repositories to start completely over.
 o) Delete the GitHub repository and push local changes.

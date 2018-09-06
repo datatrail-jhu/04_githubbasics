@@ -2,11 +2,11 @@
 
 Now that you have learned about version control and the GitHub website, we will do some actual work with the GitHub website to create a new repository and set up your user profile.
 
-### What is a repository?
+### What is a Repository?
 
 First let's review what a repository is. A repository houses the entirety of a project. Imagine a filing cabinet. A repository for this project would be the filing cabinet itself. Inside the cabinet are various folders and files that make up the project. As you begin working on various projects, each one will likely have its own repository, and any work that you do will be housed in that repository. In the first part of this lesson, we will discuss how to create a repository using the GitHub website.
 
-### How do I create a Github repository?
+### How Do I Create a GitHub Repository?
 
 #### Step 1
 
@@ -20,7 +20,7 @@ You will be taken to a new page where you can set up information about this new 
 
 Including a description for your repository is optional.
 
-You have a choice to make your repository public or private. Public repositories are viewable by the public. Anyone can see what code you have used for this project. You can still control who can contribute to this particular repository, but the repository is open to being forked by other people who may want to build off of your work in their own repositories. Private repositories are not viewable by the public, and you can still control who can contribute to this particular repository. It is generally a nice choice to make a repository public to share your work with others, but if you are working with sensitive information, it would be best to make the repository private. Keep in mind that you can have private repositories on Github only if you are a paid subscriber. 
+You have a choice to make your repository public or private. Public repositories are viewable by the public. Anyone can see what code you have used for this project. You can still control who can contribute to this particular repository, but the repository is open to being forked by other people who may want to build off of your work in their own repositories. Private repositories are not viewable by the public, and you can still control who can contribute to this particular repository. It is generally a nice choice to make a repository public to share your work with others, but if you are working with sensitive information, it would be best to make the repository private. Keep in mind that you can have private repositories on GitHub only if you are a paid subscriber. 
 
 You can leave the other options at their default settings.
 
@@ -32,7 +32,7 @@ And you're done! You will be taken to a page that looks as below. This page cont
 
 ![Landing page](images/02_creating_repos/02_githubbasics_creating_repos-4.png)
 
-### Adding a README file
+### Adding a README File
 
 If you click on the link labeled README indicated in the picture below, you can add a README file to your currently empty repository. The README file is the first thing someone sees when they navigate to the page for your repository. It is useful for providing an overview for what is contained within it.
 
@@ -52,7 +52,7 @@ Click the "Commit new file button" to add this README to your repository. You wi
 
 Congratulations! You have created and set up your first repository!
 
-### The GitHub guide 
+### The GitHub Guide 
 
 GitHub also recognizes that this can be an overwhelming process for new users, and as such have developed a mini tutorial to get you started with GitHub. You can go through [this guide](https://guides.github.com/activities/hello-world/) to get further process setting up repositories on GitHub!
 
@@ -73,6 +73,7 @@ GitHub also recognizes that this can be an overwhelming process for new users, a
 ? In which of the following instances would you create a public repository?
 
 C) To share your work with others
+C) To make collaborating with anyone easier
 o) To comply with employer specifications about project security
 o) To use version control on the analysis of sensitive data
 o) To use version control on the analysis of private data
@@ -82,18 +83,38 @@ o) To use Git but ensure that you are the only person with access to the code.
 ? Fill in the blank: I will have a GitHub repository for each ________.
 
 C) project
+C) data science project
 o) part of my project
 o) script
 o) different directory
 o) GitHub
 o) version control
+o) file
 
-{points: 2}
+{points: 2, choose-answers: 4}
 ? To make a new repository, which can you **not** do? (Note: To figure out the answer to this question, you may have to play around on GitHub a bit.)
 
-A) Profile > New repository  
-b) Plus sign > New repository  
-c) Profile > Repositories > New  
+C) Profile > New repository  
+C) Profile > Stars > New repository
+C) Profile > Followers > New repository
+o) Plus sign > New repository  
+o) Profile > Repositories > New  
+o) Picture icon at top right-hand side > Your Repositories > New
+
+{points:2, choose-answers:4}
+? Read through the [GitHub Guide](https://guides.github.com/activities/hello-world/). What is a **pull request**?
+
+C) A way to suggest changes to someone elses repository
+C) A proposed change to a respository
+C) A change proposed to a repository that can be reviewed, accepted and merged
+o) How to start a new repository
+o) A way to save (or favorite) someone else's repository
+o) The best way to commit changes to a repository
+o) The best way to visualize branches within a repository
+o) The way to take local changes on your computer and put them onto GitHub
+o) What you'll use when you want to send local changes on your computer onto your GitHub repository
+
+
 
 {/quiz}
 
