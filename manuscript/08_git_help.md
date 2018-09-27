@@ -46,7 +46,7 @@ This lesson is intentionally short. There are lots of ways that git and GitHub w
 
 ### Slides and Video
 
-![Version Control Help](https://www.youtube.com/watch?v=l2K3zWYEJBE)
+![Version Control Help](https://www.youtube.com/watch?v=EeeC-UrIiCQ)
 
 * [Slides](https://docs.google.com/presentation/d/1Aj1Y0lIYdKftZVzAjWCWkOd8c0-IxnxtPbBmIUOdYC4/edit?usp=sharing)
 
@@ -80,12 +80,12 @@ o) Tweet out issue you're having with GitHub and hope someone knows how to help.
 {choose-answers: 4, points: 2}
 ? What git command will you want to run if you realize you want to change the message on your last commit (Hint: This has not been directly discussed in this lesson. You'll need to Google to determine the answer!)?
 
-C) `git commit --ammend`
+C) `git commit --amend`
 o) `git commit --message`
 o) `git fix`
 o) `git --rename commit`
 o) `git edit commit`
-o) `git edit --ammend`
+o) `git edit --amend`
 o) `git edit --message`
 
 {/quiz}

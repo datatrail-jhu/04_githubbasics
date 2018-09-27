@@ -2,7 +2,7 @@
 
 ### What is a pull request 
 
-As a reminder, there are two parts to the git and GitHub system. Git is focused on version control - basically keeping track of the different versions of all the files you are working on. You can track a git repo on rstudio.cloud just for yourself to make sure you always have your file history available to you.
+As a reminder, there are two parts to the git and GitHub system. Git is focused on version control - basically keeping track of the different versions of all the files you are working on. You can track a git repo on  just for yourself to make sure you always have your file history available to you.
 
 ![Git keeps track of your files](images/07_pull_requests/07_githubbasics_pull_requests-1.png)
 
@@ -31,19 +31,19 @@ Pull requests are a great way to contribute to projects that are being worked on
 
 ### Forking a repo
 
-Now let's talk about how to make a pull request. The first thing that you will need to do is to create a "fork" of the repository you want to edit. This is a little different than "cloning" which you learned about in an earlier lesson. When you clone a repository you are just getting a copy of the project on rstudio.cloud. You are not creating a new version that you can work on. 
+Now let's talk about how to make a pull request. The first thing that you will need to do is to create a "fork" of the repository you want to edit. This is a little different than "cloning" which you learned about in an earlier lesson. When you clone a repository you are just getting a copy of the project on RStudio Cloud. You are not creating a new version that you can work on. 
 
-![Cloning a project just gets you a copy on rstudio.cloud](images/07_pull_requests/07_githubbasics_pull_requests-7.png)
+![Cloning a project just gets you a copy on RStudio Cloud](images/07_pull_requests/07_githubbasics_pull_requests-7.png)
 
 
-When you fork a repo, something different happens. First a new repo is created under your account on GitHub. You can then clone that copy to your computer. Now when you make edits to the files on rstudio.cloud and push them, they will be pushed to your fork. 
+When you fork a repo, something different happens. First a new repo is created under your account on GitHub. You can then clone that copy to your computer. Now when you make edits to the files on RStudio Cloud and push them, they will be pushed to your fork. 
 
 ![Forking a repo makes a copy on GitHub that you can push and pull from](images/07_pull_requests/07_githubbasics_pull_requests-8.png)
 
 
 Let's try this out. We are going to make some changes to a repo and send a pull request. We will use https://github.com/jtleek/newproject as an example project to send a pull request to. The first step is to create a fork of this repository. To do this, go to the project webpage and click on Fork in the top right hand corner of the screen. 
 
-![We are going to fork the newproject repo from jtleek](images/07_pull_requests/07_githubbasics_pull_requests-9.png)
+![We are going to fork the `newproject` repo from jtleek](images/07_pull_requests/07_githubbasics_pull_requests-9.png)
 
 
 
@@ -57,23 +57,23 @@ You will see now that you have your own version of the `newproject` repository o
 ![You now have a forked copy of the repo](images/07_pull_requests/07_githubbasics_pull_requests-11.png)
 
 
-Now that you have a copy of this repository on your GitHub account, you can clone it to rstudio.cloud as we learned about in a previous lesson. You can clone it by navigating to the terminal in your rstudio.cloud account and typing the command
+Now that you have a copy of this repository on your GitHub account, you can clone it to RStudio Cloud as we learned about in a previous lesson. You can clone it by navigating to the terminal in your RStudio Cloud account and typing the command
 
 ```text
 git clone https://github.com/your_username/newproject.git
 ```
 
-![Go to rstudio.cloud and find the terminal in your project, and use the git clone command to get your fork](images/07_pull_requests/07_githubbasics_pull_requests-12.png)
+![Go to RStudio Cloud and find the terminal in your project, and use the git clone command to get your fork](images/07_pull_requests/07_githubbasics_pull_requests-12.png)
 
 
-where you replace `your_username` with your GitHub username. This should create a folder on your rstudio.cloud account called `newproject`. You may have to enter your username and password. 
+where you replace `your_username` with your GitHub username. This should create a folder on your RStudio Cloud account called `newproject`. You may have to enter your username and password. 
 
 ![You may have to use your username and password to clone](images/07_pull_requests/07_githubbasics_pull_requests-13.png)
 
 
 Now you have successfully "forked" and "cloned" the `newproject` repository.
 
-![Once you have cloned, you have your forked repo on rstudio.cloud](images/07_pull_requests/07_githubbasics_pull_requests-14.png)
+![Once you have cloned, you have your forked repo on RStudio Cloud](images/07_pull_requests/07_githubbasics_pull_requests-14.png)
 
 
 
@@ -134,10 +134,10 @@ Next you can commit your changes with a message describing what you did. Since w
 git commit -m "I edited myfile.Rmd to use glimpse() to summarize the cars data"
 ```
 
-![Use git commit to save a version of your files on rstudio.cloud](images/07_pull_requests/07_githubbasics_pull_requests-18.png)
+![Use git commit to save a version of your files on RStudio Cloud](images/07_pull_requests/07_githubbasics_pull_requests-18.png)
 
 
-Now you will have saved the file on rstudio.cloud, but you still need to make the change to your fork of the repo. To do this we need to use the `git push` command. 
+Now you will have saved the file on RStudio Cloud, but you still need to make the change to your fork of the repo. To do this we need to use the `git push` command. 
 
 ```text
 git push 
@@ -154,7 +154,7 @@ You might be asked to input your username and password for GitHub to make this p
 
 ### Sending a pull request
 
-Now you have successfully forked _jtleek_'s `newproject` repo, cloned it to rstudio.cloud and made some edits. You have added, committed, and pushed those changes to your own fork. The next step is to send a pull request to the user who created the original repo. To do this you should go to the website with your fork. Now you can click on the "Pull requests" tab for your repo. 
+Now you have successfully forked _jtleek_'s `newproject` repo, cloned it to RStudio Cloud and made some edits. You have added, committed, and pushed those changes to your own fork. The next step is to send a pull request to the user who created the original repo. To do this you should go to the website with your fork. Now you can click on the "Pull requests" tab for your repo. 
 
 ![Click on the pull requests tab for your forked repo](images/07_pull_requests/07_githubbasics_pull_requests-21.png)
 
@@ -212,7 +212,7 @@ This lesson covered how to collaborate on someone else's code. In the process of
 
 ### Slides and Video
 
-![Pull Requests](https://www.youtube.com/watch?v=M02CsElo7o0)
+![Pull Requests](https://www.youtube.com/watch?v=M5ykCg9vF3Q)
 
 * [Slides](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/edit?usp=sharing)
 
@@ -226,7 +226,7 @@ This lesson covered how to collaborate on someone else's code. In the process of
 
 C) You make a copy of the repository on your GitHub account
 C) You make a copy of someone else's repository on your GitHub account
-o) You make a copy of the repository on rstudio.cloud
+o) You make a copy of the repository on RStudio Cloud
 o) You make a copy of the repository on the other user's GitHub account
 o) You push your changes to the other user's GitHub account
 o) You send a request for a change to the other user's GitHub account

@@ -100,7 +100,7 @@ Now that we've covered what version control is and some of the benefits, you sho
 
 ### Slides and video
 
-![Version Control](https://www.youtube.com/watch?v=7vtuVXncBUE)
+![Version Control](https://www.youtube.com/watch?v=v6xgImkP39Q)
 
 * [Slides](https://docs.google.com/presentation/d/1nBgMcaXeF-hz5hX6712d_LC9Zm04s2mSCjuGECuht0M/edit?usp=sharing)
 

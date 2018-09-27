@@ -82,7 +82,7 @@ In this lesson we looked at GitHub and its interface. We took a tour of the webs
 
 ### Slides and video
 
-![GitHub](https://www.youtube.com/watch?v=6uIjaSVtzsE)
+![GitHub](https://www.youtube.com/watch?v=32DZs-wUUkE)
 
 * [Slides](https://docs.google.com/presentation/d/1cvz17dNvOlb5bwPCd2WGFl96zCU9oUWpZMTqcSJyuCo/edit?usp=sharing)  
 
