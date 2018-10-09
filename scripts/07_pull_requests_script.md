@@ -20,7 +20,7 @@ When you fork a repo, then something different happens. First a new repo is crea
 
 Let's try this out. We are going to make some changes to a repo and send a pull request. We will use https://github.com/jtleek/new project as an example project to send a pull request to. The first step is to create a fork of this repository. To do this, go to the project webpage and click on Fork in the top right hand corner of the screen. 
 
-This may ask you where to fork the repository if you are on multiple teams. Select your main account and wait will the repository is forked.
+This may ask you where to fork the repository if you are on multiple teams. Select your main account and wait while the repository is forked.
 
 
 You will see now that you have your own version of the new project repository on your GitHub profile and you will be able to see where the repository was forked from right under the repository name on the upper left. 

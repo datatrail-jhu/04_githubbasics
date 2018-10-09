@@ -47,7 +47,7 @@ Let's try this out. We are going to make some changes to a repo and send a pull 
 
 
 
-This may ask you where to fork the repository if you are on multiple teams. Select your main account and wait will the repository is forked.
+This may ask you where to fork the repository if you are on multiple teams. Select your main account and wait while the repository is forked.
 
 ![Select your main account to fork to](images/07_pull_requests/07_githubbasics_pull_requests-10.png)
 
