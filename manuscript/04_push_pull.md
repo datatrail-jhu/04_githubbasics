@@ -97,7 +97,7 @@ When we run the `git pull` command, the changes present in the remote repository
 
 ### Practice
 
-To get more practice with these concepts, as we know they are not the easiest, we suggest you go practice at [try.github.io](https://try.github.io/levels/1/challenges/7). Here you can practices your git commands and get feedback as to what you've done correctly and where you steered off course. It's a great way to get better at using git commands before you move onto the quiz! 
+To get more practice with these concepts, as we know they are not the easiest, we suggest you go practice at [GitHub Learning Lab](https://lab.github.com/). Here you can practices your git commands and get feedback as to what you've done correctly and where you steered off course. It's a great way to get better at using git commands before you move onto the quiz! 
 
 ### Slides and Video
 
