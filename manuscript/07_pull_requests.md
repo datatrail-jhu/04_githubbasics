@@ -236,7 +236,7 @@ o) You commit your changes to the other user's GitHub account
 ? Why is it called a "pull request"?
 
 C) You are asking the other user to "pull" your changes into their code
-C) You are requesting that someone else pull the changes you've make into their code
+C) You are requesting that someone else pull the changes you've made into their code
 o) You are pulling changes from the other user into your code
 o) You are pushing changes from the other user into your code
 o) You are pulling their code off of GitHub
