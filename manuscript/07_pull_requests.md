@@ -14,7 +14,7 @@ But, it is also a social network for coders. You can use GitHub to contribute to
 
 ![GitHub also lets you work with others](images/07_pull_requests/07_githubbasics_pull_requests-3.png)
 
-In an an earlier lesson we learned about issues. Issues are comments that you can make on either one of your own repos or on someone else's repos. Pull requests are a different kind of interaction that involve making a change directly to someone's code. First you would fork the repo to make your own copy. 
+In an earlier lesson we learned about issues. Issues are comments that you can make on either one of your own repos or on someone else's repos. Pull requests are a different kind of interaction that involve making a change directly to someone's code. First you would fork the repo to make your own copy. 
 
 ![Forking a repo means you can change the code](images/07_pull_requests/07_githubbasics_pull_requests-4.png)
 
