@@ -1,9 +1,10 @@
+manuscript/resources/videos/*
+manuscript/resources/images/*
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 .DS_Store
 *.gslides
-manuscript/resources/videos/*
 .httr-oauth
 
