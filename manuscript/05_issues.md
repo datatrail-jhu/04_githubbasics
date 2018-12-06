@@ -10,23 +10,23 @@ Issues are essentially a task system that come with GitHub repositories. They al
 
 First navigate to the Issues tab on the main repository webpage.
 
-![Navigating to the Issues tab](images/05_issues/05_githubbasics_issues-2.png)
+![Navigating to the Issues tab](https://docs.google.com/presentation/d/1G8ftZ6_UzNyYfcDoLKHhp2GpDtd20cln0vnJpHiUpFE/export/png?id=1G8ftZ6_UzNyYfcDoLKHhp2GpDtd20cln0vnJpHiUpFE&pageid=g3917a587ee_0_0)
 
 Then click the green button that says "New issue." 
 
-![Where to create a new issue](images/05_issues/05_githubbasics_issues-3.png)
+![Where to create a new issue](https://docs.google.com/presentation/d/1G8ftZ6_UzNyYfcDoLKHhp2GpDtd20cln0vnJpHiUpFE/export/png?id=1G8ftZ6_UzNyYfcDoLKHhp2GpDtd20cln0vnJpHiUpFE&pageid=g3917a587ee_0_12)
 
 On the resulting page, there are forms that allow you to type a concise description of the task and a more detailed description. This description could be used to elaborate specific steps that are needed to fulfill this task. There are also options on the right that allow you to assign GitHub users to work on this issue. On the right hand side, you can also assign labels to an issue. This can be useful if your project has many issues, and you later want to view only certain ones.
 
-![Creating a new issue](images/05_issues/05_githubbasics_issues-4.png)
+![Creating a new issue](https://docs.google.com/presentation/d/1G8ftZ6_UzNyYfcDoLKHhp2GpDtd20cln0vnJpHiUpFE/export/png?id=1G8ftZ6_UzNyYfcDoLKHhp2GpDtd20cln0vnJpHiUpFE&pageid=g3917a587ee_0_19)
 
 After you create this issue, you will be taken to the webpage for your issue which contains a discussion thread. You can use this to communicate with others about the status of this task. When the task is complete, you can close the issue to mark it as resolved.
 
-![Discussion thread for an issue](images/05_issues/05_githubbasics_issues-5.png)
+![Discussion thread for an issue](https://docs.google.com/presentation/d/1G8ftZ6_UzNyYfcDoLKHhp2GpDtd20cln0vnJpHiUpFE/export/png?id=1G8ftZ6_UzNyYfcDoLKHhp2GpDtd20cln0vnJpHiUpFE&pageid=g3917a587ee_0_30)
 
 Over the course of the project, you can come back to the Issues tab on your repository webpage to view the status of different tasks.
 
-![Main board for all issues](images/05_issues/05_githubbasics_issues-6.png)
+![Main board for all issues](https://docs.google.com/presentation/d/1G8ftZ6_UzNyYfcDoLKHhp2GpDtd20cln0vnJpHiUpFE/export/png?id=1G8ftZ6_UzNyYfcDoLKHhp2GpDtd20cln0vnJpHiUpFE&pageid=g3917a587ee_0_44)
 
 ### Slides and Video
 

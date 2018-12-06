@@ -38,7 +38,7 @@ Additionally, since version control systems keep a record of all changes made to
 
 In this course, we will introduce version control software called Git. Git is a free and open source version control system. It was developed in 2005 and has since become *the* most commonly used version control system around!  StackOverflow surveyed over 60,000 respondents on which version control system they use, and as you can tell from the chart below, [Git is by far the winner](https://insights.stackoverflow.com/survey/2017#work-version-control).
 
-![Git is far and away the most commonly used version control system according to StackOverflow](images/00_version_control/00_githubbasics_version_control-5.png)
+![Git is far and away the most commonly used version control system according to StackOverflow](https://docs.google.com/presentation/d/1nBgMcaXeF-hz5hX6712d_LC9Zm04s2mSCjuGECuht0M/export/png?id=1nBgMcaXeF-hz5hX6712d_LC9Zm04s2mSCjuGECuht0M&pageid=g31227c4b83_1_9)
 
 As you become more familiar with Git and how it works and interfaces with your projects, you'll begin to see why it has risen to the height of popularity. One of the main benefits of Git is that it keeps a local copy of your work and revisions, which you can then edit offline, and then once you return to internet service, you can sync your copy of the work, with all of your new edits and tracked changes to the main repository online. And since Git is automatically taking these snapshots, there is  no need for you to save your own copy with different versions or different dates. Additionally, since all collaborators on a project have their own local copy of the code, everybody can simultaneously work on their own parts of the code, without disturbing that common repository. 
 
@@ -70,7 +70,7 @@ When we talk about version control systems, commits are at the heart of them. If
 
 To summarize these commonly used terms so far and to test whether you've got the hang of this, files are hosted in a **repository** that is shared online with collaborators. You **pull** the repository's contents so that you have a local copy of the files that you can edit. Once you are happy with your changes to a file, you **stage** the file and then **commit** it. You **push** this commit to the shared repository. This uploads your new file and all of the changes and is accompanied by a message explaining what changed, why and by whom. 
 
-![Visual representation summarizing repository, commit, push, and pull](images/00_version_control/00_githubbasics_version_control-10.png)
+![Visual representation summarizing repository, commit, push, and pull](https://docs.google.com/presentation/d/1nBgMcaXeF-hz5hX6712d_LC9Zm04s2mSCjuGECuht0M/export/png?id=1nBgMcaXeF-hz5hX6712d_LC9Zm04s2mSCjuGECuht0M&pageid=g3495af98e4_1_102)
 
 **Branch:** When the same file has two simultaneous copies. When you are working locally and editing a file, you have created a branch where your edits are not shared with the main repository (*yet*) - so there are two versions of the file: the version that everybody has access to on the repository and your local edited version of the file. Until you push your changes and merge them back into the main repository, you are working on a branch. Following a branch point, the version history splits into two and tracks the independent changes made to both the original file in the repository that others may be editing, and tracking your changes on your branch, and then merges the files together. 
 
@@ -78,7 +78,7 @@ To summarize these commonly used terms so far and to test whether you've got the
 
 **Conflict:** When multiple people make changes to the same file and Git is unable to merge the edits. You are presented with the option to manually try and merge the edits or to keep one edit over the other. 
 
-![A visual representation of these concepts, from https://www.atlassian.com/git/tutorials/using-branches/git-merge](images/00_version_control/00_githubbasics_version_control-14.png)
+![A visual representation of these concepts, from https://www.atlassian.com/git/tutorials/using-branches/git-merge](https://docs.google.com/presentation/d/1nBgMcaXeF-hz5hX6712d_LC9Zm04s2mSCjuGECuht0M/export/png?id=1nBgMcaXeF-hz5hX6712d_LC9Zm04s2mSCjuGECuht0M&pageid=g3495af98e4_1_183)
 
 **Clone:** Making a copy of an existing Git repository. If you have just been brought on to a project that has been tracked with version control, you would clone the repository to get access to and create a local version of all of the repository's files *and all of the tracked changes.*
 
