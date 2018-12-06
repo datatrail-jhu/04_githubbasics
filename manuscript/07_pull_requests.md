@@ -14,7 +14,7 @@ But, it is also a social network for coders. You can use GitHub to contribute to
 
 ![GitHub also lets you work with others](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f67d7bde_0_96)
 
-In an an earlier lesson we learned about issues. Issues are comments that you can make on either one of your own repos or on someone else's repos. Pull requests are a different kind of interaction that involve making a change directly to someone's code. First you would fork the repo to make your own copy. 
+In an earlier lesson we learned about issues. Issues are comments that you can make on either one of your own repos or on someone else's repos. Pull requests are a different kind of interaction that involve making a change directly to someone's code. First you would fork the repo to make your own copy. 
 
 ![Forking a repo means you can change the code](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f67d7bde_0_37)
 
@@ -236,7 +236,7 @@ o) You commit your changes to the other user's GitHub account
 ? Why is it called a "pull request"?
 
 C) You are asking the other user to "pull" your changes into their code
-C) You are requesting that someone else pull the changes you've make into their code
+C) You are requesting that someone else pull the changes you've made into their code
 o) You are pulling changes from the other user into your code
 o) You are pushing changes from the other user into your code
 o) You are pulling their code off of GitHub

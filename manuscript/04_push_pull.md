@@ -153,10 +153,12 @@ o) stage files that have the file extension .A
 o) stage any file name tasks.txt    
 
 {choose-answers: 4}
-?4 What does the `-u` in `git add -A` specify?
+?4 What does the `-A` in `git add -A` specify?
 
 m) stage modified and deleted files but not new files
-C) stage new and modified files but not deleted files
+C) stage new, modified, and deleted files
+o) stage new and deleted files but not modified files
+o) stage new and modified files but not deleted files
 o) stage files that have the file extension .u
 o) stage files that have the file extension .A
 o) stage any file name tasks.txt    
