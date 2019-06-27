@@ -39,7 +39,7 @@ Any number of files and/or folders can be specified in this way. To add the `tas
 git add tasks.txt
 ```
 
-While you only have a files or two to add at this point and typing them each individually is not much work, as you start work on larger projects and edit multiple files at a time, typing out each file you want to add individually will become a pain. To get around this, you can specify that you want to stage multiple files at once using the following syntax:
+While you only have a file or two to add at this point and typing them each individually is not much work, as you start work on larger projects and edit multiple files at a time, typing out each file you want to add individually will become a pain. To get around this, you can specify that you want to stage multiple files at once using the following syntax:
 
 ```text
 git add .
@@ -111,7 +111,7 @@ To get more practice with these concepts, as we know they are not the easiest, w
 ### Pushing and Pulling Changes quiz
 
 {choose-answers:4}
-?1 What git commands is NOT used in making local changes available in a remote repository?
+?1 What git command is NOT used in making local changes available in a remote repository?
 
 C) pull
 C) clone
