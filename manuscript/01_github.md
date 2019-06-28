@@ -112,7 +112,6 @@ o) GitHub allows you to version control your files locally; `git` gives you a pl
 o) GitHub allows you to track changes to your files locally; `git` hosts those files on the Internet
 o) `git` and GitHub are synonyms and both refer to version control systems on your computer
 o) `git` and GitHub are synonyms and both refer to version control systems on the Internet
-io)
 o) `git` and GitHub are not related to one another; they just have similar names.
 
 {choose-answers: 4}
