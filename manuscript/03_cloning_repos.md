@@ -6,6 +6,7 @@ Now that you have learned how to create a GitHub repository, you will learn how 
 
 Within a project in RStudio Cloud, navigate to the Terminal tab, indicated in the picture here. This is where you can type Git commands to work with repositories. The text that you see at the beginning of the line in the Terminal is called the **prompt**. When you see the prompt at the beginning of a line, this indicates that the Terminal is ready to accept your commands.
 
+{format: png}
 ![Navigating to the Terminal](https://docs.google.com/presentation/d/1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8/export/png?id=1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8&pageid=g2bfdb07292_0_151)
 
 
@@ -19,6 +20,7 @@ https://github.com/github_username/repository_name
 
 For example, in our last lesson, the URL for our repository is [https://github.com/JaneEverydayDoe/first_project/](https://github.com/JaneEverydayDoe/first_project/). On this page, you will see a button on the right hand side that says "Clone or download". When you click this, highlight the URL in the box, and copy it to the clipboard. Make sure it starts with "https" rather than "git@". If you see "git@", click the link in the top right corner of the box that says "Use HTTPS".
 
+{format: png}
 ![Obtaining the clone URL](https://docs.google.com/presentation/d/1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8/export/png?id=1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8&pageid=g36809c5e39_0_0)
 
 ### Step 3: Use the clone command in the RStudio Terminal
@@ -33,12 +35,14 @@ Replace `repository_url` with the URL that you copied in Step 2, and hit Enter. 
 
 Also note that in the bottom right hand corner of RStudio, in the Files pane, you will have a new folder that has the same name as your Git repository.
 
+{format: png}
 ![Using the git clone command](https://docs.google.com/presentation/d/1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8/export/png?id=1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8&pageid=g36809c5e39_0_15)
 
 ### Directory/Folder Organization
 
 A big part of staying organized with your files is understanding how folders in your project are organized. Also important is the concept of a **working directory**. Whenever you are working in R or the Terminal, files are housed in some folder. This folder is called the working directory. Knowing this is important so that you know how to specify paths to other important folders in your project. We can see what the current working directory is in a number of ways. In the image below, we can see from the Terminal prompt that the working directory is `/cloud/project`. We can also see this in the Files pane. We see that the first level folder is `cloud` and that the second level folder is `project`.
 
+{format: png}
 ![Working directories](https://docs.google.com/presentation/d/1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8/export/png?id=1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8&pageid=g36809c5e39_0_38)
 
 Congratulations! You have cloned your first repository!
