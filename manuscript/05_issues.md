@@ -50,7 +50,7 @@ Over the course of the project, you can come back to the Issues tab on your repo
 C) Auto-resolving issues in your code
 C) Detecting parts of code that will cause issues when it's executed
 o) Communicating with others about your project
-o) Assigning a taks to a person in a project
+o) Assigning a task to a person in a project
 o) Having labels for each task
 o) Suggesting improvements to code for the future
 

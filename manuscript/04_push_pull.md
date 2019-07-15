@@ -4,7 +4,14 @@ Now that you have learned how to create a repository and clone it, it's time to 
 
 #### Get Status
 
-A helpful git command is `git status`. If you type this in the terminal and press "enter" on your keyboard, the files that have been modified or added since you last updated changes on GitHub will be displayed. As you've just cloned a repository in the last lesson, there are no changes yet. You can type `git status` at any time in the Terminal to see what files have been modified locally that are not yet on GitHub. This is particularly helpful when you want to decide which files to stage, which is discussed in more detail later in this lesson.
+A helpful git command is `git status`. If you type this in the terminal and press "enter" on your keyboard, the files that have been modified or added since you last updated changes on GitHub will be displayed. 
+
+However, before working with the git commands that will track and publish our changes, we need to change the working directory in the Terminal to be the `first_project` folder. We can do this with the `cd` command. Using the command `cd PATH` changes the working directory to the folder specified by `PATH`. For example, if the `first_project` folder contained a folder called `analysis`, we could set our Terminal working directory to this folder with `cd first_project/analysis`. To continue change the working directory by typing the command `cd first_project` in the prompt.
+
+{format: png}
+![Changing the working directory in the Terminal](https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&pageid=g388478d6c4_0_66)
+
+As you've just cloned a repository in the last lesson, there are no changes yet. You can type `git status` at any time in the Terminal to see what files have been modified locally that are not yet on GitHub. This is particularly helpful when you want to decide which files to stage, which is discussed in more detail later in this lesson.
 
 {format: png}
 ![git status output](https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&pageid=g3b5b846a8f_2_13)
@@ -23,10 +30,7 @@ Let's start by creating a file within the project. Below we've created a text fi
 
 #### Staging and Committing
 
-Now that we have added a file to this repository, let's put it under version control and publish these changes. First we need to move to the Terminal pane. Recall that the text at the beginning of the line is called the **prompt**. The Terminal prompt shows the current working directory within the Terminal. Initially, the working directory is the `/cloud/project` folder. We can see the same information by entering the `pwd` command. We can use the `ls` command to list the files and folders that are in the current working directory. We see that the `first_project` folder is the only thing present. Before working with the Git commands that will track and publish our changes, we need to change the working directory in the Terminal to be the `first_project` folder. We can do this with the `cd` command. Using the command `cd PATH` changes the working directory to the folder specified by `PATH`. For example, if the `first_project` folder contained a folder called `analysis`, we could set our Terminal working directory to this folder with `cd first_project/analysis`. To continue change the working directory by typing the command `cd first_project` in the prompt.
-
-{format: png}
-![Changing the working directory in the Terminal](https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&pageid=g388478d6c4_0_66)
+Now that we have added a file to this repository, let's put it under version control and publish these changes. First we need to move to the Terminal pane. Recall that the text at the beginning of the line is called the **prompt**. The Terminal prompt shows the current working directory within the Terminal. Initially, the working directory is the `/cloud/project` folder. We can see the same information by entering the `pwd` command. We can use the `ls` command to list the files and folders that are in the current working directory. If you haven't previously added any files or folders here, you'll see that the `first_project` folder is the only thing present. 
 
 We will first use the `git add` command to tell Git that the `tasks.txt` file is to be tracked for version control. The syntax for the `add` command is:
 
@@ -81,6 +85,33 @@ git commit -m "Add task list"
 
 {format: png}
 ![Adding a file and committing changes](https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&pageid=g388478d6c4_0_7)
+
+#### Verifying Your Identity
+
+On RStudio Cloud, you'll have to verify who you are each time you try to make changes to a repository.
+
+You'll know you have to do this when you try to `git commit` and you get an error that starts with: "Please tell me who you are," followed with some suggestions about using `git config`.
+
+When this occurs, you'll be prompted to type the following into the terminal:
+
+```text
+git config user.name "UserName"
+git config user.email "email@domain.com"
+```
+
+To do this, you'll first specify your username. To do this, if your GitHub username were JaneEveryayDoe you would type the following and then press enter:
+
+```text
+git config user.name "JaneEverydayDoe"
+```
+
+If your email address connected to your GitHub account were "janeeverydaydoe@gmail.com", you would then type the following and press enter:
+
+```text
+git config user.email "email@domain.com"
+```
+
+Note: If you're asked for your password, you should type in your GitHub password and hit Enter, but know that you will not actually see the characters show up on the screen as you type them.
 
 #### Publishing changes (pushing)
 
