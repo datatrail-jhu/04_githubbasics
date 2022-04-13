@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 3 Creating A Repository | git_help</title>
+  <meta name="description" content="Description about Course/Book." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 3 Creating A Repository | git_help" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Description about Course/Book." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 3 Creating A Repository | git_help" />
+  
+  <meta name="twitter:description" content="Description about Course/Book." />
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="assets/DataTrail_favicon.ico" type="image/x-icon" />
+<link rel="prev" href="github.html"/>
+<link rel="next" href="cloning-a-repository.html"/>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="assets/style_DataTrail.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<a href="https://www.datatrail.org/"><img src="https://github.com/datatrail-jhu/DataTrail_Template/raw/main/assets/DataTrail_logo.jpg" style="padding-left: 0px; padding-top: 8px;"</a>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Course</a></li>
+<li class="chapter" data-level="1" data-path="version-control.html"><a href="version-control.html"><i class="fa fa-check"></i><b>1</b> Version Control</a>
+<ul>
+<li class="chapter" data-level="1.0.1" data-path="version-control.html"><a href="version-control.html#what-is-version-control"><i class="fa fa-check"></i><b>1.0.1</b> What is version control?</a></li>
+<li class="chapter" data-level="1.0.2" data-path="version-control.html"><a href="version-control.html#version-control-on-your-own"><i class="fa fa-check"></i><b>1.0.2</b> Version control on your own</a></li>
+<li class="chapter" data-level="1.0.3" data-path="version-control.html"><a href="version-control.html#version-control-for-collaboration-or-sharing"><i class="fa fa-check"></i><b>1.0.3</b> Version control for collaboration or sharing</a></li>
+<li class="chapter" data-level="1.0.4" data-path="version-control.html"><a href="version-control.html#summarizing-the-benefits-of-version-control-systems"><i class="fa fa-check"></i><b>1.0.4</b> Summarizing the benefits of version control systems</a></li>
+<li class="chapter" data-level="1.0.5" data-path="version-control.html"><a href="version-control.html#what-is-git-why-should-you-use-it"><i class="fa fa-check"></i><b>1.0.5</b> What is Git? Why should you use it?</a></li>
+<li class="chapter" data-level="1.0.6" data-path="version-control.html"><a href="version-control.html#what-is-github"><i class="fa fa-check"></i><b>1.0.6</b> What is GitHub?</a></li>
+<li class="chapter" data-level="1.0.7" data-path="version-control.html"><a href="version-control.html#version-control-vocabulary"><i class="fa fa-check"></i><b>1.0.7</b> Version control vocabulary</a></li>
+<li class="chapter" data-level="1.0.8" data-path="version-control.html"><a href="version-control.html#best-practices"><i class="fa fa-check"></i><b>1.0.8</b> Best practices</a></li>
+<li class="chapter" data-level="1.0.9" data-path="version-control.html"><a href="version-control.html#summary"><i class="fa fa-check"></i><b>1.0.9</b> Summary</a></li>
+<li class="chapter" data-level="1.0.10" data-path="version-control.html"><a href="version-control.html#slides-and-video"><i class="fa fa-check"></i><b>1.0.10</b> Slides and video</a></li>
+<li class="chapter" data-level="1.0.11" data-path="version-control.html"><a href="version-control.html#version-control-quiz"><i class="fa fa-check"></i><b>1.0.11</b> Version Control quiz</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="github.html"><a href="github.html"><i class="fa fa-check"></i><b>2</b> GitHub</a>
+<ul>
+<li class="chapter" data-level="2.0.1" data-path="github.html"><a href="github.html#logging-in-to-github"><i class="fa fa-check"></i><b>2.0.1</b> Logging in to GitHub</a></li>
+<li class="chapter" data-level="2.0.2" data-path="github.html"><a href="github.html#the-homepage"><i class="fa fa-check"></i><b>2.0.2</b> The Homepage</a></li>
+<li class="chapter" data-level="2.0.3" data-path="github.html"><a href="github.html#user-settings"><i class="fa fa-check"></i><b>2.0.3</b> User Settings</a></li>
+<li class="chapter" data-level="2.0.4" data-path="github.html"><a href="github.html#notifications"><i class="fa fa-check"></i><b>2.0.4</b> Notifications</a></li>
+<li class="chapter" data-level="2.0.5" data-path="github.html"><a href="github.html#help-files"><i class="fa fa-check"></i><b>2.0.5</b> Help Files</a></li>
+<li class="chapter" data-level="2.0.6" data-path="github.html"><a href="github.html#summary-1"><i class="fa fa-check"></i><b>2.0.6</b> Summary</a></li>
+<li class="chapter" data-level="2.0.7" data-path="github.html"><a href="github.html#slides-and-video-1"><i class="fa fa-check"></i><b>2.0.7</b> Slides and video</a></li>
+<li class="chapter" data-level="2.0.8" data-path="github.html"><a href="github.html#github-quiz"><i class="fa fa-check"></i><b>2.0.8</b> GitHub quiz</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="creating-a-repository.html"><a href="creating-a-repository.html"><i class="fa fa-check"></i><b>3</b> Creating A Repository</a>
+<ul>
+<li class="chapter" data-level="3.0.1" data-path="creating-a-repository.html"><a href="creating-a-repository.html#what-is-a-repository"><i class="fa fa-check"></i><b>3.0.1</b> What is a Repository?</a></li>
+<li class="chapter" data-level="3.0.2" data-path="creating-a-repository.html"><a href="creating-a-repository.html#how-do-i-create-a-github-repository"><i class="fa fa-check"></i><b>3.0.2</b> How Do I Create a GitHub Repository?</a></li>
+<li class="chapter" data-level="3.0.3" data-path="creating-a-repository.html"><a href="creating-a-repository.html#adding-a-readme-file"><i class="fa fa-check"></i><b>3.0.3</b> Adding a README File</a></li>
+<li class="chapter" data-level="3.0.4" data-path="creating-a-repository.html"><a href="creating-a-repository.html#the-github-guide"><i class="fa fa-check"></i><b>3.0.4</b> The GitHub Guide</a></li>
+<li class="chapter" data-level="3.0.5" data-path="creating-a-repository.html"><a href="creating-a-repository.html#slides-and-video-2"><i class="fa fa-check"></i><b>3.0.5</b> Slides and Video</a></li>
+<li class="chapter" data-level="3.0.6" data-path="creating-a-repository.html"><a href="creating-a-repository.html#creating-a-repository-quiz"><i class="fa fa-check"></i><b>3.0.6</b> Creating A Repository quiz</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="cloning-a-repository.html"><a href="cloning-a-repository.html"><i class="fa fa-check"></i><b>4</b> Cloning A Repository</a>
+<ul>
+<li class="chapter" data-level="4.0.1" data-path="cloning-a-repository.html"><a href="cloning-a-repository.html#step-1-navigate-to-the-terminal-in-rstudio"><i class="fa fa-check"></i><b>4.0.1</b> Step 1: Navigate to the Terminal in RStudio</a></li>
+<li class="chapter" data-level="4.0.2" data-path="cloning-a-repository.html"><a href="cloning-a-repository.html#step-2-obtain-the-url-for-the-repository-to-clone"><i class="fa fa-check"></i><b>4.0.2</b> Step 2: Obtain the URL for the repository to clone</a></li>
+<li class="chapter" data-level="4.0.3" data-path="cloning-a-repository.html"><a href="cloning-a-repository.html#step-3-use-the-clone-command-in-the-rstudio-terminal"><i class="fa fa-check"></i><b>4.0.3</b> Step 3: Use the clone command in the RStudio Terminal</a></li>
+<li class="chapter" data-level="4.0.4" data-path="cloning-a-repository.html"><a href="cloning-a-repository.html#directoryfolder-organization"><i class="fa fa-check"></i><b>4.0.4</b> Directory/Folder Organization</a></li>
+<li class="chapter" data-level="4.0.5" data-path="cloning-a-repository.html"><a href="cloning-a-repository.html#slides-and-video-3"><i class="fa fa-check"></i><b>4.0.5</b> Slides and Video</a></li>
+<li class="chapter" data-level="4.0.6" data-path="cloning-a-repository.html"><a href="cloning-a-repository.html#cloning-a-repository-quiz"><i class="fa fa-check"></i><b>4.0.6</b> Cloning A Repository quiz</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="pushing-and-pulling-changes.html"><a href="pushing-and-pulling-changes.html"><i class="fa fa-check"></i><b>5</b> Pushing and Pulling Changes</a>
+<ul>
+<li class="chapter" data-level="5.0.1" data-path="pushing-and-pulling-changes.html"><a href="pushing-and-pulling-changes.html#pushing"><i class="fa fa-check"></i><b>5.0.1</b> Pushing</a></li>
+<li class="chapter" data-level="5.0.2" data-path="pushing-and-pulling-changes.html"><a href="pushing-and-pulling-changes.html#pulling"><i class="fa fa-check"></i><b>5.0.2</b> Pulling</a></li>
+<li class="chapter" data-level="5.0.3" data-path="pushing-and-pulling-changes.html"><a href="pushing-and-pulling-changes.html#practice"><i class="fa fa-check"></i><b>5.0.3</b> Practice</a></li>
+<li class="chapter" data-level="5.0.4" data-path="pushing-and-pulling-changes.html"><a href="pushing-and-pulling-changes.html#slides-and-video-4"><i class="fa fa-check"></i><b>5.0.4</b> Slides and Video</a></li>
+<li class="chapter" data-level="5.0.5" data-path="pushing-and-pulling-changes.html"><a href="pushing-and-pulling-changes.html#pushing-and-pulling-changes-quiz"><i class="fa fa-check"></i><b>5.0.5</b> Pushing and Pulling Changes quiz</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="organization-with-issues-on-github.html"><a href="organization-with-issues-on-github.html"><i class="fa fa-check"></i><b>6</b> Organization with Issues on GitHub</a>
+<ul>
+<li class="chapter" data-level="6.0.1" data-path="organization-with-issues-on-github.html"><a href="organization-with-issues-on-github.html#what-are-issues"><i class="fa fa-check"></i><b>6.0.1</b> What are Issues?</a></li>
+<li class="chapter" data-level="6.0.2" data-path="organization-with-issues-on-github.html"><a href="organization-with-issues-on-github.html#creating-an-issue"><i class="fa fa-check"></i><b>6.0.2</b> Creating an Issue</a></li>
+<li class="chapter" data-level="6.0.3" data-path="organization-with-issues-on-github.html"><a href="organization-with-issues-on-github.html#slides-and-video-5"><i class="fa fa-check"></i><b>6.0.3</b> Slides and Video</a></li>
+<li class="chapter" data-level="6.0.4" data-path="organization-with-issues-on-github.html"><a href="organization-with-issues-on-github.html#organization-with-issues-on-github-quiz"><i class="fa fa-check"></i><b>6.0.4</b> Organization with Issues on GitHub quiz</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="setting-up-a-project-on-github.html"><a href="setting-up-a-project-on-github.html"><i class="fa fa-check"></i><b>7</b> Setting Up A Project on GitHub</a>
+<ul>
+<li class="chapter" data-level="7.0.1" data-path="setting-up-a-project-on-github.html"><a href="setting-up-a-project-on-github.html#setting-up-a-github-repository"><i class="fa fa-check"></i><b>7.0.1</b> Setting up a GitHub Repository</a></li>
+<li class="chapter" data-level="7.0.2" data-path="setting-up-a-project-on-github.html"><a href="setting-up-a-project-on-github.html#creating-a-new-project-from-a-github-repository"><i class="fa fa-check"></i><b>7.0.2</b> Creating a New Project from a GitHub Repository</a></li>
+<li class="chapter" data-level="7.0.3" data-path="setting-up-a-project-on-github.html"><a href="setting-up-a-project-on-github.html#pushing-local-changes-to-the-remote-repository-in-rstudio-cloud"><i class="fa fa-check"></i><b>7.0.3</b> Pushing Local Changes to the Remote Repository in RStudio Cloud</a></li>
+<li class="chapter" data-level="7.0.4" data-path="setting-up-a-project-on-github.html"><a href="setting-up-a-project-on-github.html#slides-and-video-6"><i class="fa fa-check"></i><b>7.0.4</b> Slides and Video</a></li>
+<li class="chapter" data-level="7.0.5" data-path="setting-up-a-project-on-github.html"><a href="setting-up-a-project-on-github.html#setting-up-a-project-on-github-quiz"><i class="fa fa-check"></i><b>7.0.5</b> Setting Up A Project on GitHub quiz</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="pull-requests.html"><a href="pull-requests.html"><i class="fa fa-check"></i><b>8</b> Pull Requests</a>
+<ul>
+<li class="chapter" data-level="8.0.1" data-path="pull-requests.html"><a href="pull-requests.html#what-is-a-pull-request"><i class="fa fa-check"></i><b>8.0.1</b> What is a pull request</a></li>
+<li class="chapter" data-level="8.0.2" data-path="pull-requests.html"><a href="pull-requests.html#forking-a-repo"><i class="fa fa-check"></i><b>8.0.2</b> Forking a repo</a></li>
+<li class="chapter" data-level="8.0.3" data-path="pull-requests.html"><a href="pull-requests.html#making-edits"><i class="fa fa-check"></i><b>8.0.3</b> Making edits</a></li>
+<li class="chapter" data-level="8.0.4" data-path="pull-requests.html"><a href="pull-requests.html#pushing-your-changes-to-your-fork"><i class="fa fa-check"></i><b>8.0.4</b> Pushing your changes to your fork</a></li>
+<li class="chapter" data-level="8.0.5" data-path="pull-requests.html"><a href="pull-requests.html#sending-a-pull-request"><i class="fa fa-check"></i><b>8.0.5</b> Sending a pull request</a></li>
+<li class="chapter" data-level="8.0.6" data-path="pull-requests.html"><a href="pull-requests.html#when-it-gets-more-complicated"><i class="fa fa-check"></i><b>8.0.6</b> When it gets more complicated</a></li>
+<li class="chapter" data-level="8.0.7" data-path="pull-requests.html"><a href="pull-requests.html#summary-2"><i class="fa fa-check"></i><b>8.0.7</b> Summary</a></li>
+<li class="chapter" data-level="8.0.8" data-path="pull-requests.html"><a href="pull-requests.html#slides-and-video-7"><i class="fa fa-check"></i><b>8.0.8</b> Slides and Video</a></li>
+<li class="chapter" data-level="8.0.9" data-path="pull-requests.html"><a href="pull-requests.html#pull-requests-quiz"><i class="fa fa-check"></i><b>8.0.9</b> Pull Requests quiz</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="version-control-help.html"><a href="version-control-help.html"><i class="fa fa-check"></i><b>9</b> Version Control Help</a>
+<ul>
+<li class="chapter" data-level="9.0.1" data-path="version-control-help.html"><a href="version-control-help.html#google-for-git-help"><i class="fa fa-check"></i><b>9.0.1</b> Google for git help</a></li>
+<li class="chapter" data-level="9.0.2" data-path="version-control-help.html"><a href="version-control-help.html#burn-it-down"><i class="fa fa-check"></i><b>9.0.2</b> Burn it Down</a></li>
+<li class="chapter" data-level="9.0.3" data-path="version-control-help.html"><a href="version-control-help.html#summary-3"><i class="fa fa-check"></i><b>9.0.3</b> Summary</a></li>
+<li class="chapter" data-level="9.0.4" data-path="version-control-help.html"><a href="version-control-help.html#additional-resources"><i class="fa fa-check"></i><b>9.0.4</b> Additional Resources</a></li>
+<li class="chapter" data-level="9.0.5" data-path="version-control-help.html"><a href="version-control-help.html#slides-and-video-8"><i class="fa fa-check"></i><b>9.0.5</b> Slides and Video</a></li>
+<li class="chapter" data-level="9.0.6" data-path="version-control-help.html"><a href="version-control-help.html#version-control-help-quiz"><i class="fa fa-check"></i><b>9.0.6</b> Version Control Help quiz</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
+<li class="chapter" data-level="10" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>10</b> References</a></li>
+<li class="divider"></li>
+<p style="text-align:center;"> <a href="https://github.com/jhudsl/OTTR_Template" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by: </a> </p>
+<p style="text-align:center;"> <a href="https://www.datatrail.org/"> Data Trail </a></p>
+<a href="https://www.datatrail.org/"><img src="https://github.com/datatrail-jhu/DataTrail_Template/raw/main/assets/DataTrail_logo.jpg" style=" width: 80%; filter: grayscale(100%); padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
+<p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+<p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span>  <a href="https://forms.gle/VWaJYc3zATe3qxYC9"> Click here to provide feedback</a> <img src="assets/itcr_arrow.png" style=" width: 10%" ></span></div></p>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">git_help</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<head>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+  <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
+  <!--<script src="assets/hideOutput.js"></script>-->
+  <link href="assets/style_DataTrail.css" rel="stylesheet">
+</head>
+        
+
+
+<div class="hero-image-container"> 
+  <img class= "hero-image" src="assets/DataTrail.jpg">
+</div>
+<div id="creating-a-repository" class="section level1" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Creating A Repository</h1>
+<p>Now that you have learned about version control and the GitHub website, we will do some actual work with the GitHub website to create a new repository and set up your user profile.</p>
+<div id="what-is-a-repository" class="section level3" number="3.0.1">
+<h3><span class="header-section-number">3.0.1</span> What is a Repository?</h3>
+<p>First let’s review what a repository is. A repository houses the entirety of a project. Imagine a filing cabinet. A repository for this project would be the filing cabinet itself. Inside the cabinet are various folders and files that make up the project. As you begin working on various projects, each one will likely have its own repository, and any work that you do will be housed in that repository. In the first part of this lesson, we will discuss how to create a repository using the GitHub website.</p>
+</div>
+<div id="how-do-i-create-a-github-repository" class="section level3" number="3.0.2">
+<h3><span class="header-section-number">3.0.2</span> How Do I Create a GitHub Repository?</h3>
+<div id="step-1" class="section level4" number="3.0.2.1">
+<h4><span class="header-section-number">3.0.2.1</span> Step 1</h4>
+<p>First, navigate to the GitHub website: <a href="https://github.com/">GitHub.com</a>. Click the green button on the right hand side of the page that allows you create a new repository.</p>
+<p>{format: png}
+<img src="https://docs.google.com/presentation/d/1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU/export/png?id=1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU&amp;pageid=g2bfdb07292_0_151" alt="Creating a new repository" /></p>
+</div>
+<div id="step-2" class="section level4" number="3.0.2.2">
+<h4><span class="header-section-number">3.0.2.2</span> Step 2</h4>
+<p>You will be taken to a new page where you can set up information about this new repository. Most importantly, create a descriptive name for the repository that relates to your project. This will help you remember what repository holds your files for this project if you have many repositories or come back to the project at a later time.</p>
+<p>Including a description for your repository is optional.</p>
+<p>You have a choice to make your repository public or private. Public repositories are viewable by the public. Anyone can see what code you have used for this project. You can still control who can contribute to this particular repository, but the repository is open to being forked by other people who may want to build off of your work in their own repositories. Private repositories are not viewable by the public, and you can still control who can contribute to this particular repository. It is generally a nice choice to make a repository public to share your work with others, but if you are working with sensitive information, it would be best to make the repository private. Keep in mind that you can have private repositories on GitHub only if you are a paid subscriber.</p>
+<p>You can leave the other options at their default settings.</p>
+<p>When you are satisfied with these settings, click the “Create repository” button at the bottom.</p>
+<p>{format: png}
+<img src="https://docs.google.com/presentation/d/1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU/export/png?id=1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU&amp;pageid=g38bb68a530_0_8" alt="Setting up a new repository" /></p>
+<p>And you’re done! You will be taken to a page that looks as below. This page contains information about the commands that will be useful when adding files to your repository later on. We will cover the use of these commands from RStudio Cloud in subsequent lessons.</p>
+<p>{format: png}
+<img src="https://docs.google.com/presentation/d/1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU/export/png?id=1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU&amp;pageid=g38bb68a530_0_19" alt="Landing page" /></p>
+</div>
+</div>
+<div id="adding-a-readme-file" class="section level3" number="3.0.3">
+<h3><span class="header-section-number">3.0.3</span> Adding a README File</h3>
+<p>If you click on the link labeled README indicated in the picture below, you can add a README file to your currently empty repository. The README file is the first thing someone sees when they navigate to the page for your repository. It is useful for providing an overview for what is contained within it.</p>
+<p>{format: png}
+<img src="https://docs.google.com/presentation/d/1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU/export/png?id=1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU&amp;pageid=g38bb68a530_0_24" alt="Creating a README" /></p>
+<p>When you click on that link, you will be taken to a page pictured below where you can edit the text of this file and preview what it will look like on the GitHub website. It has been automatically filled in with the title of our repository and the optional description we entered previously. Feel free to add additional description. The README file is a markdown document so you will have to use the markdown syntax you learned in the last course to edit this document.</p>
+<p>{format: png}
+<img src="https://docs.google.com/presentation/d/1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU/export/png?id=1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU&amp;pageid=g38bb68a530_0_32" alt="Editing a README" /></p>
+<p>When you are finished editing your README file, scroll to the bottom of the page to commit your changes. Here, GitHub automatically suggests that “Create README” is your commit messages. As this is informative of what you have done, you do not need to add additional text; however, you’re welcome to make this commit message even more informative if you’d like.</p>
+<p>{format: png}
+<img src="https://docs.google.com/presentation/d/1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU/export/png?id=1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU&amp;pageid=g38bb68a530_0_38" alt="Committing changes" /></p>
+<p>Click the “Commit new file button” to add this README to your repository. You will be taken to the homepage for your repository, as pictured below.</p>
+<p>{format: png}
+<img src="https://docs.google.com/presentation/d/1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU/export/png?id=1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU&amp;pageid=g38bb68a530_0_43" alt="Repository homepage" /></p>
+<p>Congratulations! You have created and set up your first repository!</p>
+</div>
+<div id="the-github-guide" class="section level3" number="3.0.4">
+<h3><span class="header-section-number">3.0.4</span> The GitHub Guide</h3>
+<p>GitHub also recognizes that this can be an overwhelming process for new users, and as such have developed a mini tutorial to get you started with GitHub. You can go through <a href="https://guides.github.com/activities/hello-world/">this guide</a> to get further process setting up repositories on GitHub!</p>
+</div>
+<div id="slides-and-video-2" class="section level3" number="3.0.5">
+<h3><span class="header-section-number">3.0.5</span> Slides and Video</h3>
+<div class="figure">
+<img src="https://www.youtube.com/watch?v=mC6xwXaUZmk" alt="" />
+<p class="caption">Creating A Repository</p>
+</div>
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU/edit?usp=sharing">Slides</a></li>
+</ul>
+<p>{quiz, id: quiz_02_creating_repos}</p>
+</div>
+<div id="creating-a-repository-quiz" class="section level3" number="3.0.6">
+<h3><span class="header-section-number">3.0.6</span> Creating A Repository quiz</h3>
+<p>{choose-answers: 4}
+? In which of the following instances would you create a public repository?</p>
+<ol start="3" style="list-style-type: upper-alpha">
+<li>To share your work with others</li>
+<li>To make collaborating with anyone easier</li>
+</ol>
+<ol start="15" style="list-style-type: lower-alpha">
+<li>To comply with employer specifications about project security</li>
+<li>To use version control on the analysis of sensitive data</li>
+<li>To use version control on the analysis of private data</li>
+<li>To use Git but ensure that you are the only person with access to the code.</li>
+</ol>
+<p>{choose-answers: 4}
+? Fill in the blank: I will have a GitHub repository for each ________.</p>
+<ol start="3" style="list-style-type: upper-alpha">
+<li>project</li>
+<li>data science project</li>
+</ol>
+<ol start="15" style="list-style-type: lower-alpha">
+<li>part of my project</li>
+<li>script</li>
+<li>different directory</li>
+<li>GitHub</li>
+<li>version control</li>
+<li>file</li>
+</ol>
+<p>{points: 2, choose-answers: 4}
+? To make a new repository, which can you <strong>not</strong> do? (Note: To figure out the answer to this question, you may have to play around on GitHub a bit.)</p>
+<ol start="3" style="list-style-type: upper-alpha">
+<li>Profile &gt; New repository<br />
+</li>
+<li>Profile &gt; Stars &gt; New repository</li>
+<li>Profile &gt; Followers &gt; New repository</li>
+</ol>
+<ol start="15" style="list-style-type: lower-alpha">
+<li>Plus sign &gt; New repository<br />
+</li>
+<li>Profile &gt; Repositories &gt; New<br />
+</li>
+<li>Picture icon at top right-hand side &gt; Your Repositories &gt; New</li>
+</ol>
+<p>{points:2, choose-answers:4}
+? Read through the <a href="https://guides.github.com/activities/hello-world/">GitHub Guide</a>. What is a <strong>pull request</strong>?</p>
+<ol start="3" style="list-style-type: upper-alpha">
+<li>A way to suggest changes to someone elses repository</li>
+<li>A proposed change to a respository</li>
+<li>A change proposed to a repository that can be reviewed, accepted and merged</li>
+</ol>
+<ol start="15" style="list-style-type: lower-alpha">
+<li>How to start a new repository</li>
+<li>A way to save (or favorite) someone else’s repository</li>
+<li>The best way to commit changes to a repository</li>
+<li>The best way to visualize branches within a repository</li>
+<li>The way to take local changes on your computer and put them onto GitHub</li>
+<li>What you’ll use when you want to send local changes on your computer onto your GitHub repository</li>
+</ol>
+<p>{/quiz}</p>
+
+</div>
+</div>
+<hr>
+<center> 
+  <div class="footer">
+      All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
+      <br>
+      All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
+  </div>
+</center>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="github.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="cloning-a-repository.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
