@@ -31,12 +31,69 @@ In RStudio cloud, go to your workspace by clicking the appropriate button on the
 Click the `New Project` button and choose `New Project from Git Repository`
 
 
-AVOCADO: Slides here. 
+AVOCADO: Slides here.
 
 Place the URL that you copied in Step 1 in the `URL of your Git Repository` box, and click `OK`.
 You will a `Deploying Project` progress screen, typically after a few seconds, the RStudio interface for your project will appear.
 
 Also note that in the bottom right hand corner of RStudio, in the `Files` pane, you will have the files that are in your GitHub repository, now available in this RStudio cloud workspace.
+
+### Step 4: Set up GitHub Credentials
+
+In order to be able to access everything in your GitHub repository from RStudio cloud, you will need to set up GitHub credentials. You should only need to do this once per project.
+
+
+
+1. In your RStudio interface, make sure that you are in the `Console` tab.
+
+2. Now use the command below to install the package `usethis`. This package will help us manage our GitHub credentials from RStudio more easily.
+
+```r
+install.packages("usethis")
+```
+This will take a minute or so to install.
+
+3. Now to use this package, we need to attach its library using the following command:
+
+```r
+library("usethis")
+```
+
+4. RStudio and GitHub require you make a special fancy password to use as credentials called a **GitHub Personal Access Token** (sometimes abbreviated as a "PAT").
+
+To create a 'PAT' from RStudio we can run this handy command:
+
+```r
+usethis::create_github_token()
+```
+Running this command will open up a window in your GitHub that will ask you for your password. Login to GitHub as you normally would.
+
+This will open up a page in GitHub for creating a `New personal access token`.
+
+Underneath the `Note` put something that reminds you what this PAT is for. Something like `RStudioCloud Access`. (Note that each PAT you make needs its own unique `Note` though).
+
+Underneath the `Select scopes` section **you don't need to do anything**, `usethis` package already chose the permissions we need.
+
+Click `Generate Token`. You've created your first PAT! **Do not close this window**, keep it handy for now.
+
+5. Return back to your RStudio Cloud project while keeping your PAT handy.
+In the `Console` window, run this command:
+
+```r
+gitcreds::gitcreds_set()
+```
+
+It will ask you to `? Enter password or token`. Copy your PAT and paste it into the command window
+
+
+
+7. Add your username and email to the github credentials by running this command (but replace the example username and email with what corresponds to your GitHub account).
+use_git_config(user.name = "Jane", user.email = "jane@example.org")
+8. Check that everything has been set correctly by running:
+git_sitrep()
+You should see that `Name`, `email` have your credentials set as well as a `Personal access token for 'https://github.com': '<discovered>'`
+
+Now you should be able to use GitHub from RStudioCloud
 
 ### Directory/Folder Organization
 
