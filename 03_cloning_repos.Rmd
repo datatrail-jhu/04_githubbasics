@@ -24,7 +24,7 @@ For example, in our last lesson, the URL for our repository is [https://github.c
 {format: png}
 ![Obtaining the clone URL](https://docs.google.com/presentation/d/1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8/export/png?id=1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8&pageid=g36809c5e39_0_0)
 
-### Step 3: Use the RStudio interface to clone the repository
+### Step 2: Use the RStudio interface to clone the repository
 
 In RStudio cloud, go to your workspace by clicking the appropriate button on the left side navigation bar.
 
@@ -38,11 +38,9 @@ You will a `Deploying Project` progress screen, typically after a few seconds, t
 
 Also note that in the bottom right hand corner of RStudio, in the `Files` pane, you will have the files that are in your GitHub repository, now available in this RStudio cloud workspace.
 
-### Step 4: Set up GitHub Credentials
+### Step 3: Set up GitHub Credentials
 
 In order to be able to access everything in your GitHub repository from RStudio cloud, you will need to set up GitHub credentials. You should only need to do this once per project.
-
-
 
 1. In your RStudio interface, make sure that you are in the `Console` tab.
 
@@ -85,6 +83,7 @@ gitcreds::gitcreds_set()
 
 It will ask you to `? Enter password or token`. Copy your PAT and paste it into the command window and press Enter.
 
+After you've entered your PAT in RStudio here, you are now free to close that GitHub PAT window. Note that you will want to be very careful with your PAT. **Do not share it or put it anywhere that others could see it or access it!**
 
 7. Now we also need to add your username and email to the RStudio GitHub credentials by running a command like below.
 But replace the example username and email with what corresponds to your GitHub account.
