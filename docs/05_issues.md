@@ -20,7 +20,7 @@ First navigate to the Issues tab on the main repository webpage.
 {format: png}
 ![Navigating to the Issues tab](https://docs.google.com/presentation/d/1G8ftZ6_UzNyYfcDoLKHhp2GpDtd20cln0vnJpHiUpFE/export/png?id=1G8ftZ6_UzNyYfcDoLKHhp2GpDtd20cln0vnJpHiUpFE&pageid=g3917a587ee_0_0)
 
-Then click the green button that says "New issue." 
+Then click the green button that says "New issue."
 
 {format: png}
 ![Where to create a new issue](https://docs.google.com/presentation/d/1G8ftZ6_UzNyYfcDoLKHhp2GpDtd20cln0vnJpHiUpFE/export/png?id=1G8ftZ6_UzNyYfcDoLKHhp2GpDtd20cln0vnJpHiUpFE&pageid=g3917a587ee_0_12)
@@ -45,35 +45,3 @@ Over the course of the project, you can come back to the Issues tab on your repo
 ![Issues on GitHub](https://www.youtube.com/watch?v=f_SlMKNNmIA)
 
 * [Slides](https://docs.google.com/presentation/d/1G8ftZ6_UzNyYfcDoLKHhp2GpDtd20cln0vnJpHiUpFE/edit?usp=sharing)
-
-
-{quiz, id: quiz_05_issues}
-
-### Organization with Issues on GitHub quiz
-
-{choose-answers:4}
-?1 Which of the following can NOT be done with GitHub Issues?
-
-C) Auto-resolving issues in your code
-C) Detecting parts of code that will cause issues when it's executed
-o) Communicating with others about your project
-o) Assigning a task to a person in a project
-o) Having labels for each task
-o) Suggesting improvements to code for the future
-
-?2 Search the web and assess whether the following statement is TRUE or FALSE: Any user regardless of whether they are contributors to a *public* repository or not can create an issue for the repository.
-
-A) TRUE
-b) FALSE
-
-?2 Search the web and assess whether the following statement is TRUE or FALSE: Any user regardless of whether they are contributors to a *private* repository or not can create an issue for the repository.
-
-a) TRUE
-B) FALSE
-
-?2 Search the web and assess whether the following statement is TRUE or FALSE: Any GitHub user can submit an issue to a *public* repository.
-
-A) TRUE
-b) FALSE
-
-{/quiz}
