@@ -13,7 +13,7 @@ Now that you have learned how to create a repository and clone it, it's time to 
 
 #### Get Status
 
-A helpful git command is `git status`. If you type this in the terminal and press "enter" on your keyboard, the files that have been modified or added since you last updated changes on GitHub will be displayed. 
+A helpful git command is `git status`. If you type this in the terminal and press "enter" on your keyboard, the files that have been modified or added since you last updated changes on GitHub will be displayed.
 
 However, before working with the git commands that will track and publish our changes, we need to change the working directory in the Terminal to be the `first_project` folder. We can do this with the `cd` command. Using the command `cd PATH` changes the working directory to the folder specified by `PATH`. For example, if the `first_project` folder contained a folder called `analysis`, we could set our Terminal working directory to this folder with `cd first_project/analysis`. To continue change the working directory by typing the command `cd first_project` in the prompt.
 
@@ -31,7 +31,7 @@ Over the course of working on a project, you will be creating a number of files 
 
 #### Create a File
 
-Let's start by creating a file within the project. Below we've created a text file containing a list of tasks. This is saved as tasks.txt within the `first_project` folder. This is the repository that we cloned in the previous lesson.
+Let's start by creating a file within the project. Below we've created a text file containing a list of tasks. This is saved as `tasks.txt` within the `first_project` folder. This is the repository that we cloned in the previous lesson.
 
 {format: png}
 ![Creating a file in our project repository](https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&pageid=g388478d6c4_0_0)
@@ -145,7 +145,7 @@ When we run the `git pull` command, the changes present in the remote repository
 
 ### Practice
 
-To get more practice with these concepts, as we know they are not the easiest, we suggest you go practice at [GitHub Learning Lab](https://lab.github.com/). Here you can practices your git commands and get feedback as to what you've done correctly and where you steered off course. It's a great way to get better at using git commands before you move onto the quiz! 
+To get more practice with these concepts, as we know they are not the easiest, we suggest you go practice at [GitHub Learning Lab](https://lab.github.com/). Here you can practices your git commands and get feedback as to what you've done correctly and where you steered off course. It's a great way to get better at using git commands before you move onto the quiz!
 
 ### Slides and Video
 
