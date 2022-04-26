@@ -83,17 +83,27 @@ In the `Console` window, run this command:
 gitcreds::gitcreds_set()
 ```
 
-It will ask you to `? Enter password or token`. Copy your PAT and paste it into the command window
+It will ask you to `? Enter password or token`. Copy your PAT and paste it into the command window and press Enter.
 
 
+7. Now we also need to add your username and email to the RStudio GitHub credentials by running a command like below.
+But replace the example username and email with what corresponds to your GitHub account.
 
-7. Add your username and email to the github credentials by running this command (but replace the example username and email with what corresponds to your GitHub account).
+```r
 use_git_config(user.name = "Jane", user.email = "jane@example.org")
-8. Check that everything has been set correctly by running:
+```
+
+Run this in the `Console` tab as well and click Enter.
+
+8. Now to double check that everything is set, we can run this command to have the `usethis` package echo back our credentials:
+
+```r
 git_sitrep()
+```
+
 You should see that `Name`, `email` have your credentials set as well as a `Personal access token for 'https://github.com': '<discovered>'`
 
-Now you should be able to use GitHub from RStudioCloud
+Yay! Now you should be able to use GitHub from RStudioCloud!
 
 ### Directory/Folder Organization
 
