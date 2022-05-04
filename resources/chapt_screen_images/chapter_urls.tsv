@@ -1,0 +1,13 @@
+url	chapt_title	img_path
+https://datatrail-jhu.github.io/04_githubbasics/no_toc/index.html	About this Course	resources/chapt_screen_images/index.png
+https://datatrail-jhu.github.io/04_githubbasics/no_toc/version-control.html	1 Version Control	resources/chapt_screen_images/version-control.png
+https://datatrail-jhu.github.io/04_githubbasics/no_toc/github.html	2 GitHub	resources/chapt_screen_images/github.png
+https://datatrail-jhu.github.io/04_githubbasics/no_toc/creating-a-repository.html	3 Creating A Repository	resources/chapt_screen_images/creating-a-repository.png
+https://datatrail-jhu.github.io/04_githubbasics/no_toc/cloning-a-repository.html	4 Cloning A Repository	resources/chapt_screen_images/cloning-a-repository.png
+https://datatrail-jhu.github.io/04_githubbasics/no_toc/pushing-and-pulling-changes.html	5 Pushing and Pulling Changes	resources/chapt_screen_images/pushing-and-pulling-changes.png
+https://datatrail-jhu.github.io/04_githubbasics/no_toc/organization-with-issues-on-github.html	6 Organization with Issues on GitHub	resources/chapt_screen_images/organization-with-issues-on-github.png
+https://datatrail-jhu.github.io/04_githubbasics/no_toc/setting-up-a-project-on-github.html	7 Setting Up A Project on GitHub	resources/chapt_screen_images/setting-up-a-project-on-github.png
+https://datatrail-jhu.github.io/04_githubbasics/no_toc/pull-requests.html	8 Pull Requests	resources/chapt_screen_images/pull-requests.png
+https://datatrail-jhu.github.io/04_githubbasics/no_toc/version-control-help.html	9 Version Control Help	resources/chapt_screen_images/version-control-help.png
+https://datatrail-jhu.github.io/04_githubbasics/no_toc/about-the-authors.html	About the Authors	resources/chapt_screen_images/about-the-authors.png
+https://datatrail-jhu.github.io/04_githubbasics/no_toc/references.html	10 References	resources/chapt_screen_images/references.png

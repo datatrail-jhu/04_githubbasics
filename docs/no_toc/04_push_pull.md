@@ -11,7 +11,7 @@ Now that you have learned how to create a repository and clone it, it's time to 
 
 #### Get Status
 
-A helpful git command is `git status`. If you type this in the terminal and press "enter" on your keyboard, the files that have been modified or added since you last updated changes on GitHub will be displayed.
+A helpful git command is `git status`. If you type this in the terminal and press "enter" on your keyboard, the files that have been modified or added since you last updated changes on GitHub will be displayed. 
 
 However, before working with the git commands that will track and publish our changes, we need to change the working directory in the Terminal to be the `first_project` folder. We can do this with the `cd` command. Using the command `cd PATH` changes the working directory to the folder specified by `PATH`. For example, if the `first_project` folder contained a folder called `analysis`, we could set our Terminal working directory to this folder with `cd first_project/analysis`. To continue change the working directory by typing the command `cd first_project` in the prompt.
 
@@ -29,7 +29,7 @@ Over the course of working on a project, you will be creating a number of files 
 
 #### Create a File
 
-Let's start by creating a file within the project. Below we've created a text file containing a list of tasks. This is saved as `tasks.txt` within the `first_project` folder. This is the repository that we cloned in the previous lesson.
+Let's start by creating a file within the project. Below we've created a text file containing a list of tasks. This is saved as tasks.txt within the `first_project` folder. This is the repository that we cloned in the previous lesson.
 
 {format: png}
 ![Creating a file in our project repository](https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&pageid=g388478d6c4_0_0)
@@ -37,7 +37,7 @@ Let's start by creating a file within the project. Below we've created a text fi
 
 #### Staging and Committing
 
-Now that we have added a file to this repository, let's put it under version control and publish these changes. First we need to move to the Terminal pane. Recall that the text at the beginning of the line is called the **prompt**. The Terminal prompt shows the current working directory within the Terminal. Initially, the working directory is the `/cloud/project` folder. We can see the same information by entering the `pwd` command. We can use the `ls` command to list the files and folders that are in the current working directory. If you haven't previously added any files or folders here, you'll see that the `first_project` folder is the only thing present. 
+Now that we have added a file to this repository, let's put it under version control and publish these changes. First we need to move to the Terminal pane. Recall that the text at the beginning of the line is called the **prompt**. The Terminal prompt shows the current working directory within the Terminal. Initially, the working directory is the `/cloud/project` folder. We can see the same information by entering the `pwd` command. We can use the `ls` command to list the files and folders that are in the current working directory. If you haven't previously added any files or folders here, you'll see that the `first_project` folder is the only thing present.
 
 We will first use the `git add` command to tell Git that the `tasks.txt` file is to be tracked for version control. The syntax for the `add` command is:
 
@@ -143,70 +143,10 @@ When we run the `git pull` command, the changes present in the remote repository
 
 ### Practice
 
-To get more practice with these concepts, as we know they are not the easiest, we suggest you go practice at [GitHub Learning Lab](https://lab.github.com/). Here you can practices your git commands and get feedback as to what you've done correctly and where you steered off course. It's a great way to get better at using git commands before you move onto the quiz!
+To get more practice with these concepts, as we know they are not the easiest, we suggest you go practice at [GitHub Learning Lab](https://lab.github.com/). Here you can practices your git commands and get feedback as to what you've done correctly and where you steered off course. It's a great way to get better at using git commands before you move onto the quiz! 
 
 ### Slides and Video
 
 ![Pushing and Pulling Changes](https://www.youtube.com/watch?v=zQ5HYo9qcB8)
 
 * [Slides](https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/edit?usp=sharing)
-
-
-{quiz, id: quiz_04_push_pull}
-
-### Pushing and Pulling Changes quiz
-
-{choose-answers:4}
-?1 What git command is NOT used in making local changes available in a remote repository?
-
-C) pull
-C) clone
-C) diff
-o) add
-o) commit
-o) push
-
-{choose-answers: 4}
-?2 What git command is used to make a local copy of a remote repository for the first time?
-
-C) clone
-o) add
-o) commit
-o) push
-o) pull
-o) status
-o) merge
-
-{choose-answers: 4, points: 2}
-?3 What git commands would be used to mark that updates to the files `codebook.md` AND `tidy.csv` should be tracked? (Multiple separate commands are separated by semicolons.)
-
-C) git add codebook.md tidy.csv
-C) git add -A
-C) git add .
-o) git commit codebook.md tidy.csv
-o) git commit codebook.md; git commit tidy.csv
-o) git push codebook.md git add tidy.csv
-o) git add *.csv
-o) git add *.md
-
-{choose-answers: 4}
-?4 What does the `-u` in `git add -u` specify?
-
-C) stage modified and deleted files but not new files
-m) stage new and modified files but not deleted files
-o) stage files that have the file extension .u
-o) stage files that have the file extension .A
-o) stage any file name tasks.txt    
-
-{choose-answers: 4}
-?4 What does the `-A` in `git add -A` specify?
-
-m) stage modified and deleted files but not new files
-C) stage new, modified, and deleted files
-o) stage new and deleted files but not modified files
-o) stage new and modified files but not deleted files
-o) stage files that have the file extension .u
-o) stage files that have the file extension .A
-o) stage any file name tasks.txt    
-
-{/quiz}
