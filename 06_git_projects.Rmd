@@ -29,19 +29,19 @@ On the page that follows, type the repository name. Choose the name `my_first_pr
 ![Add repository information](https://docs.google.com/presentation/d/1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA/export/png?id=1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA&pageid=g39eab98346_0_0)
 
 
-The next step is to clone this repository into RStudio Cloud but as you may remember, we first need the url to this repository we just created. On the repository page, click on Clone or download and copy the link address. Make sure the address starts with `https` rather than `git`. If it starts with `git`, click on Use HTTPS on the corner of the small window to have the link starting with `https`. 
+The next step is to clone this repository into RStudio Cloud but as you may remember, we first need the url to this repository we just created. On the repository page, click on Clone or download and copy the link address. Make sure the address starts with `https` rather than `git`. If it starts with `git`, click on Use HTTPS on the corner of the small window to have the link starting with `https`.
 
 {format: png}
 ![Repository link](https://docs.google.com/presentation/d/1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA/export/png?id=1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA&pageid=g39eab98346_0_10)
 
 ### Creating a New Project from a GitHub Repository
 
-Ok, now that we have everything set up on the GitHub end, Go to [RStudio Cloud](https://rstudio.cloud/) and login with your account. When you're redirected to your Projects page, Next to the New Project button, click on the drop down button and then click on New Project from Git Repo. 
+Ok, now that we have everything set up on the GitHub end, Go to [RStudio Cloud](https://rstudio.cloud/) and login with your account. When you're redirected to your Projects page, Next to the New Project button, click on the drop down button and then click on New Project from Git Repo.
 
 {format: png}
 ![Create new project from Git repo on RStudio Cloud](https://docs.google.com/presentation/d/1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA/export/png?id=1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA&pageid=g39eab98346_0_23)
 
-On the popup window, paste the repository url that you just copied and click Ok. 
+On the popup window, paste the repository url that you just copied and click Ok.
 
 {format: png}
 ![Enter repository url](https://docs.google.com/presentation/d/1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA/export/png?id=1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA&pageid=g39eab98346_0_40)
@@ -56,11 +56,11 @@ Start editing the README file. Specifically, replace the content with the follow
 
 ```text
 # This is the README file for my_first_project
-The folders in this project are: 
+The folders in this project are:
 
-* _data_ - is the folder where you will put all the data you have collected or been given to analyze. 
-* _figures_ - is where you will put plots, data pictures, and other images you have created to show data to other people. 
-* _code_ - is where you will create code files for collecting, cleaning up, or analyzing data. 
+* _data_ - is the folder where you will put all the data you have collected or been given to analyze.
+* _figures_ - is where you will put plots, data pictures, and other images you have created to show data to other people.
+* _code_ - is where you will create code files for collecting, cleaning up, or analyzing data.
 * _products_ - this is the place where you will place any reports, presentations, or products you create for sharing with other people.
 ```
 
@@ -87,7 +87,7 @@ To https://github.com/JaneEverydayDoe/my_first_project.git
    e80844c..24fec16  master -> master
 ```
 
-You should be able to see your changes on the repository on GitHub.com. 
+You should be able to see your changes on the repository on GitHub.com.
 
 {format: png}
 ![Changes can be seen on the remote repository](https://docs.google.com/presentation/d/1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA/export/png?id=1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA&pageid=g39ec80b88b_0_18)
@@ -110,39 +110,10 @@ Now go ahead and further create the folder structure that we learned. An importa
   * explanatory_figures/
 * products/
   * writing/
-  
+
 
 ### Slides and Video
 
 ![Setting up projects on GitHub](https://www.youtube.com/watch?v=ktUSPBpUjZo)
 
 * [Slides](https://docs.google.com/presentation/d/1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA/edit?usp=sharing)
-
-
-{quiz, id: quiz_06_git_projects}
-
-### Setting Up A Project on GitHub quiz
-
-{choose-answers: 4}
-? Which of the following can NOT be done on GitHub (You may have to Google!)?
-
-C) Create a new repository with the correct structure for a data science project set up automatically
-o) Create a brand new repository where you can set up the correct data science file structure
-o) Create a new empty repository
-o) Create a data science repository
-o) Store and track all the files as you complete a data science project
-o) Allow code to be pushed on GitHub
-o) Host a personal website
-
-{choose-answers: 4}
-? When should you set up your data science file structure on GitHub?
-
-C) After you create the repository but before you start working on the project
-C) Once you have the repo but before you start the project
-C) At the start of the project
-o) After you have the repo and have started the analysis
-o) After you have the repo and have finished the analysis
-o) After you've shared the project with collaborators
-o) After you've finalized everything for your data science project
-
-{/quiz}
