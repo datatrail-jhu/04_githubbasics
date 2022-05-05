@@ -1,5 +1,4 @@
 ---
-title: "git_help"
 output: html_document
 ---
 
