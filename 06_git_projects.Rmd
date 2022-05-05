@@ -1,5 +1,4 @@
 ---
-title: "git_projects"
 output: html_document
 ---
 
