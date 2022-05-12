@@ -30,8 +30,9 @@ In RStudio cloud, go to your workspace by clicking the appropriate button on the
 
 Click the `New Project` button and choose `New Project from Git Repository`
 
-
-AVOCADO: Slides here.
+```{r, fig.align='center', echo = FALSE, fig.alt= "This shows how to git clone"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8/edit#slide=id.g36809c5e39_0_15")
+```
 
 Place the URL that you copied in Step 1 in the `URL of your Git Repository` box, and click `OK`.
 You will a `Deploying Project` progress screen, typically after a few seconds, the RStudio interface for your project will appear.
