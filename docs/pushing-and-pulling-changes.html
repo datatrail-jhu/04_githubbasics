@@ -194,11 +194,15 @@
 <h4><span class="header-section-number">5.0.0.1</span> Get Status</h4>
 <p>A helpful git command is <code>git status</code>. If you type this in the terminal and press “enter” on your keyboard, the files that have been modified or added since you last updated changes on GitHub will be displayed.</p>
 <p>However, before working with the git commands that will track and publish our changes, we need to change the working directory in the Terminal to be the <code>first_project</code> folder. We can do this with the <code>cd</code> command. Using the command <code>cd PATH</code> changes the working directory to the folder specified by <code>PATH</code>. For example, if the <code>first_project</code> folder contained a folder called <code>analysis</code>, we could set our Terminal working directory to this folder with <code>cd first_project/analysis</code>. To continue change the working directory by typing the command <code>cd first_project</code> in the prompt.</p>
-<p>
-<img src="https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&amp;pageid=g388478d6c4_0_66" alt="Changing the working directory in the Terminal" /></p>
+<div class="figure">
+<img src="https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&amp;pageid=g388478d6c4_0_66" alt="" />
+<p class="caption">Changing the working directory in the Terminal</p>
+</div>
 <p>As you’ve just cloned a repository in the last lesson, there are no changes yet. You can type <code>git status</code> at any time in the Terminal to see what files have been modified locally that are not yet on GitHub. This is particularly helpful when you want to decide which files to stage, which is discussed in more detail later in this lesson.</p>
-<p>
-<img src="https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&amp;pageid=g3b5b846a8f_2_13" alt="git status output" /></p>
+<div class="figure">
+<img src="https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&amp;pageid=g3b5b846a8f_2_13" alt="" />
+<p class="caption">git status output</p>
+</div>
 </div>
 <div id="pushing" class="section level3" number="5.0.1">
 <h3><span class="header-section-number">5.0.1</span> Pushing</h3>
@@ -206,8 +210,10 @@
 <div id="create-a-file" class="section level4" number="5.0.1.1">
 <h4><span class="header-section-number">5.0.1.1</span> Create a File</h4>
 <p>Let’s start by creating a file within the project. Below we’ve created a text file containing a list of tasks. This is saved as tasks.txt within the <code>first_project</code> folder. This is the repository that we cloned in the previous lesson.</p>
-<p>
-<img src="https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&amp;pageid=g388478d6c4_0_0" alt="Creating a file in our project repository" /></p>
+<div class="figure">
+<img src="https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&amp;pageid=g388478d6c4_0_0" alt="" />
+<p class="caption">Creating a file in our project repository</p>
+</div>
 </div>
 <div id="staging-and-committing" class="section level4" number="5.0.1.2">
 <h4><span class="header-section-number">5.0.1.2</span> Staging and Committing</h4>
@@ -227,12 +233,16 @@
 <p>The final shortcut we’ll discuss for staging files is the ability to use the wildcard (<em>) character with <code>git add</code>. Here, wildcard character (</em>) followed by .csv specifies that you want to stage any file that has the file extension “.csv”.</p>
 <pre class="text"><code>git add *.csv</code></pre>
 <p>You could alternatively use <code>git add *</code>. However, if you remember back to the lesson on removing files, you were cautioned against ever using <code>rm *</code> because you can very easily but accidentally delete files you didn’t mean to delete. The same logic works here. <code>git add *</code> will add everything, including hidden files, and thus should be <strong>used with caution</strong>. Instead, use options discussed above to stage your files.</p>
-<p>
-<img src="https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&amp;pageid=g3b5b846a8f_2_0" alt="git add summary table" /></p>
+<div class="figure">
+<img src="https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&amp;pageid=g3b5b846a8f_2_0" alt="" />
+<p class="caption">git add summary table</p>
+</div>
 <p>Now that we have let git know that which file should be tracked for version control, we will actually record those changes with <code>git commit</code>. The <code>commit</code> command takes the files that we added with <code>add</code> and updates the Git version history record with these changes. When we use the <code>commit</code> command we also supply a descriptive message about the changes that were made by specifying the <code>-m</code> option followed by the message in quotes. You can write anything as the message, however, since you may go back to your previous commits some day, it’s considered good practice to write a descriptive message that has some information about the nature of the changed you made.</p>
 <pre class="text"><code>git commit -m &quot;Add task list&quot;</code></pre>
-<p>
-<img src="https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&amp;pageid=g388478d6c4_0_7" alt="Adding a file and committing changes" /></p>
+<div class="figure">
+<img src="https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&amp;pageid=g388478d6c4_0_7" alt="" />
+<p class="caption">Adding a file and committing changes</p>
+</div>
 </div>
 <div id="verifying-your-identity" class="section level4" number="5.0.1.3">
 <h4><span class="header-section-number">5.0.1.3</span> Verifying Your Identity</h4>
@@ -250,19 +260,25 @@ git config user.email &quot;email@domain.com&quot;</code></pre>
 <div id="publishing-changes-pushing" class="section level4" number="5.0.1.4">
 <h4><span class="header-section-number">5.0.1.4</span> Publishing changes (pushing)</h4>
 <p>We are finally ready to publish our changes to a <strong>remote repository</strong>. We’ve been doing work in a local copy of the repository on RStudio Cloud. This personal copy is called a <strong>local repository</strong>. To make changes available to others, there needs to be an external version of the repository accessible by others. This is called a <strong>remote repository</strong>. Our remote repository is the one available on GitHub. To publish our changes, we use the <code>git push</code> command. Because we cloned this repository from GitHub, Git automatically knows that this is the remote repository. A local repository can have multiple remotes, and it is possible to push changes to a specified remote. We will not cover this here though. After you run <code>git push</code>, you will see some status text and you will be prompted for your GitHub username and password. After you enter these, the push will be complete.</p>
-<p>
-<img src="https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&amp;pageid=g388478d6c4_0_13" alt="Pushing changes" /></p>
+<div class="figure">
+<img src="https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&amp;pageid=g388478d6c4_0_13" alt="" />
+<p class="caption">Pushing changes</p>
+</div>
 </div>
 </div>
 <div id="pulling" class="section level3" number="5.0.2">
 <h3><span class="header-section-number">5.0.2</span> Pulling</h3>
 <p>While working on a project, we may have a collaborator working on files in the same repository. If they create and edit files in their own local repositories and push changes to our shared remote repository on GitHub, we will want to incorporate their changes into our files. We can do this with <code>git pull</code>.</p>
 <p>For example, a collaborator might have added an additional task to the <code>tasks.txt</code> file.</p>
-<p>
-<img src="https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&amp;pageid=g388478d6c4_0_20" alt="Seeing on GitHub that a file has been edited" /></p>
+<div class="figure">
+<img src="https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&amp;pageid=g388478d6c4_0_20" alt="" />
+<p class="caption">Seeing on GitHub that a file has been edited</p>
+</div>
 <p>When we run the <code>git pull</code> command, the changes present in the remote repository are incorporated into our local repository. So when we open the <code>tasks.txt</code> file, we will see the additional task.</p>
-<p>
-<img src="https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&amp;pageid=g388478d6c4_0_27" alt="Pulling changes from the remote to our local repository" /></p>
+<div class="figure">
+<img src="https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&amp;pageid=g388478d6c4_0_27" alt="" />
+<p class="caption">Pulling changes from the remote to our local repository</p>
+</div>
 </div>
 <div id="practice" class="section level3" number="5.0.3">
 <h3><span class="header-section-number">5.0.3</span> Practice</h3>
