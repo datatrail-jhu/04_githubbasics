@@ -193,7 +193,7 @@
 <div id="step-1-navigate-to-the-terminal-in-rstudio" class="section level3" number="4.0.1">
 <h3><span class="header-section-number">4.0.1</span> Step 1: Navigate to the Terminal in RStudio</h3>
 <p>Within a project in RStudio Cloud, navigate to the Terminal tab, indicated in the picture here. This is where you can type Git commands to work with repositories. The text that you see at the beginning of the line in the Terminal is called the <strong>prompt</strong>. When you see the prompt at the beginning of a line, this indicates that the Terminal is ready to accept your commands.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8/export/png?id=1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8&amp;pageid=g2bfdb07292_0_151" alt="Navigating to the Terminal" /></p>
 </div>
 <div id="step-2-obtain-the-url-for-the-repository-to-clone" class="section level3" number="4.0.2">
@@ -201,7 +201,7 @@
 <p>Navigate to the GitHub webpage for your repository. This URL always has the form</p>
 <pre class="text"><code>https://github.com/github_username/repository_name</code></pre>
 <p>For example, in our last lesson, the URL for our repository is <a href="https://github.com/JaneEverydayDoe/first_project/">https://github.com/JaneEverydayDoe/first_project/</a>. On this page, you will see a button on the right hand side that says “Clone or download”. When you click this, highlight the URL in the box, and copy it to the clipboard. Make sure it starts with “https” rather than “git@”. If you see “git@”, click the link in the top right corner of the box that says “Use HTTPS”.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8/export/png?id=1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8&amp;pageid=g36809c5e39_0_0" alt="Obtaining the clone URL" /></p>
 </div>
 <div id="step-3-use-the-clone-command-in-the-rstudio-terminal" class="section level3" number="4.0.3">
@@ -210,13 +210,13 @@
 <pre class="text"><code>git clone repository_url</code></pre>
 <p>Replace <code>repository_url</code> with the URL that you copied in Step 2, and hit Enter. You will see some status text appear as the repository is being cloned to a location on RStudio Cloud. When this is complete, typically after a few seconds, the Terminal prompt will appear again on a new line, indicating that you are able to input new commands if you wish.</p>
 <p>Also note that in the bottom right hand corner of RStudio, in the Files pane, you will have a new folder that has the same name as your Git repository.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8/export/png?id=1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8&amp;pageid=g36809c5e39_0_15" alt="Using the git clone command" /></p>
 </div>
 <div id="directoryfolder-organization" class="section level3" number="4.0.4">
 <h3><span class="header-section-number">4.0.4</span> Directory/Folder Organization</h3>
 <p>A big part of staying organized with your files is understanding how folders in your project are organized. Also important is the concept of a <strong>working directory</strong>. Whenever you are working in R or the Terminal, files are housed in some folder. This folder is called the working directory. Knowing this is important so that you know how to specify paths to other important folders in your project. We can see what the current working directory is in a number of ways. In the image below, we can see from the Terminal prompt that the working directory is <code>/cloud/project</code>. We can also see this in the Files pane. We see that the first level folder is <code>cloud</code> and that the second level folder is <code>project</code>.</p>
-<p>{format: png}
+<p>
 <img src="https://docs.google.com/presentation/d/1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8/export/png?id=1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8&amp;pageid=g36809c5e39_0_38" alt="Working directories" /></p>
 <p>Congratulations! You have cloned your first repository!</p>
 </div>

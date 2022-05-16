@@ -8,12 +8,12 @@ A helpful git command is `git status`. If you type this in the terminal and pres
 
 However, before working with the git commands that will track and publish our changes, we need to change the working directory in the Terminal to be the `first_project` folder. We can do this with the `cd` command. Using the command `cd PATH` changes the working directory to the folder specified by `PATH`. For example, if the `first_project` folder contained a folder called `analysis`, we could set our Terminal working directory to this folder with `cd first_project/analysis`. To continue change the working directory by typing the command `cd first_project` in the prompt.
 
-{format: png}
+
 ![Changing the working directory in the Terminal](https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&pageid=g388478d6c4_0_66)
 
 As you've just cloned a repository in the last lesson, there are no changes yet. You can type `git status` at any time in the Terminal to see what files have been modified locally that are not yet on GitHub. This is particularly helpful when you want to decide which files to stage, which is discussed in more detail later in this lesson.
 
-{format: png}
+
 ![git status output](https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&pageid=g3b5b846a8f_2_13)
 
 ### Pushing
@@ -24,7 +24,7 @@ Over the course of working on a project, you will be creating a number of files 
 
 Let's start by creating a file within the project. Below we've created a text file containing a list of tasks. This is saved as tasks.txt within the `first_project` folder. This is the repository that we cloned in the previous lesson.
 
-{format: png}
+
 ![Creating a file in our project repository](https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&pageid=g388478d6c4_0_0)
 
 
@@ -74,7 +74,7 @@ git add *.csv
 
 You could alternatively use `git add *`. However, if you remember back to the lesson on removing files, you were cautioned against ever using `rm *` because you can very easily but accidentally delete files you didn't mean to delete. The same logic works here. `git add *` will add everything, including hidden files, and thus should be **used with caution**. Instead, use options discussed above to stage your files.
 
-{format: png}
+
 ![git add summary table](https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&pageid=g3b5b846a8f_2_0)
 
 Now that we have let git know that which file should be tracked for version control, we will actually record those changes with `git commit`. The `commit` command takes the files that we added with `add` and updates the Git version history record with these changes. When we use the `commit` command we also supply a descriptive message about the changes that were made by specifying the `-m` option followed by the message in quotes. You can write anything as the message, however, since you may go back to your previous commits some day, it's considered good practice to write a descriptive message that has some information about the nature of the changed you made.
@@ -83,7 +83,7 @@ Now that we have let git know that which file should be tracked for version cont
 git commit -m "Add task list"
 ```
 
-{format: png}
+
 ![Adding a file and committing changes](https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&pageid=g388478d6c4_0_7)
 
 #### Verifying Your Identity
@@ -117,7 +117,7 @@ Note: If you're asked for your password, you should type in your GitHub password
 
 We are finally ready to publish our changes to a **remote repository**. We've been doing work in a local copy of the repository on RStudio Cloud. This personal copy is called a **local repository**. To make changes available to others, there needs to be an external version of the repository accessible by others. This is called a **remote repository**. Our remote repository is the one available on GitHub. To publish our changes, we use the `git push` command. Because we cloned this repository from GitHub, Git automatically knows that this is the remote repository. A local repository can have multiple remotes, and it is possible to push changes to a specified remote. We will not cover this here though. After you run `git push`, you will see some status text and you will be prompted for your GitHub username and password. After you enter these, the push will be complete.
 
-{format: png}
+
 ![Pushing changes](https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&pageid=g388478d6c4_0_13)
 
 ### Pulling
@@ -126,12 +126,12 @@ While working on a project, we may have a collaborator working on files in the s
 
 For example, a collaborator might have added an additional task to the `tasks.txt` file.
 
-{format: png}
+
 ![Seeing on GitHub that a file has been edited](https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&pageid=g388478d6c4_0_20)
 
 When we run the `git pull` command, the changes present in the remote repository are incorporated into our local repository. So when we open the `tasks.txt` file, we will see the additional task.
 
-{format: png}
+
 ![Pulling changes from the remote to our local repository](https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/export/png?id=1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8&pageid=g388478d6c4_0_27)
 
 ### Practice

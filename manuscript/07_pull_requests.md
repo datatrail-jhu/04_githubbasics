@@ -4,33 +4,33 @@
 
 As a reminder, there are two parts to the git and GitHub system. Git is focused on version control - basically keeping track of the different versions of all the files you are working on. You can track a git repo on  just for yourself to make sure you always have your file history available to you.
 
-{format: png}
+
 ![Git keeps track of your files](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f67d7bde_0_80)
 
 [GitHub](https://github.com/) is two things, first it is a way to back up and store all of your projects on the Internet.
 
-{format: png}
+
 ![GitHub stores and backs up your files online](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f67d7bde_0_21)
 
 But, it is also a social network for coders. You can use GitHub to contribute to other people's projects and get feedback on your projects as well.
 
-{format: png}
+
 ![GitHub also lets you work with others](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f67d7bde_0_96)
 
 In an earlier lesson we learned about issues. Issues are comments that you can make on either one of your own repos or on someone else's repos. Pull requests are a different kind of interaction that involve making a change directly to someone's code. First you would fork the repo to make your own copy. 
 
-{format: png}
+
 ![Forking a repo means you can change the code](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f67d7bde_0_37)
 
 Then you can send the owner of the repo a "request" to "pull" your change into their code. If they accept your pull request, then their code will be updated with your suggestion! 
 
-{format: png}
+
 ![You can send a request to have your code change pulled into theirs](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f67d7bde_0_55)
 
 Pull requests are a great way to contribute to projects that are being worked on by more than one person. This may be because you are working directly with a team and you all need to edit a document. Or it may be because you see someone else's project and want to make a suggestion. This is in fact one of the best ways to start to introduce yourself to the R community on GitHub. Find a project or a repo where you see something small you can help with - even if it is just fixing a typo or adding a comments - and send them a pull request. 
 
 
-{format: png}
+
 ![Pull requests are a great way to start contributing to the coding community online](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f67d7bde_0_7)
 
 
@@ -39,32 +39,32 @@ Pull requests are a great way to contribute to projects that are being worked on
 
 Now let's talk about how to make a pull request. The first thing that you will need to do is to create a "fork" of the repository you want to edit. This is a little different than "cloning" which you learned about in an earlier lesson. When you clone a repository you are just getting a copy of the project on RStudio Cloud. You are not creating a new version that you can work on. 
 
-{format: png}
+
 ![Cloning a project just gets you a copy on RStudio Cloud](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f67d7bde_0_114)
 
 
 When you fork a repo, something different happens. First a new repo is created under your account on GitHub. You can then clone that copy to your computer. Now when you make edits to the files on RStudio Cloud and push them, they will be pushed to your fork. 
 
-{format: png}
+
 ![Forking a repo makes a copy on GitHub that you can push and pull from](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f67d7bde_0_124)
 
 
 Let's try this out. We are going to make some changes to a repo and send a pull request. We will use https://github.com/jtleek/newproject as an example project to send a pull request to. The first step is to create a fork of this repository. To do this, go to the project webpage and click on Fork in the top right hand corner of the screen. 
 
-{format: png}
+
 ![We are going to fork the `newproject` repo from jtleek](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f6e5b9b9_0_0)
 
 
 
 This may ask you where to fork the repository if you are on multiple teams. Select your main account and wait while the repository is forked.
 
-{format: png}
+
 ![Select your main account to fork to](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f6e5b9b9_0_5)
 
 
 You will see now that you have your own version of the `newproject` repository on your GitHub profile and you will be able to see where the repository was forked from right under the repository name on the upper left. 
 
-{format: png}
+
 ![You now have a forked copy of the repo](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f6e5b9b9_0_11)
 
 
@@ -74,19 +74,19 @@ Now that you have a copy of this repository on your GitHub account, you can clon
 git clone https://github.com/your_username/newproject.git
 ```
 
-{format: png}
+
 ![Go to RStudio Cloud and find the terminal in your project, and use the git clone command to get your fork](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f6e5b9b9_0_16)
 
 
 where you replace `your_username` with your GitHub username. This should create a folder on your RStudio Cloud account called `newproject`. You may have to enter your username and password. 
 
-{format: png}
+
 ![You may have to use your username and password to clone](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f6e5b9b9_0_21)
 
 
 Now you have successfully "forked" and "cloned" the `newproject` repository.
 
-{format: png}
+
 ![Once you have cloned, you have your forked repo on RStudio Cloud](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f6e5b9b9_0_26)
 
 
@@ -109,7 +109,7 @@ glimpse(cars)
 
 After making this edit you can save the file. Now we are ready to start the process of sending a pull request. 
 
-{format: png}
+
 ![Edit myfile.Rmd and save the file](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f6e5b9b9_0_31)
 
 
@@ -125,7 +125,7 @@ pwd
 
 you should hopefully see that you are in the folder for `newproject`. If you are not, then you will need to use the `cd` command to make sure you are in that folder. 
 
-{format: png}
+
 ![Use pwd and cd to get into the newproject folder](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f6e5b9b9_0_36)
 
 
@@ -138,7 +138,7 @@ git add -A
 
 This will make sure that git is now monitoring those files you might have added. 
 
-{format: png}
+
 ![Use add to tell Git to monitor your file](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f6e5b9b9_0_41)
 
 
@@ -151,7 +151,7 @@ Next you can commit your changes with a message describing what you did. Since w
 git commit -m "I edited myfile.Rmd to use glimpse() to summarize the cars data"
 ```
 
-{format: png}
+
 ![Use git commit to save a version of your files on RStudio Cloud](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f6e5b9b9_0_46)
 
 
@@ -161,13 +161,13 @@ Now you will have saved the file on RStudio Cloud, but you still need to make th
 git push 
 ```
 
-{format: png}
+
 ![Use push to send the files to your forked repo](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f6e5b9b9_0_51)
 
 
 You might be asked to input your username and password for GitHub to make this push. But, once it has happened you should be able to go to your forked version of the repository at https://github.com/your_username/newproject/ and see the changes in the file `myfile.Rmd` on the GitHub website. 
 
-{format: png}
+
 ![When you have successfully pushed the files appear on your forked repo on GitHub](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f6e5b9b9_0_56)
 
 
@@ -176,7 +176,7 @@ You might be asked to input your username and password for GitHub to make this p
 
 Now you have successfully forked _jtleek_'s `newproject` repo, cloned it to RStudio Cloud and made some edits. You have added, committed, and pushed those changes to your own fork. The next step is to send a pull request to the user who created the original repo. To do this you should go to the website with your fork. Now you can click on the "Pull requests" tab for your repo. 
 
-{format: png}
+
 ![Click on the pull requests tab for your forked repo](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f6e5b9b9_0_61)
 
 Then click on "New Pull Request". 
@@ -185,13 +185,13 @@ Then click on "New Pull Request".
 If there have been no changes made to the original repo from _jtleek_ other than yours you should see that your pull request is "able to be merged" in green. You will also see a "diff" which is all of the files and changes to those files that you have made. You can then click on "Create Pull Request" to send the change to _jtleek_ for him to review. 
 
 
-{format: png}
+
 ![Check to see if the pull request is able to merge and click Create Pull request](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f6e5b9b9_0_66)
 
 
 You will be shown a screen where you can describe your pull request with a title and with a description of what you did. It is a good idea to put a pretty complete description of what you did - this will be the only description that _jtleek_ can use to decide whether to merge the changes to his repo or not.
 
-{format: png}
+
 ![Describe your changes for the original owner of the repo so they know what you did.](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f6e5b9b9_0_71)
 
 
@@ -199,25 +199,25 @@ You will be shown a screen where you can describe your pull request with a title
 When you have finished typing your message click "Create Pull Request" to send the pull request to _jtleek_.
 
 
-{format: png}
+
 ![Click "Create Pull Request" to send the changes to jtleek.](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f6e5b9b9_0_168)
 
 
 Now that you have created the pull request you can go to the original repo https://github.com/jtleek/newproject and click on the pull requests tab. You will be able to find your pull request among those that are open. In this case, since this is a repo that is used as an example for a MOOC there may be many open pull requests.
 
-{format: png}
+
 ![On the original repo your pull request appears](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f6e5b9b9_0_82)
 
 The author of the original repo can then either accept your change, or they can ask you questions about your pull request just below the place where they can decide whether to merge the change.  
 
-{format: png}
+
 ![You can communicate with the author using the Write box.](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f6e5b9b9_0_76)
 
 
 
 Once they click on "Merge pull request" your changes will automatically be incorporated into their code. Congratulations you have helped someone fix their code and made a new friend on GitHub! 
 
-{format: png}
+
 ![Once the original author logs in they can merge your pull request if they want.](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f6e5b9b9_0_92)
 
 
@@ -229,7 +229,7 @@ Sometimes it is more difficult than that since you may be editing a repo that is
 
 GitHub has instructions for keeping your fork [up to date](https://help.github.com/articles/syncing-a-fork/) and Jenny Bryan's book [Happy Git and GitHub for the useR](http://happygitwithr.com/fork.html) also has a section on forking that may be useful when encountering these more complicated scenarios. 
 
-{format: png}
+
 ![GitHub has instructions for syncing a fork.](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/export/png?id=1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM&pageid=g37f6e5b9b9_0_198)
 
 

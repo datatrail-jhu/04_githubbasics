@@ -18,7 +18,7 @@ First let's review what a repository is. A repository houses the entirety of a p
 
 First, navigate to the GitHub website: [GitHub.com](https://github.com/). Click the green button on the right hand side of the page that allows you create a new repository.
 
-{format: png}
+
 ![Creating a new repository](https://docs.google.com/presentation/d/1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU/export/png?id=1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU&pageid=g2bfdb07292_0_151)
 
 #### Step 2
@@ -33,34 +33,34 @@ You can leave the other options at their default settings.
 
 When you are satisfied with these settings, click the "Create repository" button at the bottom.
 
-{format: png}
+
 ![Setting up a new repository](https://docs.google.com/presentation/d/1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU/export/png?id=1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU&pageid=g38bb68a530_0_8)
 
 And you're done! You will be taken to a page that looks as below. This page contains information about the commands that will be useful when adding files to your repository later on. We will cover the use of these commands from RStudio Cloud in subsequent lessons.
 
-{format: png}
+
 ![Landing page](https://docs.google.com/presentation/d/1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU/export/png?id=1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU&pageid=g38bb68a530_0_19)
 
 ### Adding a README File
 
 If you click on the link labeled README indicated in the picture below, you can add a README file to your currently empty repository. The README file is the first thing someone sees when they navigate to the page for your repository. It is useful for providing an overview for what is contained within it.
 
-{format: png}
+
 ![Creating a README](https://docs.google.com/presentation/d/1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU/export/png?id=1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU&pageid=g38bb68a530_0_24)
 
 When you click on that link, you will be taken to a page pictured below where you can edit the text of this file and preview what it will look like on the GitHub website. It has been automatically filled in with the title of our repository and the optional description we entered previously. Feel free to add additional description. The README file is a markdown document so you will have to use the markdown syntax you learned in the last course to edit this document.
 
-{format: png}
+
 ![Editing a README](https://docs.google.com/presentation/d/1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU/export/png?id=1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU&pageid=g38bb68a530_0_32)
 
 When you are finished editing your README file, scroll to the bottom of the page to commit your changes. Here, GitHub automatically suggests that "Create README" is your commit messages. As this is informative of what you have done, you do not need to add additional text; however, you're welcome to make this commit message even more informative if you'd like.
 
-{format: png}
+
 ![Committing changes](https://docs.google.com/presentation/d/1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU/export/png?id=1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU&pageid=g38bb68a530_0_38)
 
 Click the "Commit new file button" to add this README to your repository. You will be taken to the homepage for your repository, as pictured below.
 
-{format: png}
+
 ![Repository homepage](https://docs.google.com/presentation/d/1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU/export/png?id=1Dxf8VZi4RAf4BA8Xb__gbnTxFLIJKM-mxSy_BMA48DU&pageid=g38bb68a530_0_43)
 
 Congratulations! You have created and set up your first repository!

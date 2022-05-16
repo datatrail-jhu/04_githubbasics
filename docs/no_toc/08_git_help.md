@@ -16,12 +16,12 @@ Instead, we're going to walk you through how to find the answer to the mistake y
 
 When you're getting merge conflicts or errors when trying to run git commands in the Terminal, Googling the specific error message you're getting can be very helpful. For example, if you're getting a merge conflict error on GitHub, you may want to Google "git merge conflict help" to start you on your path to git merge conflict recovery.
 
-{format: png}
+
 ![Google: "git merge conflict help"](https://docs.google.com/presentation/d/1Aj1Y0lIYdKftZVzAjWCWkOd8c0-IxnxtPbBmIUOdYC4/export/png?id=1Aj1Y0lIYdKftZVzAjWCWkOd8c0-IxnxtPbBmIUOdYC4&pageid=g3bac4e3849_0_0)
 
 Or, if you've changed some documents, realized you didn't actually want to make those changes, and want to revert back to a previous commit, you may google "git revert to previous commit"
 
-{format: png}
+
 ![Google: "git revert to previous commit"](https://docs.google.com/presentation/d/1Aj1Y0lIYdKftZVzAjWCWkOd8c0-IxnxtPbBmIUOdYC4/export/png?id=1Aj1Y0lIYdKftZVzAjWCWkOd8c0-IxnxtPbBmIUOdYC4&pageid=g3bac4e3849_0_9)
 
 In both of these cases, links that will be helpful in figuring out your issue are provided and what git commands you'll want to try to recover from your mistake.

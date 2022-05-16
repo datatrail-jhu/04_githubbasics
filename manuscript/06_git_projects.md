@@ -6,41 +6,41 @@ Having learned how to organize a data science projects in the last course and ho
 
 First things first, we need to create a new repository. We'll do this as discussed in the "Creating A Repository Lesson," by going to [GitHub](www.github.com), logging in to your account, and creating a new repository.
 
-{format: png}
+
 ![Create a new repository](https://docs.google.com/presentation/d/1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA/export/png?id=1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA&pageid=g2bfdb07292_0_151)
 
 You can also create a new repository by clicking on the plus sign in the top right corner of GitHub homepage and clicking on "New repository".
 
-{format: png}
+
 ![Second way of creating a new repository](https://docs.google.com/presentation/d/1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA/export/png?id=1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA&pageid=g39eab98192_0_4)
 
 On the page that follows, type the repository name. Choose the name `my_first_project`, add a description if you wish (always recommended), make it public, and choose to initialize with a README file. At the end click on the button Create repository.
 
-{format: png}
+
 ![Add repository information](https://docs.google.com/presentation/d/1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA/export/png?id=1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA&pageid=g39eab98346_0_0)
 
 
 The next step is to clone this repository into RStudio Cloud but as you may remember, we first need the url to this repository we just created. On the repository page, click on Clone or download and copy the link address. Make sure the address starts with `https` rather than `git`. If it starts with `git`, click on Use HTTPS on the corner of the small window to have the link starting with `https`. 
 
-{format: png}
+
 ![Repository link](https://docs.google.com/presentation/d/1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA/export/png?id=1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA&pageid=g39eab98346_0_10)
 
 ### Creating a New Project from a GitHub Repository
 
 Ok, now that we have everything set up on the GitHub end, Go to [RStudio Cloud](https://rstudio.cloud/) and login with your account. When you're redirected to your Projects page, Next to the New Project button, click on the drop down button and then click on New Project from Git Repo. 
 
-{format: png}
+
 ![Create new project from Git repo on RStudio Cloud](https://docs.google.com/presentation/d/1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA/export/png?id=1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA&pageid=g39eab98346_0_23)
 
 On the popup window, paste the repository url that you just copied and click Ok. 
 
-{format: png}
+
 ![Enter repository url](https://docs.google.com/presentation/d/1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA/export/png?id=1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA&pageid=g39eab98346_0_40)
 
 This will automatically clone the remote repository and create a new project on RStudio Cloud. Note that the repository is still unnamed so you may want to change the name to something else. If you click on the README file under Files, you will see that the README file contains the description you added on the GitHub website.
 
 
-{format: png}
+
 ![All the files in the remote repository are cloned in RStudio Cloud](https://docs.google.com/presentation/d/1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA/export/png?id=1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA&pageid=g39eab98346_0_54)
 
 Start editing the README file. Specifically, replace the content with the following lines.
@@ -80,12 +80,12 @@ To https://github.com/JaneEverydayDoe/my_first_project.git
 
 You should be able to see your changes on the repository on GitHub.com. 
 
-{format: png}
+
 ![Changes can be seen on the remote repository](https://docs.google.com/presentation/d/1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA/export/png?id=1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA&pageid=g39ec80b88b_0_18)
 
 We have learned about the importance of organization and folder structure in data science projects. Let's practice creating the main folders required in a data science project. As you may remember, these folders represent the four parts of any data science project: data, figures, code, and products. Let's create them on RStudio Cloud.
 
-{format: png}
+
 ![Data science project folders](https://docs.google.com/presentation/d/1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA/export/png?id=1pmSkcf0iSQysOAMuuMK-CihaiSbtqDhg0ME2R9zqRDA&pageid=g37bc4f7f0f_0_1)
 
 Now go ahead and further create the folder structure that we learned. An important note is that if you push the changed you created in the project to GitHub, you won't see the folder structure that you created. Unfortunately, a folder structure won't be pushed to GitHub unless the folders contain at least a file. So don't worry. Once you populate this project with your data, code, figures, and writings and push them to GitHub you will see the folders your just created.
