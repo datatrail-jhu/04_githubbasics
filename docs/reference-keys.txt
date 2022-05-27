@@ -26,9 +26,9 @@ adding-a-readme-file
 the-github-guide
 slides-and-video-2
 cloning-a-repository
-step-1-navigate-to-the-terminal-in-rstudio
-step-2-obtain-the-url-for-the-repository-to-clone
-step-3-use-the-clone-command-in-the-rstudio-terminal
+step-1-obtain-the-url-for-the-repository-to-clone
+step-2-use-the-rstudio-interface-to-clone-the-repository
+step-3-set-up-github-credentials
 directoryfolder-organization
 slides-and-video-3
 pushing-and-pulling-changes
