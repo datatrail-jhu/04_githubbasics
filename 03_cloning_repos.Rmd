@@ -171,9 +171,9 @@ Yay! Now you should be able to use GitHub from RStudioCloud!
 
 A big part of staying organized with your files is understanding how folders in your project are organized. Also important is the concept of a **working directory**. Whenever you are working in R or the Terminal, files are housed in some folder. This folder is called the working directory. Knowing this is important so that you know how to specify paths to other important folders in your project. We can see what the current working directory is in a number of ways. In the image below, we can see from the Terminal prompt that the working directory is `/cloud/project`. We can also see this in the Files pane. We see that the first level folder is `cloud` and that the second level folder is `project`.
 
-{format: png}
-![Working directories](https://docs.google.com/presentation/d/1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8/export/png?id=1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8&pageid=g36809c5e39_0_38)
-
+```{r, fig.align='center', echo = FALSE, fig.alt= "Working directories"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1bhTNTBhdXa0e0BXRZmQoHY6zTKGqgrr4wwYS8-v7ob8/edit#slide=id.g12feb92770a_22_8")
+```
 Congratulations! You have cloned your first repository!
 
 ### Slides and Video
