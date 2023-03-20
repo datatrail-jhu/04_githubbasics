@@ -146,6 +146,6 @@ To get more practice with these concepts, as we know they are not the easiest, w
 
 ### Slides and Video
 
-![Pushing and Pulling Changes](https://www.youtube.com/watch?v=zQ5HYo9qcB8)
+[Automated Videos](https://www.youtube.com/watch?v=zQ5HYo9qcB8)
 
 * [Slides](https://docs.google.com/presentation/d/1syZGx4saIzmiWVGZzIjqBjQaGkFXyC_Hlo5Pq-edYs8/edit?usp=sharing)
