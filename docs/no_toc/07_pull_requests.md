@@ -246,6 +246,6 @@ This lesson covered how to collaborate on someone else's code. In the process of
 
 ### Slides and Video
 
-![Pull Requests](https://www.youtube.com/watch?v=M5ykCg9vF3Q)
+[Automated Videos](https://www.youtube.com/watch?v=M5ykCg9vF3Q)
 
 * [Slides](https://docs.google.com/presentation/d/1rAdjBMcFWTOfvlxLyq9RATYLuO6gH8kq5mMLGS4bzzM/edit?usp=sharing)
